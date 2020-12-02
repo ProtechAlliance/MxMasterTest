@@ -1,2 +1,2 @@
 # MxMasterTest
-The ParentTest for nearly all MX Subtests
+The ParentTest for nearly all SPIRA MX Subtests
