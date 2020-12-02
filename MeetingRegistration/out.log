@@ -1,0 +1,593 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:6.6.21.22
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+###MeetingRegistration2 (-2)
+###Starting scenario: Test (-2)
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\MeetingRegistration2\Main.rvl.xlsx
+SetRowIndex: 0:54
+Playing script: Script: C:\Spira\MxMasterTest\MeetingRegistration2\Main.rvl.xlsx:RVL, 55 source rows 0 errors
+Looking for object:Login
+Connecting to Chrome
+Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
+Accessible object: [ROLE_SYSTEM_WINDOW]
+Using default WebAppProfile
+Chrome Extension Version: 3.0.10
+Chrome active URL: http://mx365dev.ptassoc.com/Security/Sign-In?returnurl=%2fEvents%2fCalendar-Of-Events%2fRegistration-Start%3fMeetingId%3d91d2d6cf-5dbc-ea11-a812-000d3a55d4d9
+Connected to Chrome window:http://mx365dev.ptassoc.com/Security/Sign-In?returnurl=%2fEvents%2fCalendar-Of-Events%2fRegistration-Start%3fMeetingId%3d91d2d6cf-5dbc-ea11-a812-000d3a55d4d9
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Login.DoClick([]) (1)
+Action result:true
+Looking for object:Username
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["Tom@ImAbadBoy.com"])
+###Username.DoSetText(["Tom@ImAbadBoy.com"]) (1)
+Action result:true
+Looking for object:Password
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["Tom@ImAbadBoy.com"])
+###Password.DoSetText(["Tom@ImAbadBoy.com"]) (1)
+Action result:true
+Looking for object:SignInButton
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SignInButton.DoClick([]) (1)
+Action result:true
+###Level 1 : Events (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: calendarofevents (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'calendarofevents')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Global
+Looking for object:NameSearchField
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["tmx_Annual Conference"])
+###NameSearchField.DoSetText(["tmx_Annual Conference"]) (1)
+Action result:true
+Looking for object:SearchButton
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SearchButton.DoClick([]) (1)
+Action result:true
+Looking for object:tmx_Annual_Conference
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###tmx_Annual_Conference.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+Looking for object:Navigator
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:RegisterOnline
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###RegisterOnline.DoClick([]) (1)
+Action result:true
+Looking for object:Register_me1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Register_me1.DoClick([]) (1)
+Action result:true
+Looking for object:StartRegistrationButton
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###StartRegistrationButton.DoClick([]) (1)
+Action result:true
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\MeetingRegistration2\Main.rvl.xlsx
+SetRowIndex: 0:89
+Playing script: Script: C:\Spira\MxMasterTest\MeetingRegistration2\Main.rvl.xlsx:Step1, 90 source rows 0 errors
+Looking for object:Tester
+### (-2)
+Looking for object:Tester
+###STEP 1 - Registrant (-2)
+Looking for object:Tester
+###Following are Checkpoints for the Registration Header (-2)
+Looking for object:tmx_Annual_Conference1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Meeting Name: tmx_Annual Conference (1)
+Looking for object:RegHeader-Date
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Start Date: Wednesday, June 01, 2022 (1)
+Looking for object:RegHeader-Time
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###End Date: -Friday, June 03, 2022 (1)
+Looking for object:RegHeader-RegistrantName
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Registrant Name: tmx_Jefferson, Thomas (1)
+Looking for object:tmx_MainRegistration
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###tmx_MainRegistration.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+Looking for object:UDFBoolean1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetCheck([true])
+###UDFBoolean1.DoSetCheck([true]) (1)
+Action result:true
+Looking for object:Navigator
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:UDFCurrency1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["100"])
+###UDFCurrency1.DoSetText(["100"]) (1)
+Action result:true
+Looking for object:UDFDate1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["12/18/1962"])
+###UDFDate1.DoSetText(["12/18/1962"]) (1)
+Action result:true
+Looking for object:UDFText1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["Blue"])
+###UDFText1.DoSetText(["Blue"]) (1)
+Action result:true
+Looking for object:UDFText2
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["17"])
+###UDFText2.DoSetText(["17"]) (1)
+Action result:true
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:NextStepButton
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###NextStepButton.DoClick([]) (1)
+Action result:true
+Looking for object:EmailStep1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###The value for E-mail is: Tom@ImAbadBoy.com (-2)
+Checking If branch at line: 70
+Checking branch condition: param1 == param2(emailstep1, "Tom@ImAbadBoy.com")
+Condition resolved to: true
+Looking for object:Tester
+###The email address is correct! (-2)
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\MeetingRegistration2\Main.rvl.xlsx
+SetRowIndex: 0:37
+Playing script: Script: C:\Spira\MxMasterTest\MeetingRegistration2\Main.rvl.xlsx:Step2, 38 source rows 0 errors
+Looking for object:Tester
+### (-2)
+Looking for object:Tester
+###STEP 2 - Sessions (-2)
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Fax
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["410-913-8483"])
+###Fax.DoSetText(["410-913-8483"]) (1)
+Action result:true
+Looking for object:RegistrantInformation-SaveAndClose
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###RegistrantInformation-SaveAndClose.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Global
+Looking for object:tmx_MainSession1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###tmx_MainSession1.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Global
+Looking for object:tmx_PackagedSession1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetCheck([true])
+###tmx_PackagedSession1.DoSetCheck([true]) (1)
+Action result:true
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Global
+Looking for object:tmx_ComplimentarySession1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetCheck([true])
+###tmx_ComplimentarySession1.DoSetCheck([true]) (1)
+Action result:true
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:NextStepButton
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###NextStepButton.DoClick([]) (1)
+Action result:true
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\MeetingRegistration2\Main.rvl.xlsx
+SetRowIndex: 0:92
+Playing script: Script: C:\Spira\MxMasterTest\MeetingRegistration2\Main.rvl.xlsx:Step3, 93 source rows 0 errors
+Looking for object:Tester
+### (-2)
+Looking for object:Tester
+###STEP 3 - Guests (-2)
+Looking for object:AddGuest
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###AddGuest.DoClick([]) (1)
+Action result:true
+Looking for object:Navigator
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Global
+Looking for object:FirstName
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["John"])
+###FirstName.DoSetText(["John"]) (1)
+Action result:true
+Looking for object:LastName
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["tmx_Adams"])
+###LastName.DoSetText(["tmx_Adams"]) (1)
+Action result:true
+Looking for object:DisplayName
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["John tmx_Adams"])
+###DisplayName.DoSetText(["John tmx_Adams"]) (1)
+Action result:true
+Looking for object:EmailAddress
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["john@adamsinski.com"])
+###EmailAddress.DoSetText(["john@adamsinski.com"]) (1)
+Action result:true
+Looking for object:Street1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Street1.DoClick([]) (1)
+Action result:true
+Looking for object:Street2
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Street2.DoClick([]) (1)
+Action result:true
+Looking for object:Street3
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Street3.DoClick([]) (1)
+Action result:true
+Looking for object:City
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###City.DoClick([]) (1)
+Action result:true
+Looking for object:State
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###State.DoClick([]) (1)
+Action result:true
+Looking for object:ZipCode
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###ZipCode.DoClick([]) (1)
+Action result:true
+Looking for object:SaveGuestButton
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SaveGuestButton.DoClick([]) (1)
+Action result:true
+Looking for object:GuestRegistrantName
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Guest Registrant Name:  John tmx_Adams (John tmx_Adams) (1)
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:NextStepButton
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###NextStepButton.DoClick([]) (1)
+Action result:true
+Looking for object:message
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###The Validation message contains the text:  The following Guests have required questions without answering (1)
+Looking for object:SelectQuestionsLink
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SelectQuestionsLink.DoClick([]) (1)
+Action result:true
+Looking for object:GuestUDFDate1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["07/04/1976"])
+###GuestUDFDate1.DoSetText(["07/04/1976"]) (1)
+Action result:true
+Looking for object:UDFText1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###UDFText1.DoClick([]) (1)
+Action result:true
+Looking for object:SaveGuestButton
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SaveGuestButton.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+Looking for object:SelectSessions
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SelectSessions.DoClick([]) (1)
+Action result:true
+Looking for object:SelectTMXGuestSession1-Session
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SelectTMXGuestSession1-Session.DoClick([]) (1)
+Action result:true
+Looking for object:Tester
+###tmx_Guest Session 1 has been selected. (-2)
+Looking for object:SelectPackagedSession1-Session
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetCheck([true])
+###SelectPackagedSession1-Session.DoSetCheck([true]) (1)
+Action result:true
+Looking for object:Tester
+###tmx_Packaged Session 1 has been selected. (-2)
+Looking for object:SaveGuestButton
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SaveGuestButton.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+Looking for object:DateInConflict
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:DateInConflict
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###The 'Date in Conflict Validation messge is displayed (1)
+Looking for object:SelectTMXGuestSession1-Session
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SelectTMXGuestSession1-Session.DoClick([]) (1)
+Action result:true
+Looking for object:Tester
+###tmx_Guest Session 1 has been DE-selected. (-2)
+Looking for object:SelectPackagedSession1-Session
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SelectPackagedSession1-Session.DoClick([]) (1)
+Action result:true
+Looking for object:Tester
+###tmx_Packaged Session 1 has been DEselected. (-2)
+Looking for object:Global
+Looking for object:SelectPackagedSession1-Session
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SelectPackagedSession1-Session.DoClick([]) (1)
+Action result:true
+Looking for object:Tester
+###tmx_Packaged Session 1 has been REselected. (-2)
+Looking for object:Navigator
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:SelectTMX_ComplimentarySession1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SelectTMX_ComplimentarySession1.DoClick([]) (1)
+Action result:true
+Looking for object:Tester
+###The tmx_Complimentary Session has been selected (-2)
+Looking for object:SaveGuestButton
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SaveGuestButton.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:NextStepButton
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###NextStepButton.DoClick([]) (1)
+Action result:true
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\MeetingRegistration2\Main.rvl.xlsx
+SetRowIndex: 0:37
+Playing script: Script: C:\Spira\MxMasterTest\MeetingRegistration2\Main.rvl.xlsx:Step4, 38 source rows 0 errors
+Looking for object:Tester
+### (-2)
+Looking for object:Tester
+###STEP 4 - Registration Summary (-2)
+Looking for object:MainReg1Name
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Main Registrant Name Contains tmx_Jefferson, Thomas (1)
+Looking for object:HeaderMainRegistration
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Main Registration:  tmx_Main Registration (1)
+Looking for object:ParentCompany-1stInstance
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Main Registration Parent Account:  tmx_PresidentialAccount (1)
+Looking for object:MainHeaderTotal
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Main Registrant Total = $160.00 (1)
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\MeetingRegistration2\Main.rvl.xlsx
+SetRowIndex: 0:115
+Playing script: Script: C:\Spira\MxMasterTest\MeetingRegistration2\Main.rvl.xlsx:VerifyMainRegDetail, 116 source rows 0 errors
+Looking for object:Row1a-Type
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row 1 Type:  Registration (1)
+Looking for object:Row1b-Item
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row1bItem =  tmx_Main Registration (1)
+Looking for object:Row1c-Qty
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row1c-Qty Contains  Quantity: 1 (1)
+Looking for object:Row1d-RegistrationFee
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row1d-Session Fee = 100 (1)
+Looking for object:Row2a-type
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row 2 Type:  Session (1)
+Looking for object:Row2b-Item
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row2b-Item =  tmx_Main Session 1 (1)
+Looking for object:Row2c-Qty
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row2c-Qty Contains  Quantity: 1 (1)
+Looking for object:Row2d-SessionFee
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row2d-Session Fee = $50.00 (1)
+Looking for object:Row3a-Type
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row 3a-Type:  Session (1)
+Looking for object:Row3b-Item
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row3b-Item =  tmx_Packaged Session 1 (1)
+Looking for object:Row3c-Qty
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row3c-Qty Contains  Quantity: 1 (1)
+Looking for object:Row3d-SessionFee
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row3d-Session Fee = $10.00 (1)
+Looking for object:Row4a-Type
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row4a-Type:  Session (1)
+Looking for object:Row4b-Item
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row4b-Item =  tmx_Complimentary Session (1)
+Looking for object:Row4c-Qty
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row4c-Qty Contains  Quantity: 1 (1)
+Looking for object:Checkout
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Checkout.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+Execution is over, bailing out.
+Execution is over, bailing out.
+Execution is over, bailing out.
+Execution is over, bailing out.
+Execution is over, bailing out.
+Execution is over, bailing out.
+###MeetingRegistration2 (1)
+Test execution done
+##############################################################
+Test Pass: MeetingRegistration2,  (Passed:77 Failed:0 Time:102.512s)
+Test Session Status: Pass Time: 103.951s
+##############################################################
