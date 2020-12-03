@@ -4,7 +4,7 @@ function Test(params)
 {
 
 
-	RVL.DoPlayScript("%WORKDIR%\\MeetingRegistration2\\Main.rvl.xlsx", Tester.GetParam("sheetName", "RVL"));
+	RVL.DoPlayScript("%WORKDIR%\\MeetingRegistration3\\Main.rvl.xlsx", Tester.GetParam("sheetName", "RVL"));
 }
 
 g_load_libraries=["%g_browserLibrary%"]
