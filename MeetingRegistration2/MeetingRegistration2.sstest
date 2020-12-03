@@ -67,15 +67,6 @@
     <TestParam name="Source Type" variable="g_serverRepositoryType" defaultValue="spira" output="false" ask="false">
       <PossibleValues />
     </TestParam>
-    <TestParam name="ServerProjectId" variable="g_serverProjectId" defaultValue="9" output="false" ask="false">
-      <PossibleValues />
-    </TestParam>
-    <TestParam name="ServerTestCaseFolderId" variable="g_serverTestCaseFolderId" defaultValue="33" output="false" ask="false">
-      <PossibleValues />
-    </TestParam>
-    <TestParam name="ServerTestCaseId" variable="g_serverTestCaseId" defaultValue="197" output="false" ask="false">
-      <PossibleValues />
-    </TestParam>
   </TestParams>
   <Methodology>Web</Methodology>
   <MethodologyOptions>
