@@ -1,0 +1,63 @@
+# Membership Test
+# Starting scenario: RVLSpecialEntryPoint
+# placeholder
+# 
+# 								
+# 			    $50.00
+# 		    
+# 							
+ok 1 - Switch_to_another_app.DoClick([])
+ok 2 - UX_365_Online.DoClick([])
+ok 3 - Invoices.DoClick([])
+ok 4 - Invoice_SearchBox.DoSetText(["INV-02752-H3V9C4"])
+ok 5 - Search_Button.DoClick([])
+ok 6 - INV-02752-H3V9C4.DoLDClick([])
+# the invoice is 'INV-02752-H3V9C4'
+# $50.00
+ok 7 - The balance dues are equal!
+ok 8 - New_Transactions.DoClick([])
+ok 9 - Payment_&_Adjustment.DoClick([])
+ok 10 - All_Others.DoClick([])
+ok 11 - *check.DoSetText(["check"])
+ok 12 - Check_PaymentCKPayments_&_Adjust.DoClick([])
+ok 13 - Reference Number.DoClick([])
+ok 14 - Reference Number.DoSetText(["123"])
+ok 15 - Save_&_Close1.DoClick([])
+ok 16 - Abasi,_Tosin.DoClick([])
+ok 17 - Current.DoLDClick([])
+# Check renewal billing record values (pre-payment)
+# Checking Benefit Status
+# Value is correct: New
+# Checking Volume
+# Value is correct: 1
+# Checking Primary Benefit
+# Value is correct: Yes
+ok 18 - pa_cyclestartdate.DoEnsureVisible([])
+# Checking Cycle Start Date
+# Value is correct: 9/1/2020
+# Checking Cycle State
+# Value is correct: Current
+# Checking Date Renewed
+# Value is correct: 
+# Checking Expiration Date
+# Value is correct: 8/31/2021
+# Checking Paid Through Date
+# Value is correct: 8/31/2021
+ok 19 - Close.DoClick([])
+ok 20 - Invoice.DoClick([])
+ok 21 - //button[@title='Select All'].DoClick([])
+ok 22 - Cancel.DoClick([])
+ok 23 - OK.DoClick([])
+ok 24 - Abasi,_Tosin.DoClick([])
+ok 25 - //button[@title='Select All'].DoClick([])
+ok 26 - Delete%20Invoice.DoClick([])
+ok 27 - Delete.DoClick([])
+ok 28 - //button[@title='Select All'].DoClick([])
+ok 29 - Delete%20Renewal%20Billing.DoClick([])
+ok 30 - Delete.DoClick([])
+ok 31 - G_OpenAreaList.DoEnsureVisible([])
+ok 32 - G_OpenAreaList.DoClick([])
+ok 33 - //button[@title='Select All'].DoClick([])
+ok 34 - Delete.DoClick([])
+ok 35 - Delete.DoClick([])
+ok 36 - Membership Test
