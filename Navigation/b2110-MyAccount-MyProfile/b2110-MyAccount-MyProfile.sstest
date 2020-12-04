@@ -70,6 +70,9 @@
     <TestParam name="ServerTestCaseId" variable="g_serverTestCaseId" defaultValue="125" output="false" ask="false">
       <PossibleValues />
     </TestParam>
+    <TestParam name="Source Type" variable="g_serverRepositoryType" defaultValue="git" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
   </TestParams>
   <Methodology>Web</Methodology>
   <MethodologyOptions>
