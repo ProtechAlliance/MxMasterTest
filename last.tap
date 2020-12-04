@@ -1,6 +1,6 @@
-# b2121-MyAccount-MyCompany
-# Starting scenario: Test
-not ok 1 - File not found: C:\Spira\Git-1\MxMasterTest\MxNavigation\b2121-MyAccount-MyCompany\Main.rvl.xlsx
-#     Failed test
-not ok 2 - b2121-MyAccount-MyCompany
-#     Failed test
+# b2110-MyAccount-MyProfile
+# Starting scenario: RVLSpecialEntryPoint
+# Level 1 : My Account
+# Level 2  Vertical Link: My Profile
+# Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Profile')])[1]
+# b2110-MyAccount-MyProfile

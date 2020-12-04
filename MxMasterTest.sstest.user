@@ -388,6 +388,12 @@
           <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MeetingRegistration3\Test.sstest.Test.Reports" type="System.Boolean">
             <boolean>false</boolean>
           </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\Git-1\MxMasterTest\MxMasterTest.sstest.Test" type="System.Boolean">
+            <boolean>true</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\Git-1\MxMasterTest\MxMasterTest.sstest.Test.MeetingRegistration3" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>
@@ -448,6 +454,12 @@
                 </FlexDictionaryEntry>
                 <FlexDictionaryEntry name="CaretY" type="System.Int32">
                   <int>5</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Folding" type="SmarteStudio.Editor.FoldingStrategy.JsFoldingStrategy">
+                  <JsFoldingStrategy>
+                    <IsJson>false</IsJson>
+                    <FoldingMarkers />
+                  </JsFoldingStrategy>
                 </FlexDictionaryEntry>
               </ArrayOfFlexDictionaryEntry>
             </FlexDictionary>
