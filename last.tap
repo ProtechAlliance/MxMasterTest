@@ -1,6 +1,6 @@
-# b2130-MyAccount-RelatedAccounts
+# b2121-MyAccount-MyCompany
 # Starting scenario: Test
-not ok 1 - File not found: C:\Spira\Git-1\MxMasterTest\MxNavigation\b2130-MyAccount-RelatedAccounts\Main.rvl.xlsx
+not ok 1 - File not found: C:\Spira\Git-1\MxMasterTest\MxNavigation\b2121-MyAccount-MyCompany\Main.rvl.xlsx
 #     Failed test
-not ok 2 - b2130-MyAccount-RelatedAccounts
+not ok 2 - b2121-MyAccount-MyCompany
 #     Failed test
