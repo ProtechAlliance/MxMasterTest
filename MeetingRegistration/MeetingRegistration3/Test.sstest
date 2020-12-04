@@ -73,7 +73,7 @@
     <TestParam name="ServerTestCaseFolderId" variable="g_serverTestCaseFolderId" defaultValue="33" output="false" ask="false">
       <PossibleValues />
     </TestParam>
-    <TestParam name="ServerTestCaseId" variable="g_serverTestCaseId" defaultValue="211" output="false" ask="false">
+    <TestParam name="ServerTestCaseId" variable="g_serverTestCaseId" defaultValue="213" output="false" ask="false">
       <PossibleValues />
     </TestParam>
   </TestParams>
