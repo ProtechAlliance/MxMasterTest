@@ -25,7 +25,16 @@
     <IsFilterGroup>false</IsFilterGroup>
     <FilterWildcard>*.*</FilterWildcard>
     <FilterPath />
-    <Groups />
+    <Groups>
+      <TestGroup>
+        <Name>Reports</Name>
+        <IsFilterGroup>true</IsFilterGroup>
+        <FilterWildcard>*.trp</FilterWildcard>
+        <FilterPath>Reports</FilterPath>
+        <Groups />
+        <TestFiles />
+      </TestGroup>
+    </Groups>
     <TestFiles>
       <TestFile>
         <Path>Main.js</Path>
@@ -50,6 +59,18 @@
       <PossibleValues />
     </TestParam>
     <TestParam name="RVL Script" variable="g_rvlScriptPath" defaultValue="%WORKDIR%\MxNavigation\b2130-MyAccount-RelatedAccounts\Main.rvl.xlsx" description="Main RVL Script to execute" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
+    <TestParam name="ServerProjectId" variable="g_serverProjectId" defaultValue="9" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
+    <TestParam name="ServerTestCaseFolderId" variable="g_serverTestCaseFolderId" defaultValue="57" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
+    <TestParam name="ServerTestCaseId" variable="g_serverTestCaseId" defaultValue="168" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
+    <TestParam name="Source Type" variable="g_serverRepositoryType" defaultValue="git" output="false" ask="false">
       <PossibleValues />
     </TestParam>
   </TestParams>
