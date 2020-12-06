@@ -1,0 +1,8 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-12-04 10:19:35.639"/>
+<log type="Test" name="b2110-MyAccount-MyProfile" status="Info"  at="2020-12-04 10:19:36.930"><data type="text">Test Started: C:\Spira\MxMasterTest\MxNavigation\b2110-MyAccount-MyProfile\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-12-04 10:19:36.943"/>
+<log type="Message" name="Level 1 : My Account" status="Info"  at="2020-12-04 10:19:37.030"/>
+<log type="Message" name="Level 2  Vertical Link: My Profile" status="Info"  at="2020-12-04 10:19:41.448"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;My Profile&apos;)])[1]" status="Info"  at="2020-12-04 10:19:41.463"/>
+<log type="Test" name="b2110-MyAccount-MyProfile" status="Unresolved" closed="b2110-MyAccount-MyProfile" _guid="undefined"  at="2020-12-04 10:19:44.602" comment="Passed:0 Failed:0 Time:7.756s" />
