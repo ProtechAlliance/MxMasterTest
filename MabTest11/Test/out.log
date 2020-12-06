@@ -14,14 +14,14 @@ SetRowIndex: 0:30
 Playing script: Script: C:\Spira-GIT\MabTest11\Test\Main.rvl.xlsx:RVL, 31 source rows 0 errors
 Looking for object:Update_My_Profile
 Connecting to Chrome
-Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
-Accessible object: [ROLE_SYSTEM_WINDOW]
+Connected to chrome:My Profile - Google Chrome[Chrome_WidgetWin_1]
+Accessible object: My Profile - Google Chrome[ROLE_SYSTEM_WINDOW]
 Using default WebAppProfile
 Chrome Extension Version: 3.0.10
 Chrome active URL: http://mx365dev.ptassoc.com/My-Account/My-Profile
 Connected to Chrome window:http://mx365dev.ptassoc.com/My-Account/My-Profile
 ************!!!!!!!!!!!!!!!!!!**************
-MatchedObject:(HTMLObject)[-1]
+MatchedObject:My Profile - Google Chrome(HTMLObject)[-1]
 DoClick([])
 ###Update_My_Profile.DoClick([]) (1)
 Action result:true
@@ -29,31 +29,37 @@ Looking for object:Email_Address_2
 ************!!!!!!!!!!!!!!!!!!**************
 MatchedObject:null
 ************!!!!!!!!!!!!!!!!!!**************
-MatchedObject:(HTMLObject)[-1]
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:My Profile - Google Chrome(HTMLObject)[-1]
 DoClick([])
 ###Email_Address_2.DoClick([]) (1)
 Action result:true
 Looking for object:Email_Address_2
 ************!!!!!!!!!!!!!!!!!!**************
-MatchedObject:(HTMLObject)[-1]
+MatchedObject:My Profile - Google Chrome(HTMLObject)[-1]
 DoSetText(["earl@hellothere23.com"])
 ###Email_Address_2.DoSetText(["earl@hellothere23.com"]) (1)
 Action result:true
 Looking for object:Social_-_Facebook
 ************!!!!!!!!!!!!!!!!!!**************
-MatchedObject:(HTMLObject)[-1]
+MatchedObject:My Profile - Google Chrome(HTMLObject)[-1]
 DoClick([])
 ###Social_-_Facebook.DoClick([]) (1)
 Action result:true
 Looking for object:Social_-_Facebook
 ************!!!!!!!!!!!!!!!!!!**************
-MatchedObject:(HTMLObject)[-1]
+MatchedObject:My Profile - Google Chrome(HTMLObject)[-1]
 DoSetText(["Baltimore"])
 ###Social_-_Facebook.DoSetText(["Baltimore"]) (1)
 Action result:true
 Looking for object:dnn$ctr504$BasicInformation$ctl0
 ************!!!!!!!!!!!!!!!!!!**************
-MatchedObject:(HTMLObject)[-1]
+MatchedObject:My Profile - Google Chrome(HTMLObject)[-1]
 DoClick([])
 ###dnn$ctr504$BasicInformation$ctl0.DoClick([]) (1)
 Action result:true
@@ -61,6 +67,6 @@ Execution is over, bailing out.
 ###Test (1)
 Test execution done
 ##############################################################
-Test Pass: Test,  (Passed:6 Failed:0 Time:13.497s)
-Test Session Status: Pass Time: 14.975s
+Test Pass: Test,  (Passed:6 Failed:0 Time:14.465s)
+Test Session Status: Pass Time: 15.912s
 ##############################################################
