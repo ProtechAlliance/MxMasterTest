@@ -1,11 +1,11 @@
-<log type="Session" name="MBECKPC:mbeck" at="2020-12-06 09:40:09.330"/>
-<log type="Test" name="Test" status="Info"  at="2020-12-06 09:40:09.984"><data type="text">Test Started: C:\Spira-GIT\MabTest11\Test\Main.js</data>
+<log type="Session" name="MBECKPC:mbeck" at="2020-12-06 09:57:40.297"/>
+<log type="Test" name="Test" status="Info"  at="2020-12-06 09:57:40.970"><data type="text">Test Started: C:\Spira-GIT\MabTest11\Test\Main.js</data>
 </log>
-<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-12-06 09:40:09.984"/>
-<log type="Assert" name="Update_My_Profile.DoClick([])" status="Pass"  at="2020-12-06 09:40:13.051" comment="Returned Value: true" />
-<log type="Assert" name="Email_Address_2.DoClick([])" status="Pass"  at="2020-12-06 09:40:18.429" comment="Returned Value: true" />
-<log type="Assert" name="Email_Address_2.DoSetText([&quot;earl@hellothere23.com&quot;])" status="Pass"  at="2020-12-06 09:40:19.546" comment="Returned Value: true" />
-<log type="Assert" name="Social_-_Facebook.DoClick([])" status="Pass"  at="2020-12-06 09:40:21.186" comment="Returned Value: true" />
-<log type="Assert" name="Social_-_Facebook.DoSetText([&quot;Baltimore&quot;])" status="Pass"  at="2020-12-06 09:40:22.304" comment="Returned Value: true" />
-<log type="Assert" name="dnn$ctr504$BasicInformation$ctl0.DoClick([])" status="Pass"  at="2020-12-06 09:40:23.693" comment="Returned Value: true" />
-<log type="Test" name="Test" status="Pass" closed="Test" _guid="undefined"  at="2020-12-06 09:40:23.704" comment="Passed:6 Failed:0 Time:13.8s" />
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-12-06 09:57:40.980"/>
+<log type="Assert" name="Update_My_Profile.DoClick([])" status="Pass"  at="2020-12-06 09:57:44.062" comment="Returned Value: true" />
+<log type="Assert" name="Email_Address_2.DoClick([])" status="Pass"  at="2020-12-06 09:57:49.078" comment="Returned Value: true" />
+<log type="Assert" name="Email_Address_2.DoSetText([&quot;earl@hellothere23.com&quot;])" status="Pass"  at="2020-12-06 09:57:50.201" comment="Returned Value: true" />
+<log type="Assert" name="Social_-_Facebook.DoClick([])" status="Pass"  at="2020-12-06 09:57:51.813" comment="Returned Value: true" />
+<log type="Assert" name="Social_-_Facebook.DoSetText([&quot;Baltimore&quot;])" status="Pass"  at="2020-12-06 09:57:52.953" comment="Returned Value: true" />
+<log type="Assert" name="dnn$ctr504$BasicInformation$ctl0.DoClick([])" status="Pass"  at="2020-12-06 09:57:54.281" comment="Returned Value: true" />
+<log type="Test" name="Test" status="Pass" closed="Test" _guid="undefined"  at="2020-12-06 09:57:54.286" comment="Passed:6 Failed:0 Time:13.404s" />
