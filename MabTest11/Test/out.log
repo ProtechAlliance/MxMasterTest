@@ -31,10 +31,6 @@ MatchedObject:null
 ************!!!!!!!!!!!!!!!!!!**************
 MatchedObject:null
 ************!!!!!!!!!!!!!!!!!!**************
-MatchedObject:null
-************!!!!!!!!!!!!!!!!!!**************
-MatchedObject:null
-************!!!!!!!!!!!!!!!!!!**************
 MatchedObject:My Profile - Google Chrome(HTMLObject)[-1]
 DoClick([])
 ###Email_Address_2.DoClick([]) (1)
@@ -67,6 +63,6 @@ Execution is over, bailing out.
 ###Test (1)
 Test execution done
 ##############################################################
-Test Pass: Test,  (Passed:6 Failed:0 Time:14.465s)
-Test Session Status: Pass Time: 15.912s
+Test Pass: Test,  (Passed:6 Failed:0 Time:13.8s)
+Test Session Status: Pass Time: 15.242s
 ##############################################################
