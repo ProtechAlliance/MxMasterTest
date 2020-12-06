@@ -77,7 +77,7 @@ var saved_script_objects={
 		"title": "My Profile",
 		"url": "http://mx365dev.ptassoc.com/My-Account/My-Profile"
 	},
-	"dnn$ctr504$BasicInformation$ctl0": {
+	"Save": {
 		"locations": [
 			{
 				"locator_name": "HTML",

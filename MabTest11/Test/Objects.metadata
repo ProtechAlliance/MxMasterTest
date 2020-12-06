@@ -1181,7 +1181,7 @@
 		"title": "My Profile",
 		"url": "http://mx365dev.ptassoc.com/My-Account/My-Profile"
 	},
-	"dnn$ctr504$BasicInformation$ctl0": {
+	"Save": {
 		"actions": [
 			{
 				"name": "DoAction",
