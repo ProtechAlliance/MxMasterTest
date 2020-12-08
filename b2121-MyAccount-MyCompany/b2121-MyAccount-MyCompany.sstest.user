@@ -19,7 +19,6 @@
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
       <ArrayOfString>
         <string>C:\Spira-GIT\b2121-MyAccount-MyCompany\Main.js</string>
-        <string>C:\Spira-GIT\b2121-MyAccount-MyCompany\Main.rvl.xlsx</string>
       </ArrayOfString>
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
@@ -83,10 +82,10 @@
                   <ArrayOfBreakPointInfo />
                 </FlexDictionaryEntry>
                 <FlexDictionaryEntry name="CaretX" type="System.Int32">
-                  <int>0</int>
+                  <int>108</int>
                 </FlexDictionaryEntry>
                 <FlexDictionaryEntry name="CaretY" type="System.Int32">
-                  <int>0</int>
+                  <int>5</int>
                 </FlexDictionaryEntry>
               </ArrayOfFlexDictionaryEntry>
             </FlexDictionary>
