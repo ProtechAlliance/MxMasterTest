@@ -10,6 +10,9 @@
           <FlexDictionaryEntry name="C:\Spira-GIT\c3020-Membership-Apply\c3020-Membership-Apply.sstest.Test" type="System.Boolean">
             <boolean>true</boolean>
           </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\c3020-Membership-Apply\c3020-Membership-Apply.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>
@@ -18,8 +21,8 @@
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
       <ArrayOfString>
-        <string>C:\Spira\00UniversalTests\Navigation\c3020-Membership-Apply\Main.rvl.xlsx</string>
-        <string>C:\Spira\MxMasterTest\User.js</string>
+        <string>C:\Spira-Git</string>
+        <string>C:\Spira-GIT\c3020-Membership-Apply\Reports\c3020-Membership-Apply_2020-12-11_07-14.trp</string>
         <string>C:\Spira-GIT\c3020-Membership-Apply\Main.rvl.xlsx</string>
       </ArrayOfString>
     </FlexDictionaryEntry>
@@ -27,16 +30,16 @@
       <FlexDictionary>
         <ArrayOfFlexDictionaryEntry>
           <FlexDictionaryEntry name="Status" type="System.String">
-            <string />
+            <string>Fail</string>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Pass" type="System.Int32">
             <int>0</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Fail" type="System.Int32">
-            <int>0</int>
+            <int>1</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Unresolved" type="System.Int32">
-            <int>0</int>
+            <int>2</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Todo" type="System.Int32">
             <int>0</int>
@@ -66,7 +69,7 @@
                   <int>1</int>
                 </FlexDictionaryEntry>
                 <FlexDictionaryEntry name="Col" type="System.Int32">
-                  <int>1</int>
+                  <int>6</int>
                 </FlexDictionaryEntry>
               </ArrayOfFlexDictionaryEntry>
             </FlexDictionary>
@@ -99,7 +102,19 @@
                   <int>1</int>
                 </FlexDictionaryEntry>
                 <FlexDictionaryEntry name="Col" type="System.Int32">
-                  <int>1</int>
+                  <int>6</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira-git" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretX" type="System.Int32">
+                  <int>0</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretY" type="System.Int32">
+                  <int>0</int>
                 </FlexDictionaryEntry>
               </ArrayOfFlexDictionaryEntry>
             </FlexDictionary>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="18" t="">
   <ScriptPath>Main.js</ScriptPath>
-  <UserFunctionsPath>C:\Spira\MxMasterTest\User.js</UserFunctionsPath>
+  <UserFunctionsPath>User.js</UserFunctionsPath>
   <ObjectsPath>Objects.js</ObjectsPath>
   <ReportPath>c3020-Membership-Apply.trp</ReportPath>
   <CommandInterval>1000</CommandInterval>
@@ -25,7 +25,16 @@
     <IsFilterGroup>false</IsFilterGroup>
     <FilterWildcard>*.*</FilterWildcard>
     <FilterPath />
-    <Groups />
+    <Groups>
+      <TestGroup>
+        <Name>Reports</Name>
+        <IsFilterGroup>true</IsFilterGroup>
+        <FilterWildcard>*.trp</FilterWildcard>
+        <FilterPath>Reports</FilterPath>
+        <Groups />
+        <TestFiles />
+      </TestGroup>
+    </Groups>
     <TestFiles>
       <TestFile>
         <Path>Main.js</Path>
@@ -37,7 +46,7 @@
         <Path>Objects.js</Path>
       </TestFile>
       <TestFile>
-        <Path>C:\Spira\MxMasterTest\User.js</Path>
+        <Path>C:\Spira-Git</Path>
       </TestFile>
     </TestFiles>
   </TestFiles>
