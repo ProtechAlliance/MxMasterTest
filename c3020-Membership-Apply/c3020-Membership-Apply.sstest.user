@@ -21,7 +21,6 @@
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
       <ArrayOfString>
-        <string>C:\Spira-Git</string>
         <string>C:\Spira-GIT\c3020-Membership-Apply\Reports\c3020-Membership-Apply_2020-12-11_07-14.trp</string>
         <string>C:\Spira-GIT\c3020-Membership-Apply\Main.rvl.xlsx</string>
       </ArrayOfString>
