@@ -1,9 +1,0 @@
-# Test
-# Starting scenario: Test
-ok 1 - Update_My_Profile.DoClick([])
-ok 2 - Email_Address_2.DoClick([])
-ok 3 - Email_Address_2.DoSetText(["earl@hellothere23.com"])
-ok 4 - Social_-_Facebook.DoClick([])
-ok 5 - Social_-_Facebook.DoSetText(["Baltimore"])
-ok 6 - dnn$ctr504$BasicInformation$ctl0.DoClick([])
-ok 7 - Test
