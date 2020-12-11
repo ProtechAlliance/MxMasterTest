@@ -4,13 +4,10 @@
     <FlexDictionaryEntry name="TestTree" type="SmarteStudio.Test.FlexDictionary">
       <FlexDictionary>
         <ArrayOfFlexDictionaryEntry>
-          <FlexDictionaryEntry name="C:\Spira\00UniversalTests\Navigation\c3020-Membership-Apply\c3020-Membership-Apply.sstest.Test" type="System.Boolean">
+          <FlexDictionaryEntry name="C:\Spira-GIT\MabTest11\DELETETest3\Test.sstest.Test" type="System.Boolean">
             <boolean>true</boolean>
           </FlexDictionaryEntry>
-          <FlexDictionaryEntry name="C:\Spira-GIT\c3020-Membership-Apply\c3020-Membership-Apply.sstest.Test" type="System.Boolean">
-            <boolean>true</boolean>
-          </FlexDictionaryEntry>
-          <FlexDictionaryEntry name="C:\Spira-GIT\c3020-Membership-Apply\c3020-Membership-Apply.sstest.Test.Reports" type="System.Boolean">
+          <FlexDictionaryEntry name="C:\Spira-GIT\MabTest11\DELETETest3\Test.sstest.Test.Reports" type="System.Boolean">
             <boolean>false</boolean>
           </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
@@ -21,7 +18,10 @@
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
       <ArrayOfString>
-        <string>C:\Spira-GIT\c3020-Membership-Apply\Reports\c3020-Membership-Apply_2020-12-11_07-30.trp</string>
+        <string>C:\Spira-GIT\MabTest11\DELETETest3\Main.js</string>
+        <string>C:\Spira-GIT\MabTest11\DELETETest3\User.js</string>
+        <string>C:\Spira-GIT\MabTest11\DELETETest3\Main.rvl.xlsx</string>
+        <string>C:\Spira-GIT\MabTest11\DELETETest3\Reports\DELETETest3_2020-12-11_07-39.trp</string>
       </ArrayOfString>
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
@@ -31,10 +31,10 @@
             <string>Fail</string>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Pass" type="System.Int32">
-            <int>0</int>
+            <int>5</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Fail" type="System.Int32">
-            <int>2</int>
+            <int>0</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Unresolved" type="System.Int32">
             <int>1</int>
@@ -45,34 +45,10 @@
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>
-    <FlexDictionaryEntry name="Debugger" type="SmarteStudio.Test.FlexDictionary">
-      <FlexDictionary>
-        <ArrayOfFlexDictionaryEntry>
-          <FlexDictionaryEntry name="DebugMode" type="System.String">
-            <string>NoDebugger</string>
-          </FlexDictionaryEntry>
-          <FlexDictionaryEntry name="Verbose" type="System.Int32">
-            <int>1</int>
-          </FlexDictionaryEntry>
-        </ArrayOfFlexDictionaryEntry>
-      </FlexDictionary>
-    </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Files" type="SmarteStudio.Test.FlexDictionary">
       <FlexDictionary>
         <ArrayOfFlexDictionaryEntry>
-          <FlexDictionaryEntry name="c:\spira\00universaltests\navigation\c3020-membership-apply\main.rvl.xlsx" type="SmarteStudio.Test.FlexDictionary">
-            <FlexDictionary>
-              <ArrayOfFlexDictionaryEntry>
-                <FlexDictionaryEntry name="Row" type="System.Int32">
-                  <int>1</int>
-                </FlexDictionaryEntry>
-                <FlexDictionaryEntry name="Col" type="System.Int32">
-                  <int>6</int>
-                </FlexDictionaryEntry>
-              </ArrayOfFlexDictionaryEntry>
-            </FlexDictionary>
-          </FlexDictionaryEntry>
-          <FlexDictionaryEntry name="c:\spira\mxmastertest\user.js" type="SmarteStudio.Test.FlexDictionary">
+          <FlexDictionaryEntry name="c:\spira-git\mabtest11\deletetest3\main.js" type="SmarteStudio.Test.FlexDictionary">
             <FlexDictionary>
               <ArrayOfFlexDictionaryEntry>
                 <FlexDictionaryEntry name="Folding" type="SmarteStudio.Editor.FoldingStrategy.JsFoldingStrategy">
@@ -93,21 +69,18 @@
               </ArrayOfFlexDictionaryEntry>
             </FlexDictionary>
           </FlexDictionaryEntry>
-          <FlexDictionaryEntry name="c:\spira-git\c3020-membership-apply\main.rvl.xlsx" type="SmarteStudio.Test.FlexDictionary">
+          <FlexDictionaryEntry name="c:\spira-git\mabtest11\deletetest3\user.js" type="SmarteStudio.Test.FlexDictionary">
             <FlexDictionary>
               <ArrayOfFlexDictionaryEntry>
-                <FlexDictionaryEntry name="Row" type="System.Int32">
-                  <int>1</int>
+                <FlexDictionaryEntry name="Folding" type="SmarteStudio.Editor.FoldingStrategy.JsFoldingStrategy">
+                  <JsFoldingStrategy>
+                    <IsJson>false</IsJson>
+                    <FoldingMarkers />
+                  </JsFoldingStrategy>
                 </FlexDictionaryEntry>
-                <FlexDictionaryEntry name="Col" type="System.Int32">
-                  <int>6</int>
+                <FlexDictionaryEntry name="Breakpoints" type="System.Collections.Generic.List`1[[SmarteStudio.Debugger.BreakPointInfo, SeSIDE.Debugger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]">
+                  <ArrayOfBreakPointInfo />
                 </FlexDictionaryEntry>
-              </ArrayOfFlexDictionaryEntry>
-            </FlexDictionary>
-          </FlexDictionaryEntry>
-          <FlexDictionaryEntry name="c:\spira-git" type="SmarteStudio.Test.FlexDictionary">
-            <FlexDictionary>
-              <ArrayOfFlexDictionaryEntry>
                 <FlexDictionaryEntry name="CaretX" type="System.Int32">
                   <int>0</int>
                 </FlexDictionaryEntry>
@@ -116,6 +89,30 @@
                 </FlexDictionaryEntry>
               </ArrayOfFlexDictionaryEntry>
             </FlexDictionary>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira-git\mabtest11\deletetest3\main.rvl.xlsx" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Row" type="System.Int32">
+                  <int>1</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Col" type="System.Int32">
+                  <int>1</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="Debugger" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="DebugMode" type="System.String">
+            <string>NoDebugger</string>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Verbose" type="System.Int32">
+            <int>1</int>
           </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
