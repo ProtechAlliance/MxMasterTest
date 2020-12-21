@@ -19,7 +19,8 @@
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
       <ArrayOfString>
         <string>C:\Spira-GIT\DeleteTest6\Main.js</string>
-        <string>C:\Spira-GIT\DeleteTest6\Reports\DeleteTest6_2020-12-13_11-56.trp</string>
+        <string>C:\Spira-GIT\DeleteTest6\Reports\DeleteTest6_2020-12-21_09-18.trp</string>
+        <string>C:\Spira-GIT\DeleteTest6\Main.rvl.xlsx</string>
       </ArrayOfString>
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
