@@ -1,0 +1,37 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:6.6.21.22
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+###b2130-MyAccount-RelatedAccounts (-2)
+###Starting scenario: Test (-2)
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\MxNavigation\b2130-MyAccount-RelatedAccounts\Main.rvl.xlsx
+SetRowIndex: 0:22
+Playing script: Script: C:\Spira\MxMasterTest\MxNavigation\b2130-MyAccount-RelatedAccounts\Main.rvl.xlsx:RVL, 23 source rows 0 errors
+###Level 1 : My Account (-2)
+Connecting to Chrome
+Connected to chrome:My Company - Google Chrome[Chrome_WidgetWin_1]
+Accessible object: My Company - Google Chrome[ROLE_SYSTEM_WINDOW]
+Using default WebAppProfile
+Chrome Extension Version: 3.0.10
+Chrome active URL: http://mx365dev.ptassoc.com/My-Account/My-Company
+Connected to Chrome window:http://mx365dev.ptassoc.com/My-Account/My-Company
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:My Company - Google Chrome(HTMLObject)[-1]
+Looking for object:Global
+###Level 2  Vertical Link: Related Accounts (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'Related Accounts')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:My Account - Google Chrome(HTMLObject)[-1]
+Looking for object:Global
+Execution is over, bailing out.
+###b2130-MyAccount-RelatedAccounts (-1)
+Test execution done
+##############################################################
+Test Unresolved: b2130-MyAccount-RelatedAccounts,  (Passed:0 Failed:0 Time:7.953s)
+Test Session Status: Unresolved Time: 9.48s
+##############################################################
