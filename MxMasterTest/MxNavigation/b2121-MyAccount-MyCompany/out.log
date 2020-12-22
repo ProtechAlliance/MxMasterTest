@@ -14,24 +14,24 @@ SetRowIndex: 0:22
 Playing script: Script: C:\Spira-GIT\MxMasterTest\MxNavigation\b2121-MyAccount-MyCompany\Main.rvl.xlsx:RVL, 23 source rows 0 errors
 ###Level 1 : My Account (-2)
 Connecting to Chrome
-Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
-Accessible object: [ROLE_SYSTEM_WINDOW]
+Connected to chrome:My Company - Google Chrome[Chrome_WidgetWin_1]
+Accessible object: My Company - Google Chrome[ROLE_SYSTEM_WINDOW]
 Using default WebAppProfile
 Chrome Extension Version: 3.0.10
-Chrome active URL: http://mx365dev.ptassoc.com/default.aspx
-Connected to Chrome window:http://mx365dev.ptassoc.com/default.aspx
+Chrome active URL: http://mx365dev.ptassoc.com/My-Account/My-Company
+Connected to Chrome window:http://mx365dev.ptassoc.com/My-Account/My-Company
 ************!!!!!!!!!!!!!!!!!!**************
-MatchedObject:(HTMLObject)[-1]
+MatchedObject:My Company - Google Chrome(HTMLObject)[-1]
 Looking for object:Global
 ###Level 2  Vertical Link: My Company (-2)
 ###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Company')])[1] (-2)
 ************!!!!!!!!!!!!!!!!!!**************
-MatchedObject:(HTMLObject)[-1]
+MatchedObject:My Account - Google Chrome(HTMLObject)[-1]
 Looking for object:Global
 Execution is over, bailing out.
 ###b2121-MyAccount-MyCompany (-1)
 Test execution done
 ##############################################################
-Test Unresolved: b2121-MyAccount-MyCompany,  (Passed:0 Failed:0 Time:5.882s)
-Test Session Status: Unresolved Time: 8.087s
+Test Unresolved: b2121-MyAccount-MyCompany,  (Passed:0 Failed:0 Time:5.97s)
+Test Session Status: Unresolved Time: 7.689s
 ##############################################################

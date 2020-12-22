@@ -1,8 +1,8 @@
-<log type="Session" name="MBECKPC:mbeck" at="2020-12-22 18:17:02.227"/>
-<log type="Test" name="b2121-MyAccount-MyCompany" status="Info"  at="2020-12-22 18:17:03.102"><data type="text">Test Started: C:\Spira-GIT\MxMasterTest\MxNavigation\b2121-MyAccount-MyCompany\Main.js</data>
+<log type="Session" name="MBECKPC:mbeck" at="2020-12-22 18:19:06.973"/>
+<log type="Test" name="b2121-MyAccount-MyCompany" status="Info"  at="2020-12-22 18:19:07.822"><data type="text">Test Started: C:\Spira-GIT\MxMasterTest\MxNavigation\b2121-MyAccount-MyCompany\Main.js</data>
 </log>
-<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-12-22 18:17:03.105"/>
-<log type="Message" name="Level 1 : My Account" status="Info"  at="2020-12-22 18:17:03.149"/>
-<log type="Message" name="Level 2  Vertical Link: My Company" status="Info"  at="2020-12-22 18:17:06.803"/>
-<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;My Company&apos;)])[1]" status="Info"  at="2020-12-22 18:17:06.818"/>
-<log type="Test" name="b2121-MyAccount-MyCompany" status="Unresolved" closed="b2121-MyAccount-MyCompany" _guid="undefined"  at="2020-12-22 18:17:08.897" comment="Passed:0 Failed:0 Time:5.882s" />
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-12-22 18:19:07.832"/>
+<log type="Message" name="Level 1 : My Account" status="Info"  at="2020-12-22 18:19:07.857"/>
+<log type="Message" name="Level 2  Vertical Link: My Company" status="Info"  at="2020-12-22 18:19:11.561"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;My Company&apos;)])[1]" status="Info"  at="2020-12-22 18:19:11.561"/>
+<log type="Test" name="b2121-MyAccount-MyCompany" status="Unresolved" closed="b2121-MyAccount-MyCompany" _guid="undefined"  at="2020-12-22 18:19:13.714" comment="Passed:0 Failed:0 Time:5.97s" />
