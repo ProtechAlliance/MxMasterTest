@@ -10,6 +10,12 @@
           <FlexDictionaryEntry name="C:\Spira\MxMasterTest\AdminToolbarStartNewConfig\AdminToolbarStartNewConfig.sstest.Test.Reports" type="System.Boolean">
             <boolean>true</boolean>
           </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\AdminToolbarStartNewConfig\AdminToolbarStartNewConfig.sstest.Test" type="System.Boolean">
+            <boolean>true</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\AdminToolbarStartNewConfig\AdminToolbarStartNewConfig.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>
@@ -20,7 +26,7 @@
       <ArrayOfString>
         <string>C:\Spira\MxMasterTest\User.js</string>
         <string>C:\Spira\MxMasterTest\AdminToolbarStartNewConfig\Main.js</string>
-        <string>C:\Spira\MxMasterTest\AdminToolbarStartNewConfig\Reports\AdminToolbarStartNewConfig_2020-12-06_13-11.trp</string>
+        <string>C:\Spira-GIT\MxMasterTest\AdminToolbarStartNewConfig\Main.rvl.xlsx</string>
       </ArrayOfString>
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">

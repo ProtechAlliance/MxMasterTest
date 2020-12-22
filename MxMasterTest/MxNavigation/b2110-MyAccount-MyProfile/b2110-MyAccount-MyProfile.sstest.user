@@ -10,6 +10,12 @@
           <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\b2110-MyAccount-MyProfile\b2110-MyAccount-MyProfile.sstest.Test.Reports" type="System.Boolean">
             <boolean>false</boolean>
           </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxNavigation\b2110-MyAccount-MyProfile\b2110-MyAccount-MyProfile.sstest.Test" type="System.Boolean">
+            <boolean>true</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxNavigation\b2110-MyAccount-MyProfile\b2110-MyAccount-MyProfile.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>
@@ -18,7 +24,7 @@
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
       <ArrayOfString>
-        <string>C:\Spira\MxMasterTest\MxNavigation\b2110-MyAccount-MyProfile\Reports\Level2a-MyDownloads_2020-12-04_10-19.trp</string>
+        <string>C:\Spira-GIT\MxMasterTest\MxNavigation\b2110-MyAccount-MyProfile\Main.rvl.xlsx</string>
       </ArrayOfString>
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
@@ -50,6 +56,24 @@
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Verbose" type="System.Int32">
             <int>1</int>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="Files" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira-git\mxmastertest\mxnavigation\b2110-myaccount-myprofile\main.rvl.xlsx" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Row" type="System.Int32">
+                  <int>4</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Col" type="System.Int32">
+                  <int>6</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
           </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
