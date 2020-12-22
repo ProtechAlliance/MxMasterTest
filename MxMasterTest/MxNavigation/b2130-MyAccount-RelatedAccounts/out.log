@@ -9,9 +9,9 @@ Creating a locator:HTML
 Creating a locator:HTML FPP
 ###b2130-MyAccount-RelatedAccounts (-2)
 ###Starting scenario: Test (-2)
-Attaching to spreadsheet : true : C:\Spira\MxMasterTest\MxNavigation\b2130-MyAccount-RelatedAccounts\Main.rvl.xlsx
+Attaching to spreadsheet : true : C:\Spira-GIT\MxMasterTest\MxNavigation\b2130-MyAccount-RelatedAccounts\Main.rvl.xlsx
 SetRowIndex: 0:22
-Playing script: Script: C:\Spira\MxMasterTest\MxNavigation\b2130-MyAccount-RelatedAccounts\Main.rvl.xlsx:RVL, 23 source rows 0 errors
+Playing script: Script: C:\Spira-GIT\MxMasterTest\MxNavigation\b2130-MyAccount-RelatedAccounts\Main.rvl.xlsx:RVL, 23 source rows 0 errors
 ###Level 1 : My Account (-2)
 Connecting to Chrome
 Connected to chrome:My Company - Google Chrome[Chrome_WidgetWin_1]
@@ -32,6 +32,6 @@ Execution is over, bailing out.
 ###b2130-MyAccount-RelatedAccounts (-1)
 Test execution done
 ##############################################################
-Test Unresolved: b2130-MyAccount-RelatedAccounts,  (Passed:0 Failed:0 Time:7.953s)
-Test Session Status: Unresolved Time: 9.48s
+Test Unresolved: b2130-MyAccount-RelatedAccounts,  (Passed:0 Failed:0 Time:5.691s)
+Test Session Status: Unresolved Time: 7.399s
 ##############################################################
