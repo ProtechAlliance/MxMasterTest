@@ -1,0 +1,14 @@
+{
+	"Recorded": "Tuesday, October 27, 2020 11:03:08 AM",
+	"Rows": [
+		{
+			"Flow": "",
+			"Type": "Action",
+			"Object": "Secret_Answer",
+			"Action": "DoClick",
+			"ParamName": "",
+			"ParamType": "",
+			"ParamValue": ""
+		}
+	]
+}

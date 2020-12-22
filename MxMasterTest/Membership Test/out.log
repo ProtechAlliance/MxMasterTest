@@ -1,0 +1,414 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:6.3.18.14
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+###Membership Test (-2)
+###Starting scenario: RVLSpecialEntryPoint (-2)
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Meeting Registration\Main.rvl.xlsx
+SetRowIndex: 0:69
+Playing script: Script: C:\Spira\MxMasterTest\Meeting Registration\Main.rvl.xlsx:RVL, 70 source rows 0 errors
+Looking for object:Global
+Looking for object:MX_Balance_Due
+Connecting to Chrome
+Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
+Accessible object: [ROLE_SYSTEM_WINDOW]
+Chrome active URL: http://mx365dev.ptassoc.com/Shop/Shopping-Cart
+Connected to Chrome window:http://mx365dev.ptassoc.com/Shop/Shopping-Cart
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###placeholder (-2)
+Looking for object:Tester
+###
+								
+			    $50.00
+		    
+							 (-2)
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Meeting Registration\Main.rvl.xlsx
+SetRowIndex: 0:102
+Playing script: Script: C:\Spira\MxMasterTest\Meeting Registration\Main.rvl.xlsx:UX Validation, 103 source rows 0 errors
+Looking for object:MX_Balance_Due
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Switch_to_another_app
+Chrome window is invalid. Reconnecting...
+Connecting to Chrome
+Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
+Accessible object: [ROLE_SYSTEM_WINDOW]
+Chrome active URL: https://mx365qav90.crm.dynamics.com/main.aspx
+Connected to Chrome window:https://mx365qav90.crm.dynamics.com/main.aspx
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Switch_to_another_app
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Switch_to_another_app.DoClick([]) (1)
+Action result:true
+Looking for object:UX_365_Online
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###UX_365_Online.DoClick([]) (1)
+Action result:true
+Looking for object:Invoices
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Invoices
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Invoices.DoClick([]) (1)
+Action result:true
+Looking for object:Invoice_SearchBox
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["INV-02752-H3V9C4"])
+###Invoice_SearchBox.DoSetText(["INV-02752-H3V9C4"]) (1)
+Action result:true
+Looking for object:Search_Button
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Search_Button.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoLDClick([])
+###INV-02752-H3V9C4.DoLDClick([]) (1)
+Action result:true
+###the invoice is 'INV-02752-H3V9C4' (-2)
+Looking for object:Global
+Looking for object:BalanceDue
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###$50.00 (-2)
+###The balance dues are equal! (1)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:New_Transactions
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###New_Transactions.DoClick([]) (1)
+Action result:true
+Looking for object:Payment_&_Adjustment
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Payment_&_Adjustment.DoClick([]) (1)
+Action result:true
+Looking for object:All_Others
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###All_Others.DoClick([]) (1)
+Action result:true
+Looking for object:*check
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["check"])
+###*check.DoSetText(["check"]) (1)
+Action result:true
+Looking for object:Check_PaymentCKPayments_&_Adjust
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Check_PaymentCKPayments_&_Adjust.DoClick([]) (1)
+Action result:true
+Looking for object:Reference Number
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Reference Number.DoClick([]) (1)
+Action result:true
+Looking for object:Reference Number
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["123"])
+###Reference Number.DoSetText(["123"]) (1)
+Action result:true
+Looking for object:Global
+Looking for object:Save_&_Close1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Save_&_Close1.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+Looking for object:Abasi,_Tosin
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Abasi,_Tosin.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoLDClick([])
+###Current.DoLDClick([]) (1)
+Action result:true
+Looking for object:Global
+Looking for object:Tester
+###Check renewal billing record values (pre-payment) (-2)
+Looking for object:Global
+Looking for object:Renewal_BenefitStatus
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Checking Benefit Status (-2)
+###Value is correct: New (-2)
+Looking for object:Global
+Looking for object:Renewal_Volume
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Checking Volume (-2)
+###Value is correct: 1 (-2)
+Looking for object:Global
+Looking for object:Primary_Benefit
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Checking Primary Benefit (-2)
+###Value is correct: Yes (-2)
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoEnsureVisible([])
+###pa_cyclestartdate.DoEnsureVisible([]) (1)
+Action result:[object Object]
+Looking for object:Renewal_CycleStartDate
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Checking Cycle Start Date (-2)
+###Value is correct: 9/1/2020 (-2)
+Looking for object:Renewal_CycleState
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Checking Cycle State (-2)
+###Value is correct: Current (-2)
+Looking for object:Renewal_DateRenewed
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Checking Date Renewed (-2)
+###Value is correct:  (-2)
+Looking for object:Renewal_ExpirationDate
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Checking Expiration Date (-2)
+###Value is correct: 8/31/2021 (-2)
+Looking for object:Global
+Looking for object:Renewal_PaidThroughDate
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Checking Paid Through Date (-2)
+###Value is correct: 8/31/2021 (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Close.DoClick([]) (1)
+Action result:true
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Meeting Registration\Main.rvl.xlsx
+SetRowIndex: 0:70
+Playing script: Script: C:\Spira\MxMasterTest\Meeting Registration\Main.rvl.xlsx:Cleanup, 71 source rows 0 errors
+Looking for object:Invoice
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Invoice.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###//button[@title='Select All'].DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Cancel.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###OK.DoClick([]) (1)
+Action result:true
+Looking for object:Abasi,_Tosin
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Abasi,_Tosin.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###//button[@title='Select All'].DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Delete%20Invoice.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Delete.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###//button[@title='Select All'].DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Delete%20Renewal%20Billing.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Delete.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+Looking for object:G_OpenAreaList
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoEnsureVisible([])
+###G_OpenAreaList.DoEnsureVisible([]) (1)
+Action result:[object Object]
+Looking for object:G_OpenAreaList
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###G_OpenAreaList.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Global
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###//button[@title='Select All'].DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Delete.DoClick([]) (1)
+Action result:true
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Delete.DoClick([]) (1)
+Action result:true
+Execution is over, bailing out.
+Execution is over, bailing out.
+Execution is over, bailing out.
+###Membership Test (1)
+Test execution done
+##############################################################
+Test Pass: Membership Test,  (Passed:35 Failed:0 Time:175.6s)
+Test Session Status: Pass Time: 179.548s
+##############################################################

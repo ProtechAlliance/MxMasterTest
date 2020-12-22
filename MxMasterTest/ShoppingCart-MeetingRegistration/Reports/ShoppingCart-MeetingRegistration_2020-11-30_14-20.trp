@@ -1,0 +1,6 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-11-30 14:19:55.978"/>
+<log type="Test" name="ShoppingCart-MeetingRegistration" status="Info"  at="2020-11-30 14:19:56.647"><data type="text">Test Started: C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2020-11-30 14:19:56.655"/>
+<log type="Assert" name="Execution terminated by user" status="Fail"  at="2020-11-30 14:20:08.762"><data type="link" url="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(RightSummaryTotals,32,1)" text="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(RightSummaryTotals,32,1)"/>
+</log>

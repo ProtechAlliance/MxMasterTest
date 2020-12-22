@@ -1,0 +1,19 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-12-04 16:42:24.621"/>
+<log type="Test" name="EditRegistration" status="Info"  at="2020-12-04 16:42:25.397"><data type="text">Test Started: C:\Spira\MxMasterTest\EditRegistration\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-12-04 16:42:25.404"/>
+<log type="Message" name="Level 1 : My Account" status="Info"  at="2020-12-04 16:42:25.470"/>
+<log type="Message" name="Level 2  Vertical Link: My Registrations" status="Info"  at="2020-12-04 16:42:28.203"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;My Registrations&apos;)])[1]" status="Info"  at="2020-12-04 16:42:28.222"/>
+<log type="Message" name="The Registration to be selected is:   tmx_Annual Conference" status="Info"  at="2020-12-04 16:42:30.714"/>
+<log type="Assert" name="View/EditDetails.DoClick([])" status="Pass"  at="2020-12-04 16:42:31.994" comment="Returned Value: true" />
+<log type="Assert" name="Edit.DoClick([])" status="Pass"  at="2020-12-04 16:42:33.376" comment="Returned Value: true" />
+<log type="Assert" name="MiddleName.DoEnsureVisible([])" status="Pass"  at="2020-12-04 16:42:36.268" comment="Returned Value: [object Object]" />
+<log type="Assert" name="MiddleName.DoSetText([&quot;Bernie&quot;])" status="Pass"  at="2020-12-04 16:42:37.385" comment="Returned Value: true" />
+<log type="Assert" name="Phone.DoClick([])" status="Pass"  at="2020-12-04 16:42:39.018" comment="Returned Value: true" />
+<log type="Assert" name="E-mail.DoClick([])" status="Pass"  at="2020-12-04 16:42:40.358" comment="Returned Value: true" />
+<log type="Message" name="The Value for E-mail is: " status="Info"  at="2020-12-04 16:42:40.474"/>
+<log type="Message" name="The email address is either Null or wrong!  The correct E-mail address will be set now." status="Info"  at="2020-12-04 16:42:40.489"/>
+<log type="Assert" name="EmailStep1.DoSetText([&quot;Tom@ImAbadBoy.com&quot;])" status="Pass"  at="2020-12-04 16:42:41.623" comment="Returned Value: true" />
+<log type="Message" name="The value for E-mail is now: Tom@ImAbadBoy.com" status="Info"  at="2020-12-04 16:42:41.761"/>
+<log type="Test" name="EditRegistration" status="Pass" closed="EditRegistration" _guid="undefined"  at="2020-12-04 16:42:41.761" comment="Passed:7 Failed:0 Time:16.472s" />

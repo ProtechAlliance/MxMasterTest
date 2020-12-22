@@ -1,0 +1,200 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-11-30 17:52:25.921"/>
+<log type="Test" name="ShoppingCart-MeetingRegistration" status="Info"  at="2020-11-30 17:52:26.568"><data type="text">Test Started: C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-11-30 17:52:26.582"/>
+<log type="Assert" name="see_details.DoClick([])" status="Pass"  at="2020-11-30 17:52:29.758" comment="Returned Value: true" />
+<log type="Assert" name="Main Registrant Name: tmx_Jefferson, Thomas" status="Pass"  at="2020-11-30 17:52:29.974"><data type="text">tmx_Jefferson, Thomas</data>
+<data type="text">tmx_Jefferson, Thomas</data>
+</log>
+<log type="Assert" name="Registration Name:  tmx_Main Registration" status="Pass"  at="2020-11-30 17:52:30.111"><data type="text">tmx_Main Registration</data>
+<data type="text">tmx_Main Registration</data>
+</log>
+<log type="Assert" name="Main Registration Price  = $100.00" status="Pass"  at="2020-11-30 17:52:30.243"><data type="text">$100.00</data>
+<data type="text">$100.00</data>
+</log>
+<log type="Assert" name="Main Session Name = tmx_Main Session 1" status="Pass"  at="2020-11-30 17:52:30.374"><data type="text">tmx_Main Session 1</data>
+<data type="text">tmx_Main Session 1</data>
+</log>
+<log type="Assert" name="tmx_Main Session 1 Price = $50.00" status="Pass"  at="2020-11-30 17:52:30.489"><data type="text">$50.00</data>
+<data type="text">$50.00</data>
+</log>
+<log type="Assert" name="Row 2 Session Name:  tmx_Packaged Session 1" status="Pass"  at="2020-11-30 17:52:30.627"><data type="text">tmx_Packaged Session 1</data>
+<data type="text">tmx_Packaged Session 1</data>
+</log>
+<log type="Assert" name="tmx_Packaged Session 1 Price = $10.00" status="Pass"  at="2020-11-30 17:52:30.776"><data type="text">$10.00</data>
+<data type="text">$10.00</data>
+</log>
+<log type="Assert" name="Row 3 Session Name:  tmx_Complimentary Session 1" status="Pass"  at="2020-11-30 17:52:30.905"><data type="text">
+                                            tmx_Complimentary Session
+                                            
+                                        </data>
+<data type="text">tmx_Complimentary Session</data>
+</log>
+<log type="Assert" name="tmx_Complimentary Session Price = $0.00" status="Pass"  at="2020-11-30 17:52:31.043"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Guest Registration Name:  tmx_Adams, John" status="Pass"  at="2020-11-30 17:52:31.170"><data type="text">tmx_Adams, John</data>
+<data type="text">tmx_Adams, John</data>
+</log>
+<log type="Assert" name="Guest Registration:  tmx_Guest Registration" status="Pass"  at="2020-11-30 17:52:31.304"><data type="text">tmx_Guest Registration</data>
+<data type="text">tmx_Guest Registration</data>
+</log>
+<log type="Assert" name="Guest Registration Price:  $25.00" status="Pass"  at="2020-11-30 17:52:31.443"><data type="text">$25.00</data>
+<data type="text">$25.00</data>
+</log>
+<log type="Assert" name="Guest Session 1: tmx_PackagedSession1" status="Pass"  at="2020-11-30 17:52:31.571"><data type="text">
+                                            tmx_Packaged Session 1
+                                            
+                                        </data>
+<data type="text">tmx_Packaged Session 1</data>
+</log>
+<log type="Assert" name="tmx_Packaged Session 1Price:  $10.00" status="Pass"  at="2020-11-30 17:52:31.695"><data type="text">$10.00</data>
+<data type="text">$10.00</data>
+</log>
+<log type="Assert" name="Total Detail Amount:  $195.00" status="Pass"  at="2020-11-30 17:52:31.844"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Assert" name="Purchase Subtotal = $195.00" status="Pass"  at="2020-11-30 17:52:32.013"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Assert" name="Sales Tax = $0.00" status="Pass"  at="2020-11-30 17:52:32.147"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Order Total =  $195.00" status="Pass"  at="2020-11-30 17:52:32.275"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Assert" name="Cart Bill To: Thomas tmx_Jefferson" status="Pass"  at="2020-11-30 17:52:32.413"><data type="text">Thomas tmx_Jefferson</data>
+<data type="text">Thomas tmx_Jefferson</data>
+</log>
+<log type="Assert" name="Express_Checkout.DoClick([])" status="Pass"  at="2020-11-30 17:52:33.757" comment="Returned Value: true" />
+<log type="Assert" name="BillMeLater.DoClick([])" status="Pass"  at="2020-11-30 17:52:35.420" comment="Returned Value: true" />
+<log type="Assert" name="BillingReference.DoSetText([&quot;12345&quot;])" status="Pass"  at="2020-11-30 17:52:36.519" comment="Returned Value: true" />
+<log type="Assert" name="SubmitOrder-BillMeLater.DoClick([])" status="Pass"  at="2020-11-30 17:52:38.059" comment="Returned Value: true" />
+<log type="Message" name="Shopping Cart Number:   Order Summary" status="Info"  at="2020-11-30 17:52:46.265"/>
+<log type="Message" name="Confirmation Summary Block:   
+            
+                
+						
+    Order Summary
+
+					
+            
+
+            
+                
+						
+                    
+							
+                        1 Item selected Change &gt;
+                    
+						
+                
+					
+
+                
+						
+                    
+							
+                        Purchase Subtotal
+                    
+						
+                    
+							
+                        $195.00
+                    
+						
+                
+					
+
+                
+
+                
+
+                
+						
+                    
+							
+                        Sales Tax
+                         
+                    
+						
+                    
+							
+                        $0.00
+                    
+						
+                
+					                
+
+                
+
+                
+
+                
+
+                
+						
+                    
+							
+                        Order Total
+                    
+						
+                    
+							
+                        $195.00
+                    
+						
+                
+					                
+
+                
+						
+                    
+      	            Billing Address Change &gt;
+                    
+                    
+							
+                        
+                        Thomas tmx_Jefferson
+                    
+						
+		            4949 Yuletide Dr. Columbia, MD 21045 United States
+                
+					
+
+                
+            
+
+            
+        " status="Info"  at="2020-11-30 17:52:46.337"/>
+<log type="Message" name="Bill To Address:   
+					Bill To Address
+					
+                        Thomas tmx_Jefferson
+                        4949 Yuletide Dr. Columbia, MD 21045 United States
+					
+				" status="Info"  at="2020-11-30 17:52:54.781"/>
+<log type="Message" name="" status="Info"  at="2020-11-30 17:52:54.800"/>
+<log type="Message" name="*****Purchase Confirmation FOOTER" status="Info"  at="2020-11-30 17:52:54.810"/>
+<log type="Assert" name="Total Charges:  $195.00" status="Pass"  at="2020-11-30 17:52:54.885"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Assert" name="Sales Tax:  $0.00" status="Pass"  at="2020-11-30 17:52:54.948"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Order Total:  $195.00" status="Pass"  at="2020-11-30 17:52:55.012"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Assert" name="Gift Card:  $0.00" status="Pass"  at="2020-11-30 17:52:55.157"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Previous Payments:  $0.00" status="Pass"  at="2020-11-30 17:52:55.292"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Payment:  $0.00" status="Pass"  at="2020-11-30 17:52:55.423"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Balance:  $195.00" status="Pass"  at="2020-11-30 17:52:55.558"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Test" name="ShoppingCart-MeetingRegistration" status="Pass" closed="ShoppingCart-MeetingRegistration" _guid="undefined"  at="2020-11-30 17:52:55.558" comment="Passed:31 Failed:0 Time:29.067s" />

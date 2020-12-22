@@ -1,0 +1,86 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-11-24 13:38:53.019"/>
+<log type="Test" name="SignInHelp" status="Info"  at="2020-11-24 13:38:53.817"><data type="text">Test Started: C:\Spira\MxMasterTest\SignInHelp\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-11-24 13:38:53.824"/>
+<log type="Message" name="SCRIPT LOCATION:   C:\Spira\MxMasterTest\SignInHelp\Main.rvl.xlsx" status="Info"  at="2020-11-24 13:38:53.881"/>
+<log type="Message" name="This test will work with a user that is:   Unauthenticated" status="Info"  at="2020-11-24 13:38:53.881"/>
+<log type="Message" name="URL for Testing:   https://mx365qa84.ptassoc.com/" status="Info"  at="2020-11-24 13:38:53.898"/>
+<log type="Message" name="SCRIPT LOCATION:   C:\Spira\UniversalSignIn\Main.rvl.xlsx" status="Info"  at="2020-11-24 13:38:53.949"/>
+<log type="Message" name="The Objective of this script is to start with a user that is:    Unauthenticated" status="Info"  at="2020-11-24 13:38:56.452"/>
+<log type="Message" name="Is the site Currently UNauthenticated?   true" status="Info"  at="2020-11-24 13:38:56.532"/>
+<log type="Message" name="The Expected Username is:    earl" status="Info"  at="2020-11-24 13:38:56.551"/>
+<log type="Message" name="The expected Password is:    earl" status="Info"  at="2020-11-24 13:38:56.552"/>
+<log type="Message" name="The Expected User is:    Earl Weaver" status="Info"  at="2020-11-24 13:38:56.552"/>
+<log type="Message" name="The Expected URL is:    https://mx365qa84.ptassoc.com/" status="Info"  at="2020-11-24 13:38:56.568"/>
+<log type="Message" name="Level 1 : Events" status="Info"  at="2020-11-24 13:38:56.568"/>
+<log type="Message" name="" status="Info"  at="2020-11-24 13:38:58.670"/>
+<log type="Message" name="*****1.  No Action Required.  The Test is ready to start with an UNAUTHENTICATED User.  *****" status="Info"  at="2020-11-24 13:38:58.670"/>
+<log type="Message" name="**********Locate Acount by E-mail**********" status="Info"  at="2020-11-24 13:38:59.771"/>
+<log type="Message" name="*****Invalid E-mail Address*****" status="Info"  at="2020-11-24 13:38:59.771"/>
+<log type="Assert" name="SignIN-START.DoClick([])" status="Pass"  at="2020-11-24 13:39:01.096" comment="Returned Value: true" />
+<log type="Assert" name="1-FindByEmailAddress.DoClick([])" status="Pass"  at="2020-11-24 13:39:02.775" comment="Returned Value: true" />
+<log type="Assert" name="EmailAddress1.DoSetText([&quot;bob@123.com&quot;])" status="Pass"  at="2020-11-24 13:39:03.907" comment="Returned Value: true" />
+<log type="Assert" name="Submit-FindbyE-mail.DoClick([])" status="Pass"  at="2020-11-24 13:39:05.237" comment="Returned Value: true" />
+<log type="Assert" name="UnableToFindAccount.DoClick([])" status="Pass"  at="2020-11-24 13:39:06.529" comment="Returned Value: true" />
+<log type="Assert" name="TryAgain-DifferentEmail.DoClick([])" status="Pass"  at="2020-11-24 13:39:07.898" comment="Returned Value: true" />
+<log type="Assert" name="OK.DoClick([])" status="Pass"  at="2020-11-24 13:39:09.255" comment="Returned Value: true" />
+<log type="Message" name="*****NULL Value in E-mail 1*****" status="Info"  at="2020-11-24 13:39:09.264"/>
+<log type="Assert" name="EmailAddress1.DoSetText([&quot;&quot;])" status="Pass"  at="2020-11-24 13:39:10.387" comment="Returned Value: true" />
+<log type="Assert" name="EmailAddress2.DoSetText([&quot;bob@123.com&quot;])" status="Pass"  at="2020-11-24 13:39:11.535" comment="Returned Value: true" />
+<log type="Assert" name="Submit-FindbyE-mail.DoClick([])" status="Pass"  at="2020-11-24 13:39:12.923" comment="Returned Value: true" />
+<log type="Message" name="*****Valid E-mail Wrong Secret Answer*****" status="Info"  at="2020-11-24 13:39:12.924"/>
+<log type="Assert" name="EmailAddress2.DoSetText([&quot;&quot;])" status="Pass"  at="2020-11-24 13:39:14.055" comment="Returned Value: true" />
+<log type="Assert" name="EmailAddress1.DoSetText([&quot;earl@dirtyshoes.com&quot;])" status="Pass"  at="2020-11-24 13:39:15.209" comment="Returned Value: true" />
+<log type="Assert" name="Submit-FindbyE-mail.DoClick([])" status="Pass"  at="2020-11-24 13:39:16.557" comment="Returned Value: true" />
+<log type="Message" name="*****Account Found - Enter WRONG Secret Answer - CANCEL*****" status="Info"  at="2020-11-24 13:39:16.573"/>
+<log type="Assert" name="Account_Found!.DoClick([])" status="Pass"  at="2020-11-24 13:39:17.859" comment="Returned Value: true" />
+<log type="Assert" name="SecretAnswer.DoSetText([&quot;Jane&quot;])" status="Pass"  at="2020-11-24 13:39:18.979" comment="Returned Value: true" />
+<log type="Assert" name="SignIn-ThenResetPassword.DoClick([])" status="Pass"  at="2020-11-24 13:39:20.399" comment="Returned Value: true" />
+<log type="Assert" name="SecretAnswerisWRONG.DoClick([])" status="Pass"  at="2020-11-24 13:39:21.702" comment="Returned Value: true" />
+<log type="Assert" name="Identification2-CANCEL.DoClick([])" status="Pass"  at="2020-11-24 13:39:23.058" comment="Returned Value: true" />
+<log type="Message" name="*****Account Found - Enter WRONG Secret Answer - SEND E-MAIL*****" status="Info"  at="2020-11-24 13:39:23.070"/>
+<log type="Assert" name="SignIN-START.DoClick([])" status="Pass"  at="2020-11-24 13:39:24.316" comment="Returned Value: true" />
+<log type="Assert" name="1-FindByEmailAddress.DoClick([])" status="Pass"  at="2020-11-24 13:39:25.657" comment="Returned Value: true" />
+<log type="Assert" name="EmailAddress1.DoSetText([&quot;earl@dirtyshoes.com&quot;])" status="Pass"  at="2020-11-24 13:39:26.792" comment="Returned Value: true" />
+<log type="Assert" name="Submit-FindbyE-mail.DoClick([])" status="Pass"  at="2020-11-24 13:39:28.161" comment="Returned Value: true" />
+<log type="Assert" name="Account_Found!.DoClick([])" status="Pass"  at="2020-11-24 13:39:29.413" comment="Returned Value: true" />
+<log type="Assert" name="SecretAnswer.DoSetText([&quot;Jane&quot;])" status="Pass"  at="2020-11-24 13:39:30.533" comment="Returned Value: true" />
+<log type="Assert" name="SignIn-ThenResetPassword.DoClick([])" status="Pass"  at="2020-11-24 13:39:31.894" comment="Returned Value: true" />
+<log type="Assert" name="SecretAnswerisWRONG.DoClick([])" status="Pass"  at="2020-11-24 13:39:33.265" comment="Returned Value: true" />
+<log type="Assert" name="Identification2-OK.DoClick([])" status="Pass"  at="2020-11-24 13:39:34.631" comment="Returned Value: true" />
+<log type="Message" name="*****Account Found - CORRECT Secret Answer Sends User to &apos;Change My Password&apos;*****" status="Info"  at="2020-11-24 13:39:34.643"/>
+<log type="Assert" name="SignIN-START.DoClick([])" status="Pass"  at="2020-11-24 13:39:36.068" comment="Returned Value: true" />
+<log type="Assert" name="1-FindByEmailAddress.DoClick([])" status="Pass"  at="2020-11-24 13:39:37.268" comment="Returned Value: true" />
+<log type="Assert" name="EmailAddress1.DoSetText([&quot;earl@dirtyshoes.com&quot;])" status="Pass"  at="2020-11-24 13:39:38.406" comment="Returned Value: true" />
+<log type="Assert" name="Submit-FindbyE-mail.DoClick([])" status="Pass"  at="2020-11-24 13:39:39.796" comment="Returned Value: true" />
+<log type="Assert" name="Account_Found!.DoClick([])" status="Pass"  at="2020-11-24 13:39:41.130" comment="Returned Value: true" />
+<log type="Assert" name="SecretAnswer.DoSetText([&quot;Bob&quot;])" status="Pass"  at="2020-11-24 13:39:42.276" comment="Returned Value: true" />
+<log type="Assert" name="SignIn-ThenResetPassword.DoClick([])" status="Pass"  at="2020-11-24 13:39:43.631" comment="Returned Value: true" />
+<log type="Message" name="**********Forgot Password **********" status="Info"  at="2020-11-24 13:39:43.664"/>
+<log type="Assert" name="SignIN-START.DoClick([])" status="Pass"  at="2020-11-24 13:39:45.302" comment="Returned Value: true" />
+<log type="Assert" name="1-ForgotPassword.DoClick([])" status="Pass"  at="2020-11-24 13:39:46.636" comment="Returned Value: true" />
+<log type="Message" name="*****E-mail Address - Invalid Format *****" status="Info"  at="2020-11-24 13:39:46.636"/>
+<log type="Assert" name="E-mailAddress.DoSetText([&quot;hello&quot;])" status="Pass"  at="2020-11-24 13:39:47.800" comment="Returned Value: true" />
+<log type="Assert" name="Submit-ForgotPassword.DoClick([])" status="Pass"  at="2020-11-24 13:39:49.149" comment="Returned Value: true" />
+<log type="Assert" name="ErrorReport-Message1.DoClick([])" status="Pass"  at="2020-11-24 13:39:50.491" comment="Returned Value: true" />
+<log type="Assert" name="E-mailAddress.DoSetText([&quot;&quot;])" status="Pass"  at="2020-11-24 13:39:51.624" comment="Returned Value: true" />
+<log type="Message" name="*****E-mail Address - Valid Format - NOT In Database*****" status="Info"  at="2020-11-24 13:39:51.628"/>
+<log type="Assert" name="E-mailAddress.DoSetText([&quot;x@y.com&quot;])" status="Pass"  at="2020-11-24 13:39:52.745" comment="Returned Value: true" />
+<log type="Assert" name="Submit-ForgotPassword.DoClick([])" status="Pass"  at="2020-11-24 13:39:54.102" comment="Returned Value: true" />
+<log type="Assert" name="UnableToFindAccount.DoClick([])" status="Pass"  at="2020-11-24 13:39:55.448" comment="Returned Value: true" />
+<log type="Assert" name="TryAgain-DifferentEmail.DoClick([])" status="Pass"  at="2020-11-24 13:39:56.851" comment="Returned Value: true" />
+<log type="Assert" name="OK.DoClick([])" status="Pass"  at="2020-11-24 13:39:58.230" comment="Returned Value: true" />
+<log type="Message" name="*****Correct Username - WRONG Secret Answer*****" status="Info"  at="2020-11-24 13:39:58.237"/>
+<log type="Assert" name="E-mailAddress.DoSetText([&quot;earl@dirtyshoes.com&quot;])" status="Pass"  at="2020-11-24 13:39:59.354" comment="Returned Value: true" />
+<log type="Assert" name="Submit-ForgotPassword.DoClick([])" status="Pass"  at="2020-11-24 13:40:00.752" comment="Returned Value: true" />
+<log type="Assert" name="Account_Found!.DoClick([])" status="Pass"  at="2020-11-24 13:40:02.024" comment="Returned Value: true" />
+<log type="Assert" name="SecretAnswer.DoSetText([&quot;Jane&quot;])" status="Pass"  at="2020-11-24 13:40:03.159" comment="Returned Value: true" />
+<log type="Message" name="*****Correct Username - CORRECT Secret Answer*****" status="Info"  at="2020-11-24 13:40:03.159"/>
+<log type="Assert" name="SignIN-START.DoClick([])" status="Pass"  at="2020-11-24 13:40:04.753" comment="Returned Value: true" />
+<log type="Assert" name="1-ForgotPassword.DoClick([])" status="Pass"  at="2020-11-24 13:40:06.338" comment="Returned Value: true" />
+<log type="Assert" name="E-mailAddress.DoSetText([&quot;earl@dirtyshoes.com&quot;])" status="Pass"  at="2020-11-24 13:40:07.479" comment="Returned Value: true" />
+<log type="Assert" name="Submit-ForgotPassword.DoClick([])" status="Pass"  at="2020-11-24 13:40:08.848" comment="Returned Value: true" />
+<log type="Assert" name="Account_Found!.DoClick([])" status="Pass"  at="2020-11-24 13:40:10.129" comment="Returned Value: true" />
+<log type="Assert" name="SecretAnswer.DoSetText([&quot;Bob&quot;])" status="Pass"  at="2020-11-24 13:40:11.250" comment="Returned Value: true" />
+<log type="Assert" name="SignIn-ThenResetPassword.DoClick([])" status="Pass"  at="2020-11-24 13:40:12.626" comment="Returned Value: true" />
+<log type="Test" name="SignInHelp" status="Pass" closed="SignInHelp" _guid="undefined"  at="2020-11-24 13:40:15.637" comment="Passed:56 Failed:0 Time:81.929s" />

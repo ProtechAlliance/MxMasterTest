@@ -1,0 +1,36 @@
+<log type="Session" name="RCLEMPC:RClem" at="2020-09-08 10:48:52.246"/>
+<log type="Test" name="Membership Test" status="Info"  at="2020-09-08 10:48:55.492"><data type="text">Test Started: C:\Spira\MxMasterTest\Membership Test\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-09-08 10:48:55.515"/>
+<log type="Assert" name="Login.DoClick([])" status="Pass"  at="2020-09-08 10:48:58.692" comment="Returned Value: true" />
+<log type="Assert" name="First_Name.DoSetText([&quot;Tosin&quot;])" status="Pass"  at="2020-09-08 10:49:09.996" comment="Returned Value: true" />
+<log type="Assert" name="Last_Name.DoSetText([&quot;Abasi&quot;])" status="Pass"  at="2020-09-08 10:49:11.123" comment="Returned Value: true" />
+<log type="Assert" name="Enter_E-mail.DoSetText([&quot;tabasi1@gmail.com&quot;])" status="Pass"  at="2020-09-08 10:49:12.271" comment="Returned Value: true" />
+<log type="Assert" name="Confirm_E-mail.DoSetText([&quot;tabasi1@gmail.com&quot;])" status="Pass"  at="2020-09-08 10:49:13.395" comment="Returned Value: true" />
+<log type="Assert" name="Create_Password.DoSetText([&quot;Ra1lR0ad&quot;])" status="Pass"  at="2020-09-08 10:49:14.515" comment="Returned Value: true" />
+<log type="Assert" name="Confirm_Password.DoSetText([&quot;Ra1lR0ad&quot;])" status="Pass"  at="2020-09-08 10:49:15.646" comment="Returned Value: true" />
+<log type="Assert" name="Create_New_User.DoClick([])" status="Pass"  at="2020-09-08 10:49:16.858" comment="Returned Value: true" />
+<log type="Message" name="Level 1 : Membership" status="Info"  at="2020-09-08 10:49:31.387"/>
+<log type="Message" name="Level 2  Vertical Link: Join" status="Info"  at="2020-09-08 10:49:32.165"/>
+<log type="Assert" name="Benefit 1.DoClick([])" status="Pass"  at="2020-09-08 10:49:53.956" comment="Returned Value: true" />
+<log type="Assert" name="Next_Step.DoClick([])" status="Pass"  at="2020-09-08 10:50:05.693" comment="Returned Value: true" />
+<log type="Assert" name="Next_Step1.DoClick([])" status="Pass"  at="2020-09-08 10:50:17.442" comment="Returned Value: true" />
+<log type="Assert" name="None.DoSetText([&quot;&quot;])" status="Pass"  at="2020-09-08 10:50:29.787" comment="Returned Value: true" />
+<log type="Assert" name="Next_Step2.DoClick([])" status="Pass"  at="2020-09-08 10:50:30.990" comment="Returned Value: true" />
+<log type="Assert" name="I_agree._By_checking_this_box,_I.DoSetCheck([true])" status="Pass"  at="2020-09-08 10:50:40.661" comment="Returned Value: true" />
+<log type="Assert" name="Checkout.DoClick([])" status="Pass"  at="2020-09-08 10:50:41.872" comment="Returned Value: true" />
+<log type="Message" name="Level 1 : expresscheckout" status="Info"  at="2020-09-08 10:50:41.909"/>
+<log type="Assert" name="//input[contains(@class, &apos;next&apos;)].DoEnsureVisible([])" status="Pass"  at="2020-09-08 10:51:00.989" comment="Returned Value: [object Object]" />
+<log type="Assert" name="//input[contains(@class, &apos;next&apos;)].DoClick([])" status="Pass"  at="2020-09-08 10:51:02.127" comment="Returned Value: true" />
+<log type="Assert" name="Bill_me.DoClick([])" status="Pass"  at="2020-09-08 10:51:34.521" comment="Returned Value: true" />
+<log type="Assert" name="Billing_Reference.DoSetText([&quot;123&quot;])" status="Pass"  at="2020-09-08 10:51:44.131" comment="Returned Value: true" />
+<log type="Assert" name="Submit_Cart.DoClick([])" status="Pass"  at="2020-09-08 10:51:45.350" comment="Returned Value: true" />
+<log type="Assert" name="Object is not found: MX_Balance_Due" status="Fail"  at="2020-09-08 10:51:55.677"><data type="text" caption="What">&lt;b&gt;What happened:&lt;/b&gt; Object is not found: MX_Balance_Due</data>
+<data type="text" caption="Why">&lt;b&gt;Why:&lt;/b&gt; Object is not available on screen or Location property of the object is invalid.</data>
+<data type="text" caption="Next Step">&lt;b&gt;Next step:&lt;/b&gt; If there is a load delay before the application displays the object try to &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;slow down test execution&lt;/a&gt;. To check that &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;Location&lt;/a&gt; of the object is valid &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;Flash&lt;/a&gt; it.</data>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx" text="KB301: Ways to slow down test execution"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB375.aspx" text="KB375: How to check that Rapise can find the object on screen"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB376.aspx" text="KB376: What is object Location?"/>
+<data type="link" url="C:\Spira\MxMasterTest\Meeting Registration\Main.rvl.xlsx(RVL,61,1)" text="C:\Spira\MxMasterTest\Meeting Registration\Main.rvl.xlsx(RVL,61,1)"/>
+</log>
+<log type="Test" name="Membership Test" status="Fail" closed="Membership Test" _guid="undefined"  at="2020-09-08 10:51:55.715" comment="Passed:20 Failed:1 Time:180.375s" />

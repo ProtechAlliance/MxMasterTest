@@ -1,0 +1,35 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-11-29 11:11:41.232"/>
+<log type="Test" name="ProcessMeetingRegistrationCart" status="Info"  at="2020-11-29 11:11:41.928"><data type="text">Test Started: C:\Spira\MxMasterTest\ShoppingCart\ProcessMeetingRegistrationCart\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2020-11-29 11:11:41.939"/>
+<log type="Assert" name="Header - Main Confirmation Block: Text CONTAINS: Payment: Bill To: tmx_Jefferson, Thomas Gift Card: - PO #:" status="Pass"  at="2020-11-29 11:11:43.682"><data type="text">Date of purchase: 11/29/2020 Payment: Bill To: tmx_Jefferson, Thomas Gift Card: - PO #: 12345</data>
+<data type="text">Payment: Bill To: tmx_Jefferson, Thomas Gift Card: - PO #:</data>
+</log>
+<log type="Assert" name="Confirm Header - Address Block Text: Thomas tmx_Jefferson 4949 Yuletide Dr. Columbia, MD 21045 United States" status="Pass"  at="2020-11-29 11:11:43.811"><data type="text">Thomas tmx_Jefferson 4949 Yuletide Dr. Columbia, MD 21045 United States</data>
+<data type="text">Thomas tmx_Jefferson 4949 Yuletide Dr. Columbia, MD 21045 United States</data>
+</log>
+<log type="Assert" name="Footer Total Charges = $195.00" status="Pass"  at="2020-11-29 11:11:43.950"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Assert" name="Footer Sales Tax  = $0.00" status="Pass"  at="2020-11-29 11:11:44.082"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Footer Sales Tax = $195.00" status="Pass"  at="2020-11-29 11:11:44.210"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Assert" name="Footer Gift Card = $0.00" status="Pass"  at="2020-11-29 11:11:44.347"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Footer Previous Payments = $0.00" status="Pass"  at="2020-11-29 11:11:44.498"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Footer Payment = $0.00" status="Pass"  at="2020-11-29 11:11:44.633"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Footer Balance Due  = $195.00" status="Pass"  at="2020-11-29 11:11:44.783"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Message" name="End of Script!  Choose a Next Step Option:" status="Info"  at="2020-11-29 11:11:44.783"/>
+<log type="Message" name="Next Step 1:  Run the Edit Registration script with the current state as the Starting Point." status="Info"  at="2020-11-29 11:11:44.798"/>
+<log type="Message" name="Next Step 2:  Run the script to Delete the UX invoice that was just created, so that the next time the script runs it can be successful." status="Info"  at="2020-11-29 11:11:44.819"/>
+<log type="Test" name="ProcessMeetingRegistrationCart" status="Pass" closed="ProcessMeetingRegistrationCart" _guid="undefined"  at="2020-11-29 11:11:44.830" comment="Passed:9 Failed:0 Time:2.975s" />

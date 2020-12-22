@@ -1,0 +1,13 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-11-30 14:27:04.655"/>
+<log type="Test" name="ShoppingCart-MeetingRegistration" status="Info"  at="2020-11-30 14:27:05.293"><data type="text">Test Started: C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2020-11-30 14:27:05.298"/>
+<log type="Assert" name="Object is not found: &lt;a href=&apos;showobject&apos;&gt;PaymentsAuthorizedbyBluePay&lt;/a&gt;" status="Fail"  at="2020-11-30 14:27:17.854"><data type="text" caption="What">&lt;b&gt;What happened:&lt;/b&gt; Object is not found: &lt;a href=&apos;showobject&apos;&gt;PaymentsAuthorizedbyBluePay&lt;/a&gt;</data>
+<data type="text" caption="Why">&lt;b&gt;Why:&lt;/b&gt; Object is not available on screen or Location property of the object is invalid.</data>
+<data type="text" caption="Next Step">&lt;b&gt;Next step:&lt;/b&gt; If there is a load delay before the application displays the object try to &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;slow down test execution&lt;/a&gt;. To check that &lt;a href=&apos;showxpath:PaymentsAuthorizedbyBluePay&apos;&gt;Location&lt;/a&gt; of the object is valid &lt;a href=&apos;flashobject:PaymentsAuthorizedbyBluePay&apos;&gt;Flash&lt;/a&gt; it.</data>
+<data type="link" url="https://rapisedoc.inflectra.com/Guide/object_not_found/" text="Object Is Not Found - How To Fix"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB375.aspx" text="KB375: How to check that Rapise can find the object on screen"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx" text="KB301: Ways to slow down test execution"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB376.aspx" text="KB376: What is object Location?"/>
+<data type="link" url="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(PaymentInformation1,5,1)" text="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(PaymentInformation1,5,1)"/>
+</log>

@@ -1,0 +1,99 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:6.6.21.22
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+###EditRegistrationPart2 (-2)
+###Starting scenario: RVLSpecialEntryPoint (-2)
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\EditRegistrationPart2\Main.rvl.xlsx
+SetRowIndex: 0:112
+Playing script: Script: C:\Spira\MxMasterTest\EditRegistrationPart2\Main.rvl.xlsx:PurchaseConfirmation, 113 source rows 0 errors
+Looking for object:Confirmation-ShoppingCartNumber
+Connecting to Chrome
+Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
+Accessible object: [ROLE_SYSTEM_WINDOW]
+Using default WebAppProfile
+Chrome Extension Version: 3.0.10
+Chrome active URL: http://mx365dev.ptassoc.com/Shop/Shopping-Cart
+Connected to Chrome window:http://mx365dev.ptassoc.com/Shop/Shopping-Cart
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###Shopping Cart Number:   Order SC-C-001636-046TS (-2)
+Looking for object:ConfirmationHeader-SummaryBlock
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###Confirmation Summary Block:   
+					Order SC-C-001636-046TS
+					
+                        Date of purchase: 12/4/2020
+					    Payment: 
+					    Bill To: tmx_Jefferson, Thomas
+                        Gift Card: -
+                        PO #: 12345
+					
+				 (-2)
+Looking for object:Confirmation-BillToAddressLabel
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Confirmation-BillToAddressBlock
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###Bill To Address:   
+					Bill To Address
+					
+                        Thomas tmx_Jefferson
+                        4949 Yuletide Dr. Columbia, MD 21045 United States
+					
+				 (-2)
+Looking for object:Tester
+### (-2)
+Looking for object:Tester
+###*****Purchase Confirmation FOOTER for Edited Registration***** (-2)
+Looking for object:ConfirmationFooter-1TotalCharges
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Total Charges:  $25.00 (1)
+Looking for object:ConfirmationFooter-2SalesTax
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Sales Tax:  $0.00 (1)
+Looking for object:ConfirmationFooter-3OrderTotal
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Order Total:  $25.00 (1)
+Looking for object:ConfirmationFooter-4GiftCard
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Gift Card:  $0.00 (1)
+Looking for object:ConfirmationFooter-5PreviousPayments
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Previous Payments:  $0.00 (1)
+Looking for object:ConfirmationFooter-6Payment
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Payment:  $0.00 (1)
+Looking for object:ConfirmationFooter-7BalanceDue
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Balance:  $220.00 (1)
+Looking for object:Tester
+###MessageBox: Please Delete the following items in CRM in order to run this script again using the same Contact:,Invoice Detail for this Meeting Registration where Contact = 'tmx_Thomas Jefferson'.,Main Invoice for 'tmx_Thomas Jefferson'.,----->CLICK 'OK' WHEN FINISHED (-2)
+Looking for object:Tester
+###MessageBox: Did you REALLY delete the requested items.  If not, then the script will FAIL when the next person runs it because of the Duplicate Registration. (-2)
+Looking for object:Tester
+###MessageBox: Thanks for your Cooperation! (-2)
+Execution is over, bailing out.
+###EditRegistrationPart2 (1)
+Test execution done
+##############################################################
+Test Pass: EditRegistrationPart2,  (Passed:7 Failed:0 Time:8.687s)
+Test Session Status: Pass Time: 10.249s
+##############################################################

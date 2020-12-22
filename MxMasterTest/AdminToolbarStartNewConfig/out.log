@@ -1,0 +1,19 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:6.6.21.22
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+Connecting to Chrome
+Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
+Accessible object: [ROLE_SYSTEM_WINDOW]
+Using default WebAppProfile
+Chrome Extension Version: 3.0.10
+Chrome active URL: http://mx365dev.ptassoc.com/
+Connected to Chrome window:http://mx365dev.ptassoc.com/
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Found object: (HTMLObject)[-1]

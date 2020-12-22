@@ -1,0 +1,14 @@
+<log type="Session" name="RCLEMPC:RClem" at="2020-10-08 10:16:05.662"/>
+<log type="Test" name="Product Catalogue2" status="Info"  at="2020-10-08 10:16:08.061"><data type="text">Test Started: C:\Spira\MxMasterTest\Product Catalogue2\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-10-08 10:16:08.109"/>
+<log type="Assert" name="Login.DoClick([])" status="Pass"  at="2020-10-08 10:16:13.196" comment="Returned Value: true" />
+<log type="Assert" name="First_Name.DoSetText([&quot;Johny&quot;])" status="Pass"  at="2020-10-08 10:16:14.637" comment="Returned Value: true" />
+<log type="Assert" name="Last_Name.DoSetText([&quot;Product&quot;])" status="Pass"  at="2020-10-08 10:16:15.793" comment="Returned Value: true" />
+<log type="Assert" name="Enter_E-mail.DoSetText([&quot;Product@gmail.com&quot;])" status="Pass"  at="2020-10-08 10:16:16.935" comment="Returned Value: true" />
+<log type="Assert" name="Confirm_E-mail.DoSetText([&quot;Product@gmail.com&quot;])" status="Pass"  at="2020-10-08 10:16:18.060" comment="Returned Value: true" />
+<log type="Assert" name="Create_Password.DoSetText([&quot;Ra1lR0ad&quot;])" status="Pass"  at="2020-10-08 10:16:19.199" comment="Returned Value: true" />
+<log type="Assert" name="Confirm_Password.DoSetText([&quot;Ra1lR0ad&quot;])" status="Pass"  at="2020-10-08 10:16:20.337" comment="Returned Value: true" />
+<log type="Assert" name="Create_New_User.DoClick([])" status="Pass"  at="2020-10-08 10:16:21.796" comment="Returned Value: true" />
+<log type="Assert" name="Execution terminated by user" status="Fail"  at="2020-10-08 10:16:22.498"><data type="link" url="C:\Spira\MxMasterTest\Product Catalogue Purchase\Main.rvl.xlsx(RVL,22,1)" text="C:\Spira\MxMasterTest\Product Catalogue Purchase\Main.rvl.xlsx(RVL,22,1)"/>
+</log>

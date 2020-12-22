@@ -1,0 +1,61 @@
+<log type="Session" name="RCLEMPC:RClem" at="2020-10-06 14:47:31.682"/>
+<log type="Test" name="Product Catalogue Purchase" status="Info"  at="2020-10-06 14:47:33.601"><data type="text">Test Started: C:\Spira\MxMasterTest\Product Catalogue Purchase\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-10-06 14:47:33.623"/>
+<log type="Assert" name="Login.DoClick([])" status="Pass"  at="2020-10-06 14:47:51.602" comment="Returned Value: true" />
+<log type="Assert" name="First_Name.DoSetText([&quot;Johny&quot;])" status="Pass"  at="2020-10-06 14:47:52.726" comment="Returned Value: true" />
+<log type="Assert" name="Last_Name.DoSetText([&quot;Product&quot;])" status="Pass"  at="2020-10-06 14:47:53.867" comment="Returned Value: true" />
+<log type="Assert" name="Enter_E-mail.DoSetText([&quot;Product@gmail.com&quot;])" status="Pass"  at="2020-10-06 14:47:54.971" comment="Returned Value: true" />
+<log type="Assert" name="Confirm_E-mail.DoSetText([&quot;Product@gmail.com&quot;])" status="Pass"  at="2020-10-06 14:47:56.109" comment="Returned Value: true" />
+<log type="Assert" name="Create_Password.DoSetText([&quot;Ra1lR0ad&quot;])" status="Pass"  at="2020-10-06 14:47:57.227" comment="Returned Value: true" />
+<log type="Assert" name="Confirm_Password.DoSetText([&quot;Ra1lR0ad&quot;])" status="Pass"  at="2020-10-06 14:47:58.331" comment="Returned Value: true" />
+<log type="Assert" name="Create_New_User.DoClick([])" status="Pass"  at="2020-10-06 14:47:59.741" comment="Returned Value: true" />
+<log type="Message" name="Level 1 : Shop" status="Info"  at="2020-10-06 14:48:05.786"/>
+<log type="Message" name="Level 2 Horizontal Link: productcatalog" status="Info"  at="2020-10-06 14:48:06.663"/>
+<log type="Assert" name="Name.DoSetText([&quot;tmx&quot;])" status="Pass"  at="2020-10-06 14:48:17.741" comment="Returned Value: true" />
+<log type="Assert" name="Search.DoClick([])" status="Pass"  at="2020-10-06 14:48:19.037" comment="Returned Value: true" />
+<log type="Assert" name="Add_to_Cart.DoClick([])" status="Pass"  at="2020-10-06 14:48:23.473" comment="Returned Value: true" />
+<log type="Message" name="Level 1 : expresscheckout" status="Info"  at="2020-10-06 14:48:23.504"/>
+<log type="Assert" name="//input[contains(@class, &apos;next&apos;)].DoEnsureVisible([])" status="Pass"  at="2020-10-06 14:48:37.956" comment="Returned Value: [object Object]" />
+<log type="Assert" name="//input[contains(@class, &apos;next&apos;)].DoClick([])" status="Pass"  at="2020-10-06 14:48:39.111" comment="Returned Value: true" />
+<log type="Assert" name="Bill_me.DoClick([])" status="Pass"  at="2020-10-06 14:48:54.682" comment="Returned Value: true" />
+<log type="Assert" name="Billing_Reference.DoSetText([&quot;123&quot;])" status="Pass"  at="2020-10-06 14:48:55.800" comment="Returned Value: true" />
+<log type="Assert" name="Submit_Cart.DoClick([])" status="Pass"  at="2020-10-06 14:48:57.024" comment="Returned Value: true" />
+<log type="Message" name="
+			Accept
+		" status="Info"  at="2020-10-06 14:49:04.627"/>
+<log type="Message" name="
+								
+			    $10.00
+		    
+							" status="Info"  at="2020-10-06 14:49:04.648"/>
+<log type="Assert" name="Switch_to_another_app.DoClick([])" status="Pass"  at="2020-10-06 14:49:20.773" comment="Returned Value: true" />
+<log type="Assert" name="UX_365_Online.DoClick([])" status="Pass"  at="2020-10-06 14:49:22.023" comment="Returned Value: true" />
+<log type="Assert" name="Invoices.DoClick([])" status="Pass"  at="2020-10-06 14:49:37.714" comment="Returned Value: true" />
+<log type="Assert" name="Invoice_SearchBox.DoSetText([&quot;INV-02820-N4Z6J2&quot;])" status="Pass"  at="2020-10-06 14:49:38.988" comment="Returned Value: true" />
+<log type="Assert" name="Search_Button.DoClick([])" status="Pass"  at="2020-10-06 14:49:40.833" comment="Returned Value: true" />
+<log type="Assert" name="INV-02820-N4Z6J2.DoLDClick([])" status="Pass"  at="2020-10-06 14:49:42.145" comment="Returned Value: true" />
+<log type="Message" name="the invoice is &apos;INV-02820-N4Z6J2&apos;" status="Info"  at="2020-10-06 14:49:42.173"/>
+<log type="Message" name="$10.00" status="Info"  at="2020-10-06 14:49:44.524"/>
+<log type="Assert" name="The balance dues are equal!" status="Pass"  at="2020-10-06 14:49:44.561"><data type="text">
+								
+			    $10.00
+		    
+							</data>
+<data type="text">$10.00</data>
+</log>
+<log type="Assert" name="//button[@title=&apos;Select All&apos;].DoClick([])" status="Pass"  at="2020-10-06 14:49:57.019" comment="Returned Value: true" />
+<log type="Assert" name="Cancel.DoClick([])" status="Pass"  at="2020-10-06 14:49:59.268" comment="Returned Value: true" />
+<log type="Assert" name="OK.DoClick([])" status="Pass"  at="2020-10-06 14:50:02.499" comment="Returned Value: true" />
+<log type="Assert" name="Weaver,_Earl_A..DoClick([])" status="Pass"  at="2020-10-06 14:50:03.779" comment="Returned Value: true" />
+<log type="Assert" name="//button[@title=&apos;Select All&apos;].DoClick([])" status="Pass"  at="2020-10-06 14:50:11.381" comment="Returned Value: true" />
+<log type="Assert" name="Delete.DoClick([])" status="Pass"  at="2020-10-06 14:50:14.841" comment="Returned Value: true" />
+<log type="Assert" name="G_OpenAreaList.DoEnsureVisible([])" status="Fail"  at="2020-10-06 14:50:16.129"><data type="text">Returned Value: null</data>
+<data type="link" url="C:\Spira\MxMasterTest\User.js(367,4)" text="C:\Spira\MxMasterTest\User.js(367,4)"/>
+<data type="text">SeS(&apos;G_OpenAreaList&apos;).DoEnsureVisible();</data>
+<data type="link" url="C:\Spira\MxMasterTest\Product Catalogue Purchase\Main.rvl.xlsx(Cleanup,11,1)" text="C:\Spira\MxMasterTest\Product Catalogue Purchase\Main.rvl.xlsx(Cleanup,11,1)"/>
+</log>
+<log type="Assert" name="G_OpenAreaList.DoClick([])" status="Pass"  at="2020-10-06 14:50:18.677" comment="Returned Value: true" />
+<log type="Assert" name="//button[@title=&apos;Select All&apos;].DoClick([])" status="Pass"  at="2020-10-06 14:50:32.225" comment="Returned Value: true" />
+<log type="Assert" name="Delete.DoClick([])" status="Pass"  at="2020-10-06 14:50:35.651" comment="Returned Value: true" />
+<log type="Test" name="Product Catalogue Purchase" status="Fail" closed="Product Catalogue Purchase" _guid="undefined"  at="2020-10-06 14:50:35.714" comment="Passed:32 Failed:1 Time:182.196s" />

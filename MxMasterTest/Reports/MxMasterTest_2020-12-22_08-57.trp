@@ -1,0 +1,149 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-12-22 08:52:48.903"/>
+<log type="Test" name="MxMasterTest" status="Info"  at="2020-12-22 08:52:49.770"><data type="text">Test Started: C:\Spira\MxMasterTest\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2020-12-22 08:52:49.771"/>
+<log type="Message" name="*****MY ACCOUNT - CLICK ALL LEVEL 3 BUTTONS*****" status="Info"  at="2020-12-22 08:52:49.940"/>
+<log type="Message" name="Level 1 : My Account" status="Info"  at="2020-12-22 08:52:49.956"/>
+<log type="Message" name="Level 2  Vertical Link: My Profile" status="Info"  at="2020-12-22 08:52:52.621"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;My Profile&apos;)])[1]" status="Info"  at="2020-12-22 08:52:52.633"/>
+<log type="Message" name="Level 3 Horizontal Button: myprofile" status="Info"  at="2020-12-22 08:52:54.012"/>
+<log type="Message" name="Level 1 : My Account" status="Info"  at="2020-12-22 08:52:54.873"/>
+<log type="Message" name="Level 2  Vertical Link: My Company" status="Info"  at="2020-12-22 08:52:55.748"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;My Company&apos;)])[1]" status="Info"  at="2020-12-22 08:52:55.759"/>
+<log type="Message" name="Level 3 Horizontal Button: mycompany" status="Info"  at="2020-12-22 08:53:13.491"/>
+<log type="Message" name="Level 1 : My Account" status="Info"  at="2020-12-22 08:53:14.312"/>
+<log type="Message" name="Level 2  Vertical Link: My Membership" status="Info"  at="2020-12-22 08:53:15.197"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;My Membership&apos;)])[1]" status="Info"  at="2020-12-22 08:53:15.209"/>
+<log type="Message" name="Level 3 Horizontal Button: mymembership" status="Info"  at="2020-12-22 08:53:16.055"/>
+<log type="Message" name="Level 1 : My Account" status="Info"  at="2020-12-22 08:53:16.889"/>
+<log type="Message" name="Level 2  Vertical Link: My Registrations" status="Info"  at="2020-12-22 08:53:17.684"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;My Registrations&apos;)])[1]" status="Info"  at="2020-12-22 08:53:17.697"/>
+<log type="Message" name="Level 3 Horizontal Button: myregistrations" status="Info"  at="2020-12-22 08:53:18.526"/>
+<log type="Message" name="Level 1 : My Account" status="Info"  at="2020-12-22 08:53:19.404"/>
+<log type="Message" name="Level 2  Vertical Link: My Invoices" status="Info"  at="2020-12-22 08:53:20.266"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;My Invoices&apos;)])[1]" status="Info"  at="2020-12-22 08:53:20.278"/>
+<log type="Message" name="Level 3 Horizontal Button: myinvoices" status="Info"  at="2020-12-22 08:53:21.124"/>
+<log type="Message" name="Level 1 : My Account" status="Info"  at="2020-12-22 08:53:21.942"/>
+<log type="Message" name="Level 2  Vertical Link: My Downloads" status="Info"  at="2020-12-22 08:53:22.747"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;My Downloads&apos;)])[1]" status="Info"  at="2020-12-22 08:53:22.763"/>
+<log type="Message" name="Level 3 Horizontal Button: mydownloads" status="Info"  at="2020-12-22 08:53:23.631"/>
+<log type="Message" name="Level 1 : My Account" status="Info"  at="2020-12-22 08:53:24.496"/>
+<log type="Message" name="Level 2  Vertical Link: My Exhibits" status="Info"  at="2020-12-22 08:53:25.316"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;My Exhibits&apos;)])[1]" status="Info"  at="2020-12-22 08:53:25.331"/>
+<log type="Message" name="Level 3 Horizontal Button: myexhibits" status="Info"  at="2020-12-22 08:53:26.164"/>
+<log type="Message" name="Level 1 : My Account" status="Info"  at="2020-12-22 08:53:26.992"/>
+<log type="Message" name="Level 2  Vertical Link: My Settings" status="Info"  at="2020-12-22 08:53:27.793"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;My Settings&apos;)])[1]" status="Info"  at="2020-12-22 08:53:27.808"/>
+<log type="Message" name="Level 3 Horizontal Button: mysettings" status="Info"  at="2020-12-22 08:53:28.614"/>
+<log type="Message" name="" status="Info"  at="2020-12-22 08:53:29.434"/>
+<log type="Message" name="*****MEMBERSHIP - CLICK ALL LEVEL 2 LINKS*****" status="Info"  at="2020-12-22 08:53:29.446"/>
+<log type="Message" name="Level 1 : Membership" status="Info"  at="2020-12-22 08:53:29.459"/>
+<log type="Message" name="Level 2  Vertical Link: Join" status="Info"  at="2020-12-22 08:53:30.278"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;Join&apos;)])[1]" status="Info"  at="2020-12-22 08:53:30.290"/>
+<log type="Assert" name="The Ojbect was NOT found.  Please REVIEW: Join" status="Fail"  at="2020-12-22 08:53:40.495"><data type="link" url="C:\Spira\MxMasterTest\User.js(84,2)" text="C:\Spira\MxMasterTest\User.js(84,2)"/>
+<data type="text">Tester.Assert(&quot;The Ojbect was NOT found.  Please REVIEW: &quot; + modulestart, false);</data>
+<data type="link" url="C:\Spira\MxMasterTest\Main.rvl.xlsx(ClickLevels2And3,55,1)" text="C:\Spira\MxMasterTest\Main.rvl.xlsx(ClickLevels2And3,55,1)"/>
+</log>
+<log type="Message" name="Level 1 : Membership" status="Info"  at="2020-12-22 08:53:40.514"/>
+<log type="Message" name="Level 2  Vertical Link: Apply" status="Info"  at="2020-12-22 08:53:41.356"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;Apply&apos;)])[1]" status="Info"  at="2020-12-22 08:53:41.367"/>
+<log type="Message" name="Level 1 : Membership" status="Info"  at="2020-12-22 08:53:46.779"/>
+<log type="Message" name="Level 2  Vertical Link: Member" status="Info"  at="2020-12-22 08:53:47.652"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;Member&apos;)])[1]" status="Info"  at="2020-12-22 08:53:47.663"/>
+<log type="Message" name="Level 1 : Membership" status="Info"  at="2020-12-22 08:54:05.406"/>
+<log type="Message" name="Level 2  Vertical Link: Renew" status="Info"  at="2020-12-22 08:54:09.935"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;Renew&apos;)])[1]" status="Info"  at="2020-12-22 08:54:09.946"/>
+<log type="Message" name="Level 1 : Membership" status="Info"  at="2020-12-22 08:54:11.401"/>
+<log type="Message" name="Level 2  Vertical Link: Manage Our Members" status="Info"  at="2020-12-22 08:54:12.259"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;Manage Our Members&apos;)])[1]" status="Info"  at="2020-12-22 08:54:12.272"/>
+<log type="Message" name="." status="Info"  at="2020-12-22 08:54:13.383"/>
+<log type="Message" name="*****GET INVOLVED- CLICK ALL LEVEL 2 LINKS*****" status="Info"  at="2020-12-22 08:54:13.401"/>
+<log type="Message" name="Level 1 : Get Involved" status="Info"  at="2020-12-22 08:54:13.414"/>
+<log type="Message" name="Level 2 Horizontal Link: ourchapters" status="Info"  at="2020-12-22 08:54:14.272"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;ourchapters&apos;)]" status="Info"  at="2020-12-22 08:54:14.286"/>
+<log type="Message" name="Level 1 : Get Involved" status="Info"  at="2020-12-22 08:54:20.715"/>
+<log type="Message" name="Level 2 Horizontal Link: ourcommittees" status="Info"  at="2020-12-22 08:54:21.538"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;ourcommittees&apos;)]" status="Info"  at="2020-12-22 08:54:21.549"/>
+<log type="Message" name="Level 1 : Get Involved" status="Info"  at="2020-12-22 08:54:22.916"/>
+<log type="Message" name="Level 2 Horizontal Link: mycommittees" status="Info"  at="2020-12-22 08:54:23.778"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;mycommittees&apos;)]" status="Info"  at="2020-12-22 08:54:23.793"/>
+<log type="Message" name="." status="Info"  at="2020-12-22 08:54:25.138"/>
+<log type="Message" name="*****DIRECTORIES- CLICK ALL LEVEL 2 LINKS*****" status="Info"  at="2020-12-22 08:54:25.151"/>
+<log type="Message" name="Level 1 : Directories" status="Info"  at="2020-12-22 08:54:25.169"/>
+<log type="Message" name="Level 2 Horizontal Link: boardofdirectors" status="Info"  at="2020-12-22 08:54:26.008"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;boardofdirectors&apos;)]" status="Info"  at="2020-12-22 08:54:26.019"/>
+<log type="Message" name="Level 1 : Directories" status="Info"  at="2020-12-22 08:54:31.560"/>
+<log type="Message" name="Level 2 Horizontal Link: members" status="Info"  at="2020-12-22 08:54:32.452"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;members&apos;)]" status="Info"  at="2020-12-22 08:54:32.469"/>
+<log type="Message" name="Level 1 : Directories" status="Info"  at="2020-12-22 08:54:33.782"/>
+<log type="Message" name="Level 2 Horizontal Link: membercompanies" status="Info"  at="2020-12-22 08:54:34.711"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;membercompanies&apos;)]" status="Info"  at="2020-12-22 08:54:34.724"/>
+<log type="Message" name="Level 1 : Directories" status="Info"  at="2020-12-22 08:54:36.047"/>
+<log type="Message" name="Level 2 Horizontal Link: companylocations" status="Info"  at="2020-12-22 08:54:40.355"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;companylocations&apos;)]" status="Info"  at="2020-12-22 08:54:40.373"/>
+<log type="Message" name="Level 1 : Directories" status="Info"  at="2020-12-22 08:54:41.837"/>
+<log type="Message" name="Level 2 Horizontal Link: memberlocations" status="Info"  at="2020-12-22 08:54:59.479"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;memberlocations&apos;)]" status="Info"  at="2020-12-22 08:54:59.493"/>
+<log type="Message" name="" status="Info"  at="2020-12-22 08:55:00.922"/>
+<log type="Message" name="*****EVENTS- CLICK ALL LEVEL 2 LINKS*****" status="Info"  at="2020-12-22 08:55:00.940"/>
+<log type="Message" name="Level 1 : Events" status="Info"  at="2020-12-22 08:55:00.952"/>
+<log type="Message" name="Level 2 Horizontal Link: calendarofevents" status="Info"  at="2020-12-22 08:55:18.667"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;calendarofevents&apos;)]" status="Info"  at="2020-12-22 08:55:18.682"/>
+<log type="Message" name="Level 1 : Events" status="Info"  at="2020-12-22 08:55:20.180"/>
+<log type="Message" name="Level 2 Horizontal Link: courses" status="Info"  at="2020-12-22 08:55:21.108"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;courses&apos;)]" status="Info"  at="2020-12-22 08:55:21.126"/>
+<log type="Message" name="Level 1 : Events" status="Info"  at="2020-12-22 08:55:22.547"/>
+<log type="Message" name="Level 2 Horizontal Link: webinars" status="Info"  at="2020-12-22 08:55:40.357"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;webinars&apos;)]" status="Info"  at="2020-12-22 08:55:40.372"/>
+<log type="Message" name="" status="Info"  at="2020-12-22 08:55:41.758"/>
+<log type="Message" name="*****SHOP- CLICK ALL LEVEL 2 LINKS*****" status="Info"  at="2020-12-22 08:55:41.775"/>
+<log type="Message" name="Level 1 : Shop" status="Info"  at="2020-12-22 08:55:41.789"/>
+<log type="Message" name="Level 2 Horizontal Link: productcatalog" status="Info"  at="2020-12-22 08:55:59.503"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;productcatalog&apos;)]" status="Info"  at="2020-12-22 08:55:59.526"/>
+<log type="Message" name="Level 1 : Shop" status="Info"  at="2020-12-22 08:56:00.951"/>
+<log type="Message" name="Level 2 Horizontal Link: donate" status="Info"  at="2020-12-22 08:56:01.827"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;donate&apos;)]" status="Info"  at="2020-12-22 08:56:01.839"/>
+<log type="Message" name="Level 1 : Shop" status="Info"  at="2020-12-22 08:56:02.729"/>
+<log type="Message" name="Level 2 Horizontal Link: subscriptions" status="Info"  at="2020-12-22 08:56:03.543"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;subscriptions&apos;)]" status="Info"  at="2020-12-22 08:56:03.557"/>
+<log type="Message" name="Level 1 : Shop" status="Info"  at="2020-12-22 08:56:04.448"/>
+<log type="Message" name="Level 2 Horizontal Link: packages" status="Info"  at="2020-12-22 08:56:05.290"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;packages&apos;)]" status="Info"  at="2020-12-22 08:56:05.303"/>
+<log type="Message" name="Level 1 : Shop" status="Info"  at="2020-12-22 08:56:06.148"/>
+<log type="Message" name="Level 2 Horizontal Link: advertising" status="Info"  at="2020-12-22 08:56:07.024"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;advertising&apos;)]" status="Info"  at="2020-12-22 08:56:07.037"/>
+<log type="Assert" name="The Ojbect was NOT found.  Please REVIEW: advertising" status="Fail"  at="2020-12-22 08:56:17.199"><data type="link" url="C:\Spira\MxMasterTest\User.js(109,2)" text="C:\Spira\MxMasterTest\User.js(109,2)"/>
+<data type="text">Tester.Assert(&quot;The Ojbect was NOT found.  Please REVIEW: &quot; + modulestart, false);</data>
+<data type="link" url="C:\Spira\MxMasterTest\Main.rvl.xlsx(ClickLevels2And3,119,1)" text="C:\Spira\MxMasterTest\Main.rvl.xlsx(ClickLevels2And3,119,1)"/>
+</log>
+<log type="Message" name="Level 1 : Shop" status="Info"  at="2020-12-22 08:56:17.216"/>
+<log type="Message" name="Level 2 Horizontal Link: shoppingcart" status="Info"  at="2020-12-22 08:56:18.073"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;shoppingcart&apos;)]" status="Info"  at="2020-12-22 08:56:18.091"/>
+<log type="Message" name="" status="Info"  at="2020-12-22 08:56:35.747"/>
+<log type="Message" name="Level 1 : Directories" status="Info"  at="2020-12-22 08:56:35.902"/>
+<log type="Message" name="Level 2 Horizontal Link: boardofdirectors" status="Info"  at="2020-12-22 08:56:36.713"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;boardofdirectors&apos;)]" status="Info"  at="2020-12-22 08:56:36.740"/>
+<log type="Message" name="Level3 Horizontal Button: members" status="Info"  at="2020-12-22 08:56:42.214"/>
+<log type="Message" name="Level3 Horizontal Button: membercompanies" status="Info"  at="2020-12-22 08:56:46.540"/>
+<log type="Message" name="Level3 Horizontal Button: companylocations" status="Info"  at="2020-12-22 08:56:46.858"/>
+<log type="Message" name="Level3 Horizontal Button: memberlocations" status="Info"  at="2020-12-22 08:56:47.190"/>
+<log type="Message" name="Level 1 : Events" status="Info"  at="2020-12-22 08:56:47.643"/>
+<log type="Message" name="Level 2 Horizontal Link: calendarofevents" status="Info"  at="2020-12-22 08:56:48.744"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;calendarofevents&apos;)]" status="Info"  at="2020-12-22 08:56:48.758"/>
+<log type="Message" name="Level3 Horizontal Button: calendarofevents" status="Info"  at="2020-12-22 08:56:50.230"/>
+<log type="Message" name="Level3 Horizontal Button: courses" status="Info"  at="2020-12-22 08:56:54.569"/>
+<log type="Message" name="Level3 Horizontal Button: webinars" status="Info"  at="2020-12-22 08:56:54.853"/>
+<log type="Message" name="Level 1 : Shop" status="Info"  at="2020-12-22 08:56:55.286"/>
+<log type="Message" name="Level 2 Horizontal Link: productcatalog" status="Info"  at="2020-12-22 08:56:56.420"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;productcatalog&apos;)]" status="Info"  at="2020-12-22 08:56:56.432"/>
+<log type="Message" name="Level3 Horizontal Button: productcatalog" status="Info"  at="2020-12-22 08:56:57.891"/>
+<log type="Message" name="Level3 Horizontal Button: donate" status="Info"  at="2020-12-22 08:57:03.312"/>
+<log type="Message" name="Level3 Horizontal Button: subscriptions" status="Info"  at="2020-12-22 08:57:03.644"/>
+<log type="Message" name="Level3 Horizontal Button: packages" status="Info"  at="2020-12-22 08:57:03.982"/>
+<log type="Message" name="Level3 Horizontal Button: advertising" status="Info"  at="2020-12-22 08:57:04.297"/>
+<log type="Assert" name="The Ojbect was NOT found.  Please REVIEW: advertising" status="Fail"  at="2020-12-22 08:57:15.146"><data type="link" url="C:\Spira\MxMasterTest\User.js(184,2)" text="C:\Spira\MxMasterTest\User.js(184,2)"/>
+<data type="text">Tester.Assert(&quot;The Ojbect was NOT found.  Please REVIEW: &quot; + modulestart, false);</data>
+<data type="link" url="C:\Spira\MxMasterTest\Main.rvl.xlsx(ProbeShoppingCartButtons,12,1)" text="C:\Spira\MxMasterTest\Main.rvl.xlsx(ProbeShoppingCartButtons,12,1)"/>
+</log>
+<log type="Message" name="Level3 Horizontal Button: shoppingcart" status="Info"  at="2020-12-22 08:57:15.161"/>
+<log type="Test" name="MxMasterTest" status="Fail" closed="MxMasterTest" _guid="undefined"  at="2020-12-22 08:57:15.446" comment="Passed:0 Failed:3 Time:265.79s" />

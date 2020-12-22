@@ -1,0 +1,70 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-12-06 12:27:29.040"/>
+<log type="Test" name="Fundraising" status="Info"  at="2020-12-06 12:27:29.926"><data type="text">Test Started: C:\Spira\MxMasterTest\Fundraising\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-12-06 12:27:29.929"/>
+<log type="Assert" name="Login.DoClick([])" status="Pass"  at="2020-12-06 12:27:33.061" comment="Returned Value: true" />
+<log type="Assert" name="Username.DoSetText([&quot;Tom@ImAbadBoy.com&quot;])" status="Pass"  at="2020-12-06 12:27:34.203" comment="Returned Value: true" />
+<log type="Assert" name="Password.DoSetText([&quot;Tom@ImAbadBoy.com&quot;])" status="Pass"  at="2020-12-06 12:27:35.320" comment="Returned Value: true" />
+<log type="Assert" name="SignInButton.DoClick([])" status="Pass"  at="2020-12-06 12:27:36.638" comment="Returned Value: true" />
+<log type="Message" name="Level 1 : Shop" status="Info"  at="2020-12-06 12:27:36.652"/>
+<log type="Message" name="Level 2 Horizontal Link: donate" status="Info"  at="2020-12-06 12:27:37.459"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;donate&apos;)]" status="Info"  at="2020-12-06 12:27:37.471"/>
+<log type="Assert" name="tmx_MonetaryContribution.DoClick([])" status="Pass"  at="2020-12-06 12:27:44.683" comment="Returned Value: true" />
+<log type="Assert" name="tmx_BeYourOwnSponsor.DoClick([])" status="Pass"  at="2020-12-06 12:27:48.049" comment="Returned Value: true" />
+<log type="Assert" name="Amount-MonetaryContribution.DoSetText([&quot;99&quot;])" status="Pass"  at="2020-12-06 12:27:49.187" comment="Returned Value: true" />
+<log type="Assert" name="AddToCart-MonetaryContribution.DoClick([])" status="Pass"  at="2020-12-06 12:27:50.493" comment="Returned Value: true" />
+<log type="Assert" name="Count of Items in Cart:  You currently have 1 items in your cart" status="Pass"  at="2020-12-06 12:28:01.066"><data type="text">You currently have 1 items in your cart</data>
+<data type="text">You currently have 1 items in your cart</data>
+</log>
+<log type="Assert" name="Monetary Contribution Line item 1:  tmx_Monetary Contribution" status="Pass"  at="2020-12-06 12:28:01.204"><data type="text">tmx_Monetary Contribution</data>
+<data type="text">tmx_Monetary Contribution</data>
+</log>
+<log type="Assert" name="Monetary Contribtion Line item Extended Amount:  $99.00" status="Pass"  at="2020-12-06 12:28:01.320"><data type="text">$99.00</data>
+<data type="text">$99.00</data>
+</log>
+<log type="Assert" name="Grid Footer Subtotal:  $99.00" status="Pass"  at="2020-12-06 12:28:01.455"><data type="text">$99.00</data>
+<data type="text">$99.00</data>
+</log>
+<log type="Assert" name="Summary - Purchase Subtotal:  $99.00" status="Pass"  at="2020-12-06 12:28:01.604"><data type="text">$99.00</data>
+<data type="text">$99.00</data>
+</log>
+<log type="Assert" name="Summary - Sales Tax:  $0.00" status="Pass"  at="2020-12-06 12:28:01.867"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Summary - OrderTotal:  $99.00" status="Pass"  at="2020-12-06 12:28:02.005"><data type="text">$99.00</data>
+<data type="text">$99.00</data>
+</log>
+<log type="Message" name="Level 1 : Shop" status="Info"  at="2020-12-06 12:28:02.121"/>
+<log type="Message" name="Level 2 Horizontal Link: donate" status="Info"  at="2020-12-06 12:28:03.240"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;donate&apos;)]" status="Info"  at="2020-12-06 12:28:03.254"/>
+<log type="Assert" name="Validation Message:   Your gift has been added to the cart. Click Checkout to enter payment" status="Pass"  at="2020-12-06 12:28:05.810"><data type="text">Your gift has been added to the cart. Click Checkout to enter payment</data>
+<data type="text">Your gift has been added to the cart. Click Checkout to enter payment</data>
+</log>
+<log type="Assert" name="tmx_MonetaryPLEDGE.DoClick([])" status="Pass"  at="2020-12-06 12:28:07.513" comment="Returned Value: true" />
+<log type="Assert" name="tmx_TakeItOrLeaveItPledge.DoClick([])" status="Pass"  at="2020-12-06 12:28:10.899" comment="Returned Value: true" />
+<log type="Assert" name="Amount-PLEDGE.DoClick([])" status="Pass"  at="2020-12-06 12:28:12.300" comment="Returned Value: true" />
+<log type="Assert" name="AddToCartPLEDGE.DoClick([])" status="Pass"  at="2020-12-06 12:28:13.636" comment="Returned Value: true" />
+<log type="Assert" name="Count of Items in Cart:  You currently have 2 items in your cart" status="Pass"  at="2020-12-06 12:28:17.760"><data type="text">You currently have 2 items in your cart</data>
+<data type="text">You currently have 2 items in your cart</data>
+</log>
+<log type="Assert" name="Contribution Line item:  tmx_Monetary PLEDGE Short-Term" status="Pass"  at="2020-12-06 12:28:17.905"><data type="text">tmx_Monetary PLEDGE Short-Term</data>
+<data type="text">tmx_Monetary PLEDGE Short-Term</data>
+</log>
+<log type="Assert" name="Line item Extended Amount:  $0.00" status="Pass"  at="2020-12-06 12:28:18.045"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Grid Footer Subtotal:  $99.00" status="Pass"  at="2020-12-06 12:28:18.177"><data type="text">$99.00</data>
+<data type="text">$99.00</data>
+</log>
+<log type="Assert" name="Summary - Purchase Subtotal:  $99.00" status="Pass"  at="2020-12-06 12:28:18.308"><data type="text">$99.00</data>
+<data type="text">$99.00</data>
+</log>
+<log type="Assert" name="Summary - Sales Tax:  $0.00" status="Pass"  at="2020-12-06 12:28:18.577"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Summary - OrderTotal:  $99.00" status="Pass"  at="2020-12-06 12:28:18.730"><data type="text">$99.00</data>
+<data type="text">$99.00</data>
+</log>
+<log type="Assert" name="ClearCartLink.DoClick([])" status="Pass"  at="2020-12-06 12:28:20.499" comment="Returned Value: true" />
+<log type="Message" name="The Shopping Cart for this test has successfully been Cancelled!" status="Info"  at="2020-12-06 12:28:20.558"/>
+<log type="Test" name="Fundraising" status="Pass" closed="Fundraising" _guid="undefined"  at="2020-12-06 12:28:20.569" comment="Passed:28 Failed:0 Time:50.723s" />

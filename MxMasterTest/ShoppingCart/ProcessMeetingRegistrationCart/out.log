@@ -1,0 +1,70 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:6.6.21.22
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+###ProcessMeetingRegistrationCart (-2)
+###Starting scenario: RVLSpecialEntryPoint (-2)
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\ShoppingCart\ProcessMeetingRegistrationCart\Main.rvl.xlsx
+SetRowIndex: 0:92
+Playing script: Script: C:\Spira\MxMasterTest\ShoppingCart\ProcessMeetingRegistrationCart\Main.rvl.xlsx:ValidatePurchaseConfirmation, 93 source rows 0 errors
+Looking for object:Header-ConfirmationBlock1
+Connecting to Chrome
+Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
+Accessible object: [ROLE_SYSTEM_WINDOW]
+Using default WebAppProfile
+Chrome Extension Version: 3.0.10
+Chrome active URL: http://mx365dev.ptassoc.com/Shop/Shopping-Cart
+Connected to Chrome window:http://mx365dev.ptassoc.com/Shop/Shopping-Cart
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Header - Main Confirmation Block: Text CONTAINS: Payment: Bill To: tmx_Jefferson, Thomas Gift Card: - PO #: (1)
+Looking for object:Header-BillToAddressBlock
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Confirm Header - Address Block Text: Thomas tmx_Jefferson 4949 Yuletide Dr. Columbia, MD 21045 United States (1)
+Looking for object:Footer-TotalCharges
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Footer Total Charges = $195.00 (1)
+Looking for object:Footer-SalesTax
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Footer Sales Tax  = $0.00 (1)
+Looking for object:Footer-OrderTotal
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Footer Sales Tax = $195.00 (1)
+Looking for object:Footer-GiftCard
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Footer Gift Card = $0.00 (1)
+Looking for object:Footer-PreviousPayments
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Footer Previous Payments = $0.00 (1)
+Looking for object:Footer-Payment
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Footer Payment = $0.00 (1)
+Looking for object:Footer-BalanceDue
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Footer Balance Due  = $195.00 (1)
+Looking for object:Tester
+###End of Script!  Choose a Next Step Option: (-2)
+Looking for object:Tester
+###Next Step 1:  Run the Edit Registration script with the current state as the Starting Point. (-2)
+Looking for object:Tester
+###Next Step 2:  Run the script to Delete the UX invoice that was just created, so that the next time the script runs it can be successful. (-2)
+Execution is over, bailing out.
+###ProcessMeetingRegistrationCart (1)
+Test execution done
+##############################################################
+Test Pass: ProcessMeetingRegistrationCart,  (Passed:9 Failed:0 Time:2.975s)
+Test Session Status: Pass Time: 4.47s
+##############################################################

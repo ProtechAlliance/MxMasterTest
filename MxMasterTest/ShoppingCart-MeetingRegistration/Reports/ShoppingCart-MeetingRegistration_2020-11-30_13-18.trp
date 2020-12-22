@@ -1,0 +1,72 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-11-30 13:18:22.211"/>
+<log type="Test" name="ShoppingCart-MeetingRegistration" status="Info"  at="2020-11-30 13:18:22.912"><data type="text">Test Started: C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-11-30 13:18:22.916"/>
+<log type="Assert" name="see_details.DoClick([])" status="Pass"  at="2020-11-30 13:18:25.957" comment="Returned Value: true" />
+<log type="Assert" name="Main Registrant Name: tmx_Jefferson, Thomas" status="Pass"  at="2020-11-30 13:18:26.193"><data type="text">tmx_Jefferson, Thomas</data>
+<data type="text">tmx_Jefferson, Thomas</data>
+</log>
+<log type="Assert" name="Registration Name:  tmx_Main Registration" status="Pass"  at="2020-11-30 13:18:26.342"><data type="text">tmx_Main Registration</data>
+<data type="text">tmx_Main Registration</data>
+</log>
+<log type="Assert" name="Main Registration Price  = $100.00" status="Pass"  at="2020-11-30 13:18:26.474"><data type="text">$100.00</data>
+<data type="text">$100.00</data>
+</log>
+<log type="Assert" name="Main Session Name = tmx_Main Session 1" status="Pass"  at="2020-11-30 13:18:26.627"><data type="text">tmx_Main Session 1</data>
+<data type="text">tmx_Main Session 1</data>
+</log>
+<log type="Assert" name="tmx_Main Session 1 Price = $50.00" status="Pass"  at="2020-11-30 13:18:26.758"><data type="text">$50.00</data>
+<data type="text">$50.00</data>
+</log>
+<log type="Assert" name="Row 2 Session Name:  tmx_Packaged Session 1" status="Pass"  at="2020-11-30 13:18:26.889"><data type="text">tmx_Packaged Session 1</data>
+<data type="text">tmx_Packaged Session 1</data>
+</log>
+<log type="Assert" name="tmx_Packaged Session 1 Price = $10.00" status="Pass"  at="2020-11-30 13:18:27.019"><data type="text">$10.00</data>
+<data type="text">$10.00</data>
+</log>
+<log type="Assert" name="Row 3 Session Name:  tmx_Complimentary Session 1" status="Pass"  at="2020-11-30 13:18:27.158"><data type="text">
+                                            tmx_Complimentary Session
+                                            
+                                        </data>
+<data type="text">tmx_Complimentary Session</data>
+</log>
+<log type="Assert" name="tmx_Complimentary Session Price = $0.00" status="Pass"  at="2020-11-30 13:18:27.286"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Guest Registration Name:  tmx_Adams, John" status="Pass"  at="2020-11-30 13:18:27.441"><data type="text">tmx_Adams, John</data>
+<data type="text">tmx_Adams, John</data>
+</log>
+<log type="Assert" name="Guest Registration:  tmx_Guest Registration" status="Pass"  at="2020-11-30 13:18:27.575"><data type="text">tmx_Guest Registration</data>
+<data type="text">tmx_Guest Registration</data>
+</log>
+<log type="Assert" name="Guest Registration Price:  $25.00" status="Pass"  at="2020-11-30 13:18:27.650"><data type="text">$25.00</data>
+<data type="text">$25.00</data>
+</log>
+<log type="Assert" name="Guest Session 1: tmx_PackagedSession1" status="Pass"  at="2020-11-30 13:18:27.715"><data type="text">
+                                            tmx_Packaged Session 1
+                                            
+                                        </data>
+<data type="text">tmx_Packaged Session 1</data>
+</log>
+<log type="Assert" name="tmx_Packaged Session 1Price:  $10.00" status="Pass"  at="2020-11-30 13:18:27.780"><data type="text">$10.00</data>
+<data type="text">$10.00</data>
+</log>
+<log type="Assert" name="Total Detail Amount:  $195.00" status="Pass"  at="2020-11-30 13:18:27.854"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Assert" name="Purchase Subtotal = $195.00" status="Pass"  at="2020-11-30 13:18:28.077"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Assert" name="Sales Tax = $0.00" status="Pass"  at="2020-11-30 13:18:28.232"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Order Total =  $195.00" status="Pass"  at="2020-11-30 13:18:28.375"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Assert" name="Cart Bill To: Thomas tmx_Jefferson" status="Pass"  at="2020-11-30 13:18:28.510"><data type="text">Thomas tmx_Jefferson</data>
+<data type="text">Thomas tmx_Jefferson</data>
+</log>
+<log type="Assert" name="Express_Checkout.DoClick([])" status="Pass"  at="2020-11-30 13:18:29.868" comment="Returned Value: true" />
+<log type="Assert" name="Error attaching to spreadsheet: Error attaching to Excel spreadsheet: C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx : &apos;PaymentInformation$&apos; is not a valid name.  Make sure that it does not include invalid characters or punctuation and that it is not too long." status="Fail"  at="2020-11-30 13:18:29.948"><data type="link" url="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(RightSummaryTotals,36,1)" text="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(RightSummaryTotals,36,1)"/>
+</log>
+<log type="Test" name="ShoppingCart-MeetingRegistration" status="Fail" closed="ShoppingCart-MeetingRegistration" _guid="undefined"  at="2020-11-30 13:18:29.971" comment="Passed:21 Failed:1 Time:7.134s" />

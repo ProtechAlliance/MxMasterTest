@@ -1,0 +1,54 @@
+# ShoppingCart-MeetingRegistration
+# Starting scenario: Test
+ok 1 - see_details.DoClick([])
+ok 2 - Main Registrant Name: tmx_Jefferson, Thomas
+ok 3 - Registration Name:  tmx_Main Registration
+ok 4 - Main Registration Price  = $100.00
+ok 5 - Main Session Name = tmx_Main Session 1
+ok 6 - tmx_Main Session 1 Price = $50.00
+ok 7 - Row 2 Session Name:  tmx_Packaged Session 1
+ok 8 - tmx_Packaged Session 1 Price = $10.00
+ok 9 - Row 3 Session Name:  tmx_Complimentary Session 1
+ok 10 - tmx_Complimentary Session Price = $0.00
+ok 11 - Guest Registration Name:  tmx_Adams, John
+ok 12 - Guest Registration:  tmx_Guest Registration
+ok 13 - Guest Registration Price:  $25.00
+ok 14 - Guest Session 1: tmx_PackagedSession1
+ok 15 - tmx_Packaged Session 1Price:  $10.00
+ok 16 - Total Detail Amount:  $195.00
+ok 17 - Purchase Subtotal = $195.00
+ok 18 - Sales Tax = $0.00
+ok 19 - Order Total =  $195.00
+ok 20 - Cart Bill To: Thomas tmx_Jefferson
+ok 21 - Express_Checkout.DoClick([])
+ok 22 - BillMeLater.DoClick([])
+ok 23 - BillingReference.DoSetText(["12345"])
+ok 24 - SubmitOrder-BillMeLater.DoClick([])
+# Shopping Cart Number:   Order SC-C-001636-R51FN
+# Confirmation Summary Block:   
+# 					Order SC-C-001636-R51FN
+# 					
+#                         Date of purchase: 12/4/2020
+# 					    Payment: 
+# 					    Bill To: tmx_Jefferson, Thomas
+#                         Gift Card: -
+#                         PO #: 12345
+# 					
+# 				
+# Bill To Address:   
+# 					Bill To Address
+# 					
+#                         Thomas tmx_Jefferson
+#                         4949 Yuletide Dr. Columbia, MD 21045 United States
+# 					
+# 				
+# 
+# *****Purchase Confirmation FOOTER
+ok 25 - Total Charges:  $195.00
+ok 26 - Sales Tax:  $0.00
+ok 27 - Order Total:  $195.00
+ok 28 - Gift Card:  $0.00
+ok 29 - Previous Payments:  $0.00
+ok 30 - Payment:  $0.00
+ok 31 - Balance:  $195.00
+ok 32 - ShoppingCart-MeetingRegistration

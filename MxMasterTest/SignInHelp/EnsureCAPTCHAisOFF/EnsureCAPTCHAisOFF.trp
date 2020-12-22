@@ -1,0 +1,13 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-10-13 17:26:56.087"/>
+<log type="Test" name="EnsureCAPTCHAisOFF" status="Info"  at="2020-10-13 17:26:56.886"><data type="text">Test Started: C:\Spira\MxMasterTest\SignInHelp\EnsureCAPTCHAisOFF\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-10-13 17:26:56.890"/>
+<log type="Message" name="The value of the &apos;signedin&apos; variable is true" status="Info"  at="2020-10-13 17:26:59.292"/>
+<log type="Message" name="The User is already signed in - Continue." status="Info"  at="2020-10-13 17:26:59.299"/>
+<log type="Assert" name="SignInHelpConfigurationLink.DoClick([])" status="Pass"  at="2020-10-13 17:27:00.670" comment="Returned Value: true" />
+<log type="Assert" name="Configuration-SecretQuestionSubform.DoClick([])" status="Pass"  at="2020-10-13 17:27:02.234" comment="Returned Value: true" />
+<log type="Assert" name="Use_CAPTCHA_verification1.DoEnsureVisible([])" status="Pass"  at="2020-10-13 17:27:03.419" comment="Returned Value: [object Object]" />
+<log type="Assert" name="Use_CAPTCHA_verification1.DoSetCheck([false])" status="Pass"  at="2020-10-13 17:27:04.533" comment="Returned Value: true" />
+<log type="Message" name="Use Captcha Verification:   on" status="Info"  at="2020-10-13 17:27:04.594"/>
+<log type="Assert" name="Save.DoClick([])" status="Pass"  at="2020-10-13 17:27:05.816" comment="Returned Value: true" />
+<log type="Test" name="EnsureCAPTCHAisOFF" status="Pass" closed="EnsureCAPTCHAisOFF" _guid="undefined"  at="2020-10-13 17:27:05.826" comment="Passed:5 Failed:0 Time:9.02s" />

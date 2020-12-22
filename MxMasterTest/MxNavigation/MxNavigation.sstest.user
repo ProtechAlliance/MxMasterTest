@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserSettings>
+  <ArrayOfFlexDictionaryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <FlexDictionaryEntry name="TestTree" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\MxNavigation.sstest.Test" type="System.Boolean">
+            <boolean>true</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\c3000-Membership\c3000-Membership.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\c3010-Membership-Join\c3010-Membership-Join.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\c3020-Membership-Apply\c3020-Membership-Apply.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\c3030-Membership-Member\c3030-Membership-Member.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\c3040-Membership-Renew\c3040-Membership-Renew.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\c3050-Membership-ManageOurMembers\c3050-Membership-ManageOurMembers.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\d4000-GetInvolved\d4000-GetInvolved.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\d4010-GetInvolved-OurChapters\d4010-GetInvolved-OurChapters.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\d4020-GetInvolved-OurCommittees\d4020-GetInvolved-OurCommittees.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\d4030-GetInvolved-MyCommittees\d4030-GetInvolved-MyCommittees.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\e5000-Directories\e5000-Directories.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\e5010-Directories-BoardOfDirectors\e5010-Directories-BoardOfDirectors.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\e5020-Directories-Members\e5020-Directories-Members.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\e5030-Directories-MemberCompanies\e5030-Directories-MemberCompanies.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\e5040-Directories-CompanyLocations\e5040-Directories-CompanyLocations.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\e5050-Directories-MemberLocations\e5050-Directories-MemberLocations.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\f6000-Events\f6000-Events.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\f6010-Events-CalendarOfEvents\f6010-Events-CalendarOfEvents.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\f6020-Events-Webinars\f6020-Events-Webinars.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\f6030-Events-Conference\f6030-Events-Conference.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\f6040-Events-Coursese\f6040-Events-Coursese.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\g7000-Shop\g7000-Shop.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\g7010-Shop-ProductCatalog\g7010-Shop-ProductCatalog.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\g7020-Shop-Donate\g7020-Shop-Donate.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\g7030-Shop-Subscriptions\g7030-Shop-Subscriptions.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\g7040-Shop-packages\g7040-Shop-packages.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\g7050-Shop-ShoppingCart\g7050-Shop-ShoppingCart.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\h8000-AdminResources\h8000-AdminResources.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="DebugWatches" type="SmarteStudio.Test.StringList">
+      <ArrayOfString />
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
+      <ArrayOfString />
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="Status" type="System.String">
+            <string />
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Pass" type="System.Int32">
+            <int>0</int>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Fail" type="System.Int32">
+            <int>0</int>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Unresolved" type="System.Int32">
+            <int>0</int>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Todo" type="System.Int32">
+            <int>0</int>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="Debugger" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="DebugMode" type="System.String">
+            <string>NoDebugger</string>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Verbose" type="System.Int32">
+            <int>1</int>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+  </ArrayOfFlexDictionaryEntry>
+</UserSettings>

@@ -1,0 +1,252 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:6.5.20.20
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+###LocateAccountByEmail (-2)
+###Starting scenario: Test (-2)
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\SignInHelp\LocateAccountByEmail\Main.rvl.xlsx
+SetRowIndex: 0:101
+Playing script: Script: C:\Spira\MxMasterTest\SignInHelp\LocateAccountByEmail\Main.rvl.xlsx:RVL, 102 source rows 0 errors
+Looking for object:RVL
+Looking for object:Tester
+###SCRIPT LOCATION:   C:\Spira\MxMasterTest\SignInHelp\LocateAccountByEmail\Main.rvl.xlsx (-2)
+Looking for object:Tester
+###**********Locate Acount by E-mail********** (-2)
+Looking for object:Tester
+###*****Invalid E-mail Address***** (-2)
+Looking for object:SignIN-START
+Connecting to Chrome
+Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
+Accessible object: [ROLE_SYSTEM_WINDOW]
+Chrome Extension Version: 3.0.10
+Chrome active URL: http://mx365dev.ptassoc.com/Security/Sign-In
+Connected to Chrome window:http://mx365dev.ptassoc.com/Security/Sign-In
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SignIN-START.DoClick([]) (1)
+Action result:true
+Looking for object:1-FindByEmailAddress
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###1-FindByEmailAddress.DoClick([]) (1)
+Action result:true
+Looking for object:EmailAddress1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["bob@123.com"])
+###EmailAddress1.DoSetText(["bob@123.com"]) (1)
+Action result:true
+Looking for object:Submit-FindbyE-mail
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Submit-FindbyE-mail.DoClick([]) (1)
+Action result:true
+Looking for object:UnableToFindAccount
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###UnableToFindAccount.DoClick([]) (1)
+Action result:true
+Looking for object:TryAgain-DifferentEmail
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###TryAgain-DifferentEmail.DoClick([]) (1)
+Action result:true
+Looking for object:OK
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###OK.DoClick([]) (1)
+Action result:true
+Looking for object:Tester
+###*****NULL Value in E-mail 1***** (-2)
+Looking for object:EmailAddress1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText([""])
+###EmailAddress1.DoSetText([""]) (1)
+Action result:true
+Looking for object:EmailAddress2
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["bob@123.com"])
+###EmailAddress2.DoSetText(["bob@123.com"]) (1)
+Action result:true
+Looking for object:Submit-FindbyE-mail
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Submit-FindbyE-mail.DoClick([]) (1)
+Action result:true
+Looking for object:Tester
+###*****Valid E-mail Wrong Secret Answer***** (-2)
+Looking for object:EmailAddress2
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText([""])
+###EmailAddress2.DoSetText([""]) (1)
+Action result:true
+Looking for object:EmailAddress1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["earl@dirtyshoes.com"])
+###EmailAddress1.DoSetText(["earl@dirtyshoes.com"]) (1)
+Action result:true
+Looking for object:Submit-FindbyE-mail
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Submit-FindbyE-mail.DoClick([]) (1)
+Action result:true
+Looking for object:Tester
+###*****Account Found - Enter WRONG Secret Answer - CANCEL***** (-2)
+Looking for object:Account_Found!
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Account_Found!.DoClick([]) (1)
+Action result:true
+Looking for object:SecretAnswer
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["Jane"])
+###SecretAnswer.DoSetText(["Jane"]) (1)
+Action result:true
+Looking for object:SignIn-ThenResetPassword
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SignIn-ThenResetPassword.DoClick([]) (1)
+Action result:true
+Looking for object:SecretAnswerisWRONG
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SecretAnswerisWRONG.DoClick([]) (1)
+Action result:true
+Looking for object:Identification2-CANCEL
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Identification2-CANCEL.DoClick([]) (1)
+Action result:true
+Looking for object:Tester
+###*****Account Found - Enter WRONG Secret Answer - SEND E-MAIL***** (-2)
+Looking for object:SignIN-START
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SignIN-START.DoClick([]) (1)
+Action result:true
+Looking for object:1-FindByEmailAddress
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###1-FindByEmailAddress.DoClick([]) (1)
+Action result:true
+Looking for object:EmailAddress1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["earl@dirtyshoes.com"])
+###EmailAddress1.DoSetText(["earl@dirtyshoes.com"]) (1)
+Action result:true
+Looking for object:Submit-FindbyE-mail
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Submit-FindbyE-mail.DoClick([]) (1)
+Action result:true
+Looking for object:Account_Found!
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Account_Found!.DoClick([]) (1)
+Action result:true
+Looking for object:SecretAnswer
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["Jane"])
+###SecretAnswer.DoSetText(["Jane"]) (1)
+Action result:true
+Looking for object:SignIn-ThenResetPassword
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SignIn-ThenResetPassword.DoClick([]) (1)
+Action result:true
+Looking for object:SecretAnswerisWRONG
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SecretAnswerisWRONG.DoClick([]) (1)
+Action result:true
+Looking for object:Identification2-OK
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Identification2-OK.DoClick([]) (1)
+Action result:true
+Looking for object:Tester
+###*****Account Found - CORRECT Secret Answer Sends User to 'Change My Password'***** (-2)
+Looking for object:SignIN-START
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SignIN-START.DoClick([]) (1)
+Action result:true
+Looking for object:1-FindByEmailAddress
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###1-FindByEmailAddress.DoClick([]) (1)
+Action result:true
+Looking for object:EmailAddress1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["earl@dirtyshoes.com"])
+###EmailAddress1.DoSetText(["earl@dirtyshoes.com"]) (1)
+Action result:true
+Looking for object:Submit-FindbyE-mail
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Submit-FindbyE-mail.DoClick([]) (1)
+Action result:true
+Looking for object:Account_Found!
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Account_Found!.DoClick([]) (1)
+Action result:true
+Looking for object:SecretAnswer
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["Bob"])
+###SecretAnswer.DoSetText(["Bob"]) (1)
+Action result:true
+Looking for object:SignIn-ThenResetPassword
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SignIn-ThenResetPassword.DoClick([]) (1)
+Action result:true
+Looking for object:RVL
+Attaching to spreadsheet: C:\Spira\MxMasterTest\SignInHelp\LocateAccountByEmail\Main.rvl.xlsx sheet: ForgotPassword : false : Error attaching to Excel spreadsheet: C:\Spira\MxMasterTest\SignInHelp\LocateAccountByEmail\Main.rvl.xlsx : 'ForgotPassword$' is not a valid name.  Make sure that it does not include invalid characters or punctuation and that it is not too long.
+###Error attaching to spreadsheet: Error attaching to Excel spreadsheet: C:\Spira\MxMasterTest\SignInHelp\LocateAccountByEmail\Main.rvl.xlsx : 'ForgotPassword$' is not a valid name.  Make sure that it does not include invalid characters or punctuation and that it is not too long. (0)
+Test stopped on error: Error attaching to spreadsheet: Error attaching to Excel spreadsheet: C:\Spira\MxMasterTest\SignInHelp\LocateAccountByEmail\Main.rvl.xlsx : 'ForgotPassword$' is not a valid name.  Make sure that it does not include invalid characters or punctuation and that it is not too long.
+###LocateAccountByEmail (0)
+Test stopped on error: LocateAccountByEmail
+Test execution done
+##############################################################
+
+Test Session Status: Fail Time: 46.381s
+##############################################################

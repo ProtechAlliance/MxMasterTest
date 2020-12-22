@@ -1,0 +1,117 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:6.6.21.22
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+###EditRegistration (-2)
+###Starting scenario: Test (-2)
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\EditRegistration\Main.rvl.xlsx
+SetRowIndex: 0:62
+Playing script: Script: C:\Spira\MxMasterTest\EditRegistration\Main.rvl.xlsx:RVL, 63 source rows 0 errors
+###Level 1 : My Account (-2)
+Connecting to Chrome
+Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
+Accessible object: [ROLE_SYSTEM_WINDOW]
+Using default WebAppProfile
+Chrome Extension Version: 3.0.10
+Chrome active URL: http://mx365dev.ptassoc.com/Shop/Shopping-Cart
+Connected to Chrome window:http://mx365dev.ptassoc.com/Shop/Shopping-Cart
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: My Registrations (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Registrations')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:tmx_Annual_Conference
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###The Registration to be selected is:   tmx_Annual Conference (-2)
+Looking for object:View/EditDetails
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###View/EditDetails.DoClick([]) (1)
+Action result:true
+Looking for object:Edit
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Edit.DoClick([]) (1)
+Action result:true
+Looking for object:MiddleName
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoEnsureVisible([])
+###MiddleName.DoEnsureVisible([]) (1)
+Action result:[object Object]
+Looking for object:MiddleName
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["Bernie"])
+###MiddleName.DoSetText(["Bernie"]) (1)
+Action result:true
+Looking for object:Phone
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Phone.DoClick([]) (1)
+Action result:true
+Looking for object:E-mail
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###E-mail.DoClick([]) (1)
+Action result:true
+Looking for object:EmailStep1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###The Value for E-mail is:  (-2)
+Checking If branch at line: 34
+Checking branch condition: param1 == param2(emailstep1, "Tom@ImAbadBoy.com")
+Condition resolved to: false
+Executing Else block
+Checking If branch at line: 42
+Looking for object:Tester
+###The email address is either Null or wrong!  The correct E-mail address will be set now. (-2)
+Looking for object:EmailStep1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["Tom@ImAbadBoy.com"])
+###EmailStep1.DoSetText(["Tom@ImAbadBoy.com"]) (1)
+Action result:true
+Looking for object:EmailStep1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###The value for E-mail is now: Tom@ImAbadBoy.com (-2)
+Execution is over, bailing out.
+###EditRegistration (1)
+Test execution done
+##############################################################
+Test Pass: EditRegistration,  (Passed:7 Failed:0 Time:16.472s)
+Test Session Status: Pass Time: 18.053s
+##############################################################

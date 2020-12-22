@@ -1,0 +1,49 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-11-30 14:31:48.215"/>
+<log type="Test" name="ShoppingCart-MeetingRegistration" status="Info"  at="2020-11-30 14:31:48.892"><data type="text">Test Started: C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2020-11-30 14:31:48.897"/>
+<log type="Message" name="Shopping Cart Number:   Order SC-C-001636-ZMABF" status="Info"  at="2020-11-30 14:31:50.780"/>
+<log type="Message" name="Confirmation Summary Block:   
+					Order SC-C-001636-ZMABF
+					
+                        Date of purchase: 11/30/2020
+					    Payment: 
+					    Bill To: tmx_Jefferson, Thomas
+                        Gift Card: -
+                        PO #: 12345
+					
+				" status="Info"  at="2020-11-30 14:31:50.914"/>
+<log type="Message" name="Bill To Address:   
+					Bill To Address
+					
+                        Thomas tmx_Jefferson
+                        4949 Yuletide Dr. Columbia, MD 21045 United States
+					
+				" status="Info"  at="2020-11-30 14:31:51.184"/>
+<log type="Message" name="" status="Info"  at="2020-11-30 14:31:51.195"/>
+<log type="Message" name="*****Purchase Confirmation FOOTER" status="Info"  at="2020-11-30 14:31:51.200"/>
+<log type="Assert" name="Total Charges:  $275.00" status="Fail"  at="2020-11-30 14:31:51.334"><data type="text">$275.00</data>
+<data type="text">$195.00</data>
+<data type="link" url="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(PurchaseConfirmationPage1,43,1)" text="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(PurchaseConfirmationPage1,43,1)"/>
+</log>
+<log type="Assert" name="Sales Tax:  $0.00" status="Pass"  at="2020-11-30 14:31:51.481"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Order Total:  $275.00" status="Fail"  at="2020-11-30 14:31:51.618"><data type="text">$275.00</data>
+<data type="text">$195.00</data>
+<data type="link" url="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(PurchaseConfirmationPage1,62,1)" text="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(PurchaseConfirmationPage1,62,1)"/>
+</log>
+<log type="Assert" name="Gift Card:  $0.00" status="Pass"  at="2020-11-30 14:31:51.750"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Previous Payments:  $0.00" status="Pass"  at="2020-11-30 14:31:51.882"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Payment:  $0.00" status="Pass"  at="2020-11-30 14:31:52.010"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Balance:  $275.00" status="Fail"  at="2020-11-30 14:31:52.150"><data type="text">$275.00</data>
+<data type="text">$195.00</data>
+<data type="link" url="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(PurchaseConfirmationPage1,98,1)" text="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(PurchaseConfirmationPage1,98,1)"/>
+</log>
+<log type="Test" name="ShoppingCart-MeetingRegistration" status="Fail" closed="ShoppingCart-MeetingRegistration" _guid="undefined"  at="2020-11-30 14:31:52.166" comment="Passed:4 Failed:3 Time:3.351s" />

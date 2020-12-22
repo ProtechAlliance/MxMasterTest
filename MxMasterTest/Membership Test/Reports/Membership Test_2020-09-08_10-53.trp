@@ -1,0 +1,13 @@
+<log type="Session" name="RCLEMPC:RClem" at="2020-09-08 10:53:07.889"/>
+<log type="Test" name="Membership Test" status="Info"  at="2020-09-08 10:53:10.580"><data type="text">Test Started: C:\Spira\MxMasterTest\Membership Test\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2020-09-08 10:53:10.599"/>
+<log type="Assert" name="Object is not found: BalanceDue" status="Fail"  at="2020-09-08 10:53:25.727"><data type="text" caption="What">&lt;b&gt;What happened:&lt;/b&gt; Object is not found: BalanceDue</data>
+<data type="text" caption="Why">&lt;b&gt;Why:&lt;/b&gt; Object is not available on screen or Location property of the object is invalid.</data>
+<data type="text" caption="Next Step">&lt;b&gt;Next step:&lt;/b&gt; If there is a load delay before the application displays the object try to &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;slow down test execution&lt;/a&gt;. To check that &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;Location&lt;/a&gt; of the object is valid &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;Flash&lt;/a&gt; it.</data>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx" text="KB301: Ways to slow down test execution"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB375.aspx" text="KB375: How to check that Rapise can find the object on screen"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB376.aspx" text="KB376: What is object Location?"/>
+<data type="link" url="C:\Spira\MxMasterTest\Meeting Registration\Main.rvl.xlsx(UX Validation,23,1)" text="C:\Spira\MxMasterTest\Meeting Registration\Main.rvl.xlsx(UX Validation,23,1)"/>
+</log>
+<log type="Test" name="Membership Test" status="Fail" closed="Membership Test" _guid="undefined"  at="2020-09-08 10:53:25.757" comment="Passed:0 Failed:1 Time:15.315s" />

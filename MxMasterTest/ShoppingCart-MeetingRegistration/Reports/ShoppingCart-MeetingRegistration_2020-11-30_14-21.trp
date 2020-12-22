@@ -1,0 +1,10 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-11-30 14:21:43.962"/>
+<log type="Test" name="ShoppingCart-MeetingRegistration" status="Info"  at="2020-11-30 14:21:44.598"><data type="text">Test Started: C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2020-11-30 14:21:44.607"/>
+<log type="Assert" name="Express_Checkout.DoClick([])" status="Pass"  at="2020-11-30 14:21:47.675" comment="Returned Value: true" />
+<log type="Assert" name="RVL Parser Error: (24,Type): Row Type is empty. Expected Action, Assert or Variable.
+You may mark the row as Comment (Flow = #) or clean or cells to ignore it." status="Fail"  at="2020-11-30 14:21:47.795"><data type="link" url="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(PaymentInformation1,24,2)" text="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(PaymentInformation1,24,2)"/>
+<data type="link" url="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(RightSummaryTotals,37,1)" text="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(RightSummaryTotals,37,1)"/>
+</log>
+<log type="Test" name="ShoppingCart-MeetingRegistration" status="Fail" closed="ShoppingCart-MeetingRegistration" _guid="undefined"  at="2020-11-30 14:21:47.812" comment="Passed:1 Failed:1 Time:3.287s" />

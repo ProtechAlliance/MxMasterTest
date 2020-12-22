@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserSettings>
+  <ArrayOfFlexDictionaryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <FlexDictionaryEntry name="TestTree" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\SignInHelp\SignInHelp.sstest.Test" type="System.Boolean">
+            <boolean>true</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\SignInHelp\SignInHelp.sstest.Test.Reports" type="System.Boolean">
+            <boolean>true</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\SignInHelp\SignInHelp.sstest.Test.AdminToolbarStart" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\SignInHelp\AdminToolbarStart\AdminToolbarStart.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\SignInHelp\ContactCustomerService\ContactCustomerService.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\SignInHelp\LocateAccountByEmail\LocateAccountByEmail.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\SignInHelp\LocateAccountByEmail\LocateAccountByEmail.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\SignInHelp\ForgotPassword\ForgotPassword.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\SignInHelp\EnsureCAPTCHAisOFF\EnsureCAPTCHAisOFF.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\SignInHelp\ForgotPassword\ForgotPassword.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\SignInHelp\EnsureCAPTCHAisOFF\EnsureCAPTCHAisOFF.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="DebugWatches" type="SmarteStudio.Test.StringList">
+      <ArrayOfString />
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
+      <ArrayOfString>
+        <string>C:\Spira\MxMasterTest\SignInHelp\Main.rvl.xlsx</string>
+        <string>C:\Spira\MxMasterTest\User.js</string>
+        <string>C:\Spira\UniversalSignIn\Main.rvl.xlsx</string>
+      </ArrayOfString>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="Status" type="System.String">
+            <string>Fail</string>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Pass" type="System.Int32">
+            <int>0</int>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Fail" type="System.Int32">
+            <int>2</int>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Unresolved" type="System.Int32">
+            <int>14</int>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Todo" type="System.Int32">
+            <int>0</int>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="Debugger" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="DebugMode" type="System.String">
+            <string>NoDebugger</string>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Verbose" type="System.Int32">
+            <int>1</int>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="Files" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira\mxmastertest\signinhelp\main.rvl.xlsx" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Row" type="System.Int32">
+                  <int>1</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Col" type="System.Int32">
+                  <int>6</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira\mxmastertest\user.js" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Folding" type="SmarteStudio.Editor.FoldingStrategy.JsFoldingStrategy">
+                  <JsFoldingStrategy>
+                    <IsJson>false</IsJson>
+                    <FoldingMarkers />
+                  </JsFoldingStrategy>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Breakpoints" type="System.Collections.Generic.List`1[[SmarteStudio.Debugger.BreakPointInfo, SeSIDE.Debugger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]">
+                  <ArrayOfBreakPointInfo />
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretX" type="System.Int32">
+                  <int>0</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretY" type="System.Int32">
+                  <int>204</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira\mxmastertest\objects.js" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Folding" type="SmarteStudio.Editor.FoldingStrategy.JsFoldingStrategy">
+                  <JsFoldingStrategy>
+                    <IsJson>false</IsJson>
+                    <FoldingMarkers />
+                  </JsFoldingStrategy>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Breakpoints" type="System.Collections.Generic.List`1[[SmarteStudio.Debugger.BreakPointInfo, SeSIDE.Debugger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]">
+                  <ArrayOfBreakPointInfo />
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretX" type="System.Int32">
+                  <int>0</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretY" type="System.Int32">
+                  <int>0</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spiramxonline\mainvalidatehidden\main.rvl.xlsx" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Row" type="System.Int32">
+                  <int>1</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Col" type="System.Int32">
+                  <int>1</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\objects.js" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretX" type="System.Int32">
+                  <int>0</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretY" type="System.Int32">
+                  <int>0</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Breakpoints" type="System.Collections.Generic.List`1[[SmarteStudio.Debugger.BreakPointInfo, SeSIDE.Debugger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]">
+                  <ArrayOfBreakPointInfo />
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira\mxmastertest\signinhelp\objects.js" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Folding" type="SmarteStudio.Editor.FoldingStrategy.JsFoldingStrategy">
+                  <JsFoldingStrategy>
+                    <IsJson>false</IsJson>
+                    <FoldingMarkers />
+                  </JsFoldingStrategy>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Breakpoints" type="System.Collections.Generic.List`1[[SmarteStudio.Debugger.BreakPointInfo, SeSIDE.Debugger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]">
+                  <ArrayOfBreakPointInfo />
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretX" type="System.Int32">
+                  <int>15</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretY" type="System.Int32">
+                  <int>16</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira\mxmastertest\signinhelp\play.cmd" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Breakpoints" type="System.Collections.Generic.List`1[[SmarteStudio.Debugger.BreakPointInfo, SeSIDE.Debugger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]">
+                  <ArrayOfBreakPointInfo />
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretX" type="System.Int32">
+                  <int>0</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretY" type="System.Int32">
+                  <int>0</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira\universalsignin\main.rvl.xlsx" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Row" type="System.Int32">
+                  <int>144</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Col" type="System.Int32">
+                  <int>0</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira\mxmastertest\signinhelp\err.log" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Breakpoints" type="System.Collections.Generic.List`1[[SmarteStudio.Debugger.BreakPointInfo, SeSIDE.Debugger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]">
+                  <ArrayOfBreakPointInfo />
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretX" type="System.Int32">
+                  <int>0</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="CaretY" type="System.Int32">
+                  <int>0</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+  </ArrayOfFlexDictionaryEntry>
+</UserSettings>

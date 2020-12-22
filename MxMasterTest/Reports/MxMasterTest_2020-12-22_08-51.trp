@@ -1,0 +1,18 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-12-22 08:50:26.028"/>
+<log type="Test" name="MxMasterTest" status="Info"  at="2020-12-22 08:50:27.007"><data type="text">Test Started: C:\Spira\MxMasterTest\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-12-22 08:50:27.022"/>
+<log type="Message" name="**********START TOP LEVEL NAVIGATION**********" status="Info"  at="2020-12-22 08:50:38.463"/>
+<log type="Message" name="Level 1 : Home" status="Info"  at="2020-12-22 08:50:38.467"/>
+<log type="Message" name="Level 1 : My Account" status="Info"  at="2020-12-22 08:50:39.599"/>
+<log type="Message" name="Level 1 : Membership" status="Info"  at="2020-12-22 08:50:40.386"/>
+<log type="Message" name="Level 1 : Get Involved" status="Info"  at="2020-12-22 08:50:41.228"/>
+<log type="Message" name="Level 1 : Directories" status="Info"  at="2020-12-22 08:50:42.179"/>
+<log type="Message" name="Level 1 : Events" status="Info"  at="2020-12-22 08:51:00.022"/>
+<log type="Message" name="Level 1 : Shop" status="Info"  at="2020-12-22 08:51:17.827"/>
+<log type="Message" name="Level 1 : Admin Resources" status="Info"  at="2020-12-22 08:51:35.794"/>
+<log type="Message" name="." status="Info"  at="2020-12-22 08:51:45.137"/>
+<log type="Message" name="*****HOME - CLICK ALL LEVEL 2 LINKS*****" status="Info"  at="2020-12-22 08:51:45.356"/>
+<log type="Message" name="Level 1 : Home" status="Info"  at="2020-12-22 08:51:45.381"/>
+<log type="Message" name="Level 2  Vertical Link: Product Catalog" status="Info"  at="2020-12-22 08:51:46.529"/>
+<log type="Message" name="Xpath: (//h4[contains(@class, &apos;d-block&apos;) and contains(., &apos;Product Catalog&apos;)])[1]" status="Info"  at="2020-12-22 08:51:46.543"/>

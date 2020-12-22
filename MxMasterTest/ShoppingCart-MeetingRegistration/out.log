@@ -1,0 +1,230 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:6.6.21.22
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+###ShoppingCart-MeetingRegistration (-2)
+###Starting scenario: Test (-2)
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx
+SetRowIndex: 0:14
+Playing script: Script: C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx:RVL, 15 source rows 0 errors
+Looking for object:see_details
+Connecting to Chrome
+Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
+Accessible object: [ROLE_SYSTEM_WINDOW]
+Using default WebAppProfile
+Chrome Extension Version: 3.0.10
+Chrome active URL: http://mx365dev.ptassoc.com/Shop/Shopping-Cart
+Connected to Chrome window:http://mx365dev.ptassoc.com/Shop/Shopping-Cart
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###see_details.DoClick([]) (1)
+Action result:true
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx
+SetRowIndex: 0:210
+Playing script: Script: C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx:RegistrationLineItemValues, 211 source rows 0 errors
+Looking for object:tmx_MainRegName
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Main Registrant Name: tmx_Jefferson, Thomas (1)
+Looking for object:tmx_MainRegistration
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Registration Name:  tmx_Main Registration (1)
+Looking for object:$100.00
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Main Registration Price  = $100.00 (1)
+Looking for object:tmx_MainSession1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Main Session Name = tmx_Main Session 1 (1)
+Looking for object:$50.00
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###tmx_Main Session 1 Price = $50.00 (1)
+Looking for object:tmx_PackagedSession1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row 2 Session Name:  tmx_Packaged Session 1 (1)
+Looking for object:$10.00
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###tmx_Packaged Session 1 Price = $10.00 (1)
+Looking for object:tmx_ComplimentarySession
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Row 3 Session Name:  tmx_Complimentary Session 1 (1)
+Looking for object:$0.00
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###tmx_Complimentary Session Price = $0.00 (1)
+Looking for object:tmx_Adams,_John-Guest
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Guest Registration Name:  tmx_Adams, John (1)
+Looking for object:tmx_GuestRegistration
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Guest Registration:  tmx_Guest Registration (1)
+Looking for object:$25.00
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Guest Registration Price:  $25.00 (1)
+Looking for object:tmx_PackagedSession1
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Guest Session 1: tmx_PackagedSession1 (1)
+Looking for object:Guest-PackagedSession1Price
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###tmx_Packaged Session 1Price:  $10.00 (1)
+Looking for object:TotalValue-Detail
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Total Detail Amount:  $195.00 (1)
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx
+SetRowIndex: 0:37
+Playing script: Script: C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx:RightSummaryTotals, 38 source rows 0 errors
+Looking for object:PurchaseSubtotal
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Purchase Subtotal = $195.00 (1)
+Looking for object:SalesTax
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Sales Tax = $0.00 (1)
+Looking for object:OrderTotal
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Order Total =  $195.00 (1)
+Looking for object:Thomas_tmx_Jefferson
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Cart Bill To: Thomas tmx_Jefferson (1)
+Looking for object:Express_Checkout
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Express_Checkout.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx
+SetRowIndex: 0:25
+Playing script: Script: C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx:PaymentInformation1, 26 source rows 0 errors
+Looking for object:BillMeLater
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###BillMeLater.DoClick([]) (1)
+Action result:true
+Looking for object:BillingReference
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["12345"])
+###BillingReference.DoSetText(["12345"]) (1)
+Action result:true
+Looking for object:AmountDueAtFutureDate
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:SubmitOrder-BillMeLater
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SubmitOrder-BillMeLater.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx
+SetRowIndex: 0:229
+Playing script: Script: C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx:PurchaseConfirmationPage1, 230 source rows 0 errors
+Looking for object:Confirmation-ShoppingCartNumber
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###Shopping Cart Number:   Order SC-C-001636-R51FN (-2)
+Looking for object:ConfirmationHeader-SummaryBlock
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###Confirmation Summary Block:   
+					Order SC-C-001636-R51FN
+					
+                        Date of purchase: 12/4/2020
+					    Payment: 
+					    Bill To: tmx_Jefferson, Thomas
+                        Gift Card: -
+                        PO #: 12345
+					
+				 (-2)
+Looking for object:Confirmation-BillToAddressLabel
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Confirmation-BillToAddressBlock
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###Bill To Address:   
+					Bill To Address
+					
+                        Thomas tmx_Jefferson
+                        4949 Yuletide Dr. Columbia, MD 21045 United States
+					
+				 (-2)
+Looking for object:Tester
+### (-2)
+Looking for object:Tester
+###*****Purchase Confirmation FOOTER (-2)
+Looking for object:ConfirmationFooter-1TotalCharges
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Total Charges:  $195.00 (1)
+Looking for object:ConfirmationFooter-2SalesTax
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Sales Tax:  $0.00 (1)
+Looking for object:ConfirmationFooter-3OrderTotal
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Order Total:  $195.00 (1)
+Looking for object:ConfirmationFooter-4GiftCard
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Gift Card:  $0.00 (1)
+Looking for object:ConfirmationFooter-5PreviousPayments
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Previous Payments:  $0.00 (1)
+Looking for object:ConfirmationFooter-6Payment
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Payment:  $0.00 (1)
+Looking for object:ConfirmationFooter-7BalanceDue
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Balance:  $195.00 (1)
+Execution is over, bailing out.
+Execution is over, bailing out.
+Execution is over, bailing out.
+Execution is over, bailing out.
+Execution is over, bailing out.
+###ShoppingCart-MeetingRegistration (1)
+Test execution done
+##############################################################
+Test Pass: ShoppingCart-MeetingRegistration,  (Passed:31 Failed:0 Time:37.283s)
+Test Session Status: Pass Time: 38.857s
+##############################################################

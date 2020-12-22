@@ -1,0 +1,38 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:6.6.21.22
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+###Probe-CloseGDPR (-2)
+###Starting scenario: Test (-2)
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Probe-CloseGDPR\Main.rvl.xlsx
+SetRowIndex: 0:32
+Playing script: Script: C:\Spira\MxMasterTest\Probe-CloseGDPR\Main.rvl.xlsx:RVL, 33 source rows 0 errors
+Checking If branch at line: 3
+Checking branch condition: output1 IsTrue(output=Navigator.CheckObjectExists("CloseGDPRbutton"))
+Looking for object:Navigator
+Connecting to Chrome
+Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
+Accessible object: [ROLE_SYSTEM_WINDOW]
+Using default WebAppProfile
+Chrome Extension Version: 3.0.10
+Chrome active URL: http://mx365dev.ptassoc.com/
+Connected to Chrome window:http://mx365dev.ptassoc.com/
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+Condition resolved to: false
+Executing Else block
+Checking If branch at line: 10
+Looking for object:Tester
+###The GDPR Message was Already Closed (-2)
+Execution is over, bailing out.
+###Probe-CloseGDPR (-1)
+Test execution done
+##############################################################
+Test Unresolved: Probe-CloseGDPR,  (Passed:0 Failed:0 Time:1.806s)
+Test Session Status: Unresolved Time: 4.474s
+##############################################################

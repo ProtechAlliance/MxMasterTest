@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserSettings>
+  <ArrayOfFlexDictionaryEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <FlexDictionaryEntry name="TestTree" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\b2110-MyAccount-MyProfile\b2110-MyAccount-MyProfile.sstest.Test" type="System.Boolean">
+            <boolean>true</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\b2110-MyAccount-MyProfile\b2110-MyAccount-MyProfile.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="DebugWatches" type="SmarteStudio.Test.StringList">
+      <ArrayOfString />
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
+      <ArrayOfString>
+        <string>C:\Spira\MxMasterTest\MxNavigation\b2110-MyAccount-MyProfile\Reports\Level2a-MyDownloads_2020-12-04_10-19.trp</string>
+      </ArrayOfString>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="Status" type="System.String">
+            <string>Fail</string>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Pass" type="System.Int32">
+            <int>0</int>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Fail" type="System.Int32">
+            <int>0</int>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Unresolved" type="System.Int32">
+            <int>5</int>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Todo" type="System.Int32">
+            <int>0</int>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="Debugger" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="DebugMode" type="System.String">
+            <string>NoDebugger</string>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="Verbose" type="System.Int32">
+            <int>1</int>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+  </ArrayOfFlexDictionaryEntry>
+</UserSettings>

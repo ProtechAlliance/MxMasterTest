@@ -1,0 +1,178 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-12-02 12:53:05.443"/>
+<log type="Test" name="ShoppingCart-MeetingRegistration" status="Info"  at="2020-12-02 12:53:06.174"><data type="text">Test Started: C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-12-02 12:53:06.189"/>
+<log type="Assert" name="see_details.DoClick([])" status="Pass"  at="2020-12-02 12:53:09.090" comment="Returned Value: true" />
+<log type="Assert" name="Main Registrant Name: tmx_Jefferson, Thomas" status="Pass"  at="2020-12-02 12:53:09.272"><data type="text">tmx_Jefferson, Thomas</data>
+<data type="text">tmx_Jefferson, Thomas</data>
+</log>
+<log type="Assert" name="Registration Name:  tmx_Main Registration" status="Pass"  at="2020-12-02 12:53:09.359"><data type="text">tmx_Main Registration</data>
+<data type="text">tmx_Main Registration</data>
+</log>
+<log type="Assert" name="Main Registration Price  = $100.00" status="Pass"  at="2020-12-02 12:53:09.433"><data type="text">$100.00</data>
+<data type="text">$100.00</data>
+</log>
+<log type="Assert" name="Main Session Name = tmx_Main Session 1" status="Pass"  at="2020-12-02 12:53:09.508"><data type="text">tmx_Main Session 1</data>
+<data type="text">tmx_Main Session 1</data>
+</log>
+<log type="Assert" name="tmx_Main Session 1 Price = $50.00" status="Pass"  at="2020-12-02 12:53:09.591"><data type="text">$50.00</data>
+<data type="text">$50.00</data>
+</log>
+<log type="Assert" name="Row 2 Session Name:  tmx_Packaged Session 1" status="Pass"  at="2020-12-02 12:53:09.686"><data type="text">tmx_Packaged Session 1</data>
+<data type="text">tmx_Packaged Session 1</data>
+</log>
+<log type="Assert" name="tmx_Packaged Session 1 Price = $10.00" status="Pass"  at="2020-12-02 12:53:09.761"><data type="text">$10.00</data>
+<data type="text">$10.00</data>
+</log>
+<log type="Assert" name="Row 3 Session Name:  tmx_Complimentary Session 1" status="Pass"  at="2020-12-02 12:53:09.835"><data type="text">
+                                            tmx_Complimentary Session
+                                            
+                                        </data>
+<data type="text">tmx_Complimentary Session</data>
+</log>
+<log type="Assert" name="tmx_Complimentary Session Price = $0.00" status="Pass"  at="2020-12-02 12:53:09.930"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Guest Registration Name:  tmx_Adams, John" status="Pass"  at="2020-12-02 12:53:09.995"><data type="text">tmx_Adams, John</data>
+<data type="text">tmx_Adams, John</data>
+</log>
+<log type="Assert" name="Guest Registration:  tmx_Guest Registration" status="Pass"  at="2020-12-02 12:53:10.093"><data type="text">tmx_Guest Registration</data>
+<data type="text">tmx_Guest Registration</data>
+</log>
+<log type="Assert" name="Guest Registration Price:  $25.00" status="Pass"  at="2020-12-02 12:53:10.167"><data type="text">$25.00</data>
+<data type="text">$25.00</data>
+</log>
+<log type="Assert" name="Guest Session 1: tmx_PackagedSession1" status="Pass"  at="2020-12-02 12:53:10.250"><data type="text">
+                                            tmx_Packaged Session 1
+                                            
+                                        </data>
+<data type="text">tmx_Packaged Session 1</data>
+</log>
+<log type="Assert" name="tmx_Packaged Session 1Price:  $10.00" status="Pass"  at="2020-12-02 12:53:10.325"><data type="text">$10.00</data>
+<data type="text">$10.00</data>
+</log>
+<log type="Assert" name="Total Detail Amount:  $195.00" status="Pass"  at="2020-12-02 12:53:10.401"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Assert" name="Purchase Subtotal = $195.00" status="Pass"  at="2020-12-02 12:53:10.540"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Assert" name="Sales Tax = $0.00" status="Pass"  at="2020-12-02 12:53:10.604"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Order Total =  $195.00" status="Pass"  at="2020-12-02 12:53:10.677"><data type="text">$195.00</data>
+<data type="text">$195.00</data>
+</log>
+<log type="Assert" name="Cart Bill To: Thomas tmx_Jefferson" status="Pass"  at="2020-12-02 12:53:10.762"><data type="text">Thomas tmx_Jefferson</data>
+<data type="text">Thomas tmx_Jefferson</data>
+</log>
+<log type="Assert" name="Express_Checkout.DoClick([])" status="Pass"  at="2020-12-02 12:53:11.974" comment="Returned Value: true" />
+<log type="Assert" name="BillMeLater.DoClick([])" status="Pass"  at="2020-12-02 12:53:18.411" comment="Returned Value: true" />
+<log type="Assert" name="BillingReference.DoSetText([&quot;12345&quot;])" status="Pass"  at="2020-12-02 12:53:19.481" comment="Returned Value: true" />
+<log type="Assert" name="SubmitOrder-BillMeLater.DoClick([])" status="Pass"  at="2020-12-02 12:53:20.780" comment="Returned Value: true" />
+<log type="Message" name="Shopping Cart Number:   Order Summary" status="Info"  at="2020-12-02 12:53:28.961"/>
+<log type="Message" name="Confirmation Summary Block:   
+            
+                
+						
+    Order Summary
+
+					
+            
+
+            
+                
+						
+                    
+							
+                        1 Item selected Change &gt;
+                    
+						
+                
+					
+
+                
+						
+                    
+							
+                        Purchase Subtotal
+                    
+						
+                    
+							
+                        $195.00
+                    
+						
+                
+					
+
+                
+
+                
+
+                
+						
+                    
+							
+                        Sales Tax
+                         
+                    
+						
+                    
+							
+                        $0.00
+                    
+						
+                
+					                
+
+                
+
+                
+
+                
+
+                
+						
+                    
+							
+                        Order Total
+                    
+						
+                    
+							
+                        $195.00
+                    
+						
+                
+					                
+
+                
+						
+                    
+      	            Billing Address Change &gt;
+                    
+                    
+							
+                        
+                        Thomas tmx_Jefferson
+                    
+						
+		            4949 Yuletide Dr. Columbia, MD 21045 United States
+                
+					
+
+                
+            
+
+            
+        " status="Info"  at="2020-12-02 12:53:29.055"/>
+<log type="Assert" name="Object is not found: &lt;a href=&apos;showobject&apos;&gt;Confirmation-BillToAddressLabel&lt;/a&gt;" status="Fail"  at="2020-12-02 12:53:39.139"><data type="text" caption="What">&lt;b&gt;What happened:&lt;/b&gt; Object is not found: &lt;a href=&apos;showobject&apos;&gt;Confirmation-BillToAddressLabel&lt;/a&gt;</data>
+<data type="text" caption="Why">&lt;b&gt;Why:&lt;/b&gt; Object is not available on screen or Location property of the object is invalid.</data>
+<data type="text" caption="Next Step">&lt;b&gt;Next step:&lt;/b&gt; If there is a load delay before the application displays the object try to &lt;a href=&apos;https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx&apos;&gt;slow down test execution&lt;/a&gt;. To check that &lt;a href=&apos;showxpath:Confirmation-BillToAddressLabel&apos;&gt;Location&lt;/a&gt; of the object is valid &lt;a href=&apos;flashobject:Confirmation-BillToAddressLabel&apos;&gt;Flash&lt;/a&gt; it.</data>
+<data type="link" url="https://rapisedoc.inflectra.com/Guide/object_not_found/" text="Object Is Not Found - How To Fix"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB375.aspx" text="KB375: How to check that Rapise can find the object on screen"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB301.aspx" text="KB301: Ways to slow down test execution"/>
+<data type="link" url="https://www.inflectra.com/Support/KnowledgeBase/KB376.aspx" text="KB376: What is object Location?"/>
+<data type="link" url="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(PurchaseConfirmationPage1,28,1)" text="C:\Spira\MxMasterTest\ShoppingCart-MeetingRegistration\Main.rvl.xlsx(PurchaseConfirmationPage1,28,1)"/>
+</log>

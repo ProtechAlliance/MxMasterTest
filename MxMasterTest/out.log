@@ -1,0 +1,614 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:6.6.21.22
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+###MxMasterTest (-2)
+###Starting scenario: RVLSpecialEntryPoint (-2)
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Main.rvl.xlsx
+SetRowIndex: 0:141
+Playing script: Script: C:\Spira\MxMasterTest\Main.rvl.xlsx:ClickLevels2And3, 142 source rows 0 errors
+Looking for object:Tester
+###*****MY ACCOUNT - CLICK ALL LEVEL 3 BUTTONS***** (-2)
+###Level 1 : My Account (-2)
+Connecting to Chrome
+Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
+Accessible object: [ROLE_SYSTEM_WINDOW]
+Using default WebAppProfile
+Chrome Extension Version: 3.0.10
+Chrome active URL: http://mx365dev.ptassoc.com/
+Connected to Chrome window:http://mx365dev.ptassoc.com/
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: My Profile (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Profile')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 3 Horizontal Button: myprofile (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : My Account (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: My Company (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Company')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 3 Horizontal Button: mycompany (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : My Account (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: My Membership (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Membership')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 3 Horizontal Button: mymembership (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : My Account (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: My Registrations (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Registrations')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 3 Horizontal Button: myregistrations (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : My Account (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: My Invoices (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Invoices')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 3 Horizontal Button: myinvoices (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : My Account (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: My Downloads (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Downloads')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 3 Horizontal Button: mydownloads (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : My Account (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: My Exhibits (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Exhibits')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 3 Horizontal Button: myexhibits (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : My Account (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: My Settings (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Settings')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 3 Horizontal Button: mysettings (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+### (-2)
+Looking for object:Tester
+###*****MEMBERSHIP - CLICK ALL LEVEL 2 LINKS***** (-2)
+###Level 1 : Membership (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: Join (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'Join')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+###The Ojbect was NOT found.  Please REVIEW: Join (0)
+###Level 1 : Membership (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: Apply (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'Apply')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Membership (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: Member (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'Member')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Membership (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: Renew (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'Renew')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Membership (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2  Vertical Link: Manage Our Members (-2)
+###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'Manage Our Members')])[1] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###. (-2)
+Looking for object:Tester
+###*****GET INVOLVED- CLICK ALL LEVEL 2 LINKS***** (-2)
+###Level 1 : Get Involved (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: ourchapters (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'ourchapters')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Get Involved (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: ourcommittees (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'ourcommittees')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Get Involved (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: mycommittees (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'mycommittees')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###. (-2)
+Looking for object:Tester
+###*****DIRECTORIES- CLICK ALL LEVEL 2 LINKS***** (-2)
+###Level 1 : Directories (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: boardofdirectors (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'boardofdirectors')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Directories (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: members (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'members')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Directories (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: membercompanies (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'membercompanies')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Directories (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: companylocations (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'companylocations')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Directories (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: memberlocations (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'memberlocations')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+### (-2)
+Looking for object:Tester
+###*****EVENTS- CLICK ALL LEVEL 2 LINKS***** (-2)
+###Level 1 : Events (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: calendarofevents (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'calendarofevents')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Events (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: courses (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'courses')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Events (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: webinars (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'webinars')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+### (-2)
+Looking for object:Tester
+###*****SHOP- CLICK ALL LEVEL 2 LINKS***** (-2)
+###Level 1 : Shop (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: productcatalog (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'productcatalog')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Shop (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: donate (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'donate')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Shop (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: subscriptions (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'subscriptions')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Shop (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: packages (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'packages')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 1 : Shop (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: advertising (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'advertising')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+###The Ojbect was NOT found.  Please REVIEW: advertising (0)
+###Level 1 : Shop (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: shoppingcart (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'shoppingcart')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+### (-2)
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Main.rvl.xlsx
+SetRowIndex: 0:143
+Playing script: Script: C:\Spira\MxMasterTest\Main.rvl.xlsx:ProbeGetInvolvedButtons, 144 source rows 0 errors
+###Level 1 : Directories (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: boardofdirectors (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'boardofdirectors')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level3 Horizontal Button: members (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level3 Horizontal Button: membercompanies (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level3 Horizontal Button: companylocations (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level3 Horizontal Button: memberlocations (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Main.rvl.xlsx
+SetRowIndex: 0:143
+Playing script: Script: C:\Spira\MxMasterTest\Main.rvl.xlsx:ProbeEventButtons, 144 source rows 0 errors
+###Level 1 : Events (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: calendarofevents (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'calendarofevents')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level3 Horizontal Button: calendarofevents (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level3 Horizontal Button: courses (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level3 Horizontal Button: webinars (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Main.rvl.xlsx
+SetRowIndex: 0:140
+Playing script: Script: C:\Spira\MxMasterTest\Main.rvl.xlsx:ProbeShoppingCartButtons, 141 source rows 0 errors
+###Level 1 : Shop (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: productcatalog (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'productcatalog')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level3 Horizontal Button: productcatalog (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level3 Horizontal Button: donate (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level3 Horizontal Button: subscriptions (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level3 Horizontal Button: packages (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level3 Horizontal Button: advertising (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+###The Ojbect was NOT found.  Please REVIEW: advertising (0)
+###Level3 Horizontal Button: shoppingcart (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Execution is over, bailing out.
+Execution is over, bailing out.
+Execution is over, bailing out.
+Execution is over, bailing out.
+###MxMasterTest (0)
+Test execution done
+##############################################################
+Test Fail: MxMasterTest,  (Passed:0 Failed:3 Time:265.79s)
+Test Session Status: Fail Time: 267.508s
+##############################################################

@@ -1,0 +1,164 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-12-04 16:31:14.603"/>
+<log type="Test" name="MeetingRegistration2" status="Info"  at="2020-12-04 16:31:15.394"><data type="text">Test Started: C:\Spira\MxMasterTest\MeetingRegistration2\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2020-12-04 16:31:15.400"/>
+<log type="Assert" name="Login.DoClick([])" status="Pass"  at="2020-12-04 16:31:18.327" comment="Returned Value: true" />
+<log type="Assert" name="Username.DoSetText([&quot;Tom@ImAbadBoy.com&quot;])" status="Pass"  at="2020-12-04 16:31:19.396" comment="Returned Value: true" />
+<log type="Assert" name="Password.DoSetText([&quot;Tom@ImAbadBoy.com&quot;])" status="Pass"  at="2020-12-04 16:31:20.530" comment="Returned Value: true" />
+<log type="Assert" name="SignInButton.DoClick([])" status="Pass"  at="2020-12-04 16:31:21.899" comment="Returned Value: true" />
+<log type="Message" name="Level 1 : Events" status="Info"  at="2020-12-04 16:31:21.901"/>
+<log type="Message" name="Level 2 Horizontal Link: calendarofevents" status="Info"  at="2020-12-04 16:31:39.745"/>
+<log type="Message" name="Xpath: //i[contains(@class, &apos;fas fa-3x icon&apos;) and contains(@class, &apos;calendarofevents&apos;)]" status="Info"  at="2020-12-04 16:31:39.759"/>
+<log type="Assert" name="NameSearchField.DoSetText([&quot;tmx_Annual Conference&quot;])" status="Pass"  at="2020-12-04 16:31:44.282" comment="Returned Value: true" />
+<log type="Assert" name="SearchButton.DoClick([])" status="Pass"  at="2020-12-04 16:31:45.602" comment="Returned Value: true" />
+<log type="Assert" name="tmx_Annual_Conference.DoClick([])" status="Pass"  at="2020-12-04 16:31:46.833" comment="Returned Value: true" />
+<log type="Assert" name="RegisterOnline.DoClick([])" status="Pass"  at="2020-12-04 16:31:49.536" comment="Returned Value: true" />
+<log type="Assert" name="Register_me1.DoClick([])" status="Pass"  at="2020-12-04 16:31:50.838" comment="Returned Value: true" />
+<log type="Assert" name="StartRegistrationButton.DoClick([])" status="Pass"  at="2020-12-04 16:31:52.228" comment="Returned Value: true" />
+<log type="Message" name="" status="Info"  at="2020-12-04 16:31:52.304"/>
+<log type="Message" name="STEP 1 - Registrant" status="Info"  at="2020-12-04 16:31:52.315"/>
+<log type="Message" name="Following are Checkpoints for the Registration Header" status="Info"  at="2020-12-04 16:31:52.326"/>
+<log type="Assert" name="Meeting Name: tmx_Annual Conference" status="Pass"  at="2020-12-04 16:31:52.414"><data type="text">tmx_Annual Conference</data>
+<data type="text">tmx_Annual Conference</data>
+</log>
+<log type="Assert" name="Start Date: Wednesday, June 01, 2022" status="Pass"  at="2020-12-04 16:31:52.491"><data type="text">Wednesday, June 01, 2022</data>
+<data type="text">Wednesday, June 01, 2022</data>
+</log>
+<log type="Assert" name="End Date: -Friday, June 03, 2022" status="Pass"  at="2020-12-04 16:31:52.575"><data type="text">- Friday, June 03, 2022</data>
+<data type="text">- Friday, June 03, 2022</data>
+</log>
+<log type="Assert" name="Registrant Name: tmx_Jefferson, Thomas" status="Pass"  at="2020-12-04 16:32:01.115"><data type="text">Registrant: tmx_Jefferson, Thomas</data>
+<data type="text">Registrant: tmx_Jefferson, Thomas</data>
+</log>
+<log type="Assert" name="tmx_MainRegistration.DoClick([])" status="Pass"  at="2020-12-04 16:32:02.489" comment="Returned Value: true" />
+<log type="Assert" name="UDFBoolean1.DoSetCheck([true])" status="Pass"  at="2020-12-04 16:32:04.635" comment="Returned Value: true" />
+<log type="Assert" name="UDFCurrency1.DoSetText([&quot;100&quot;])" status="Pass"  at="2020-12-04 16:32:05.836" comment="Returned Value: true" />
+<log type="Assert" name="UDFDate1.DoSetText([&quot;12/18/1962&quot;])" status="Pass"  at="2020-12-04 16:32:06.970" comment="Returned Value: true" />
+<log type="Assert" name="UDFText1.DoSetText([&quot;Blue&quot;])" status="Pass"  at="2020-12-04 16:32:08.123" comment="Returned Value: true" />
+<log type="Assert" name="UDFText2.DoSetText([&quot;17&quot;])" status="Pass"  at="2020-12-04 16:32:09.241" comment="Returned Value: true" />
+<log type="Assert" name="NextStepButton.DoClick([])" status="Pass"  at="2020-12-04 16:32:10.882" comment="Returned Value: true" />
+<log type="Message" name="The value for E-mail is: Tom@ImAbadBoy.com" status="Info"  at="2020-12-04 16:32:10.959"/>
+<log type="Message" name="The email address is correct!" status="Info"  at="2020-12-04 16:32:10.973"/>
+<log type="Message" name="" status="Info"  at="2020-12-04 16:32:11.036"/>
+<log type="Message" name="STEP 2 - Sessions" status="Info"  at="2020-12-04 16:32:11.050"/>
+<log type="Assert" name="Fax.DoSetText([&quot;410-913-8483&quot;])" status="Pass"  at="2020-12-04 16:32:17.353" comment="Returned Value: true" />
+<log type="Assert" name="RegistrantInformation-SaveAndClose.DoClick([])" status="Pass"  at="2020-12-04 16:32:18.760" comment="Returned Value: true" />
+<log type="Assert" name="tmx_MainSession1.DoClick([])" status="Pass"  at="2020-12-04 16:32:21.442" comment="Returned Value: true" />
+<log type="Assert" name="tmx_PackagedSession1.DoSetCheck([true])" status="Pass"  at="2020-12-04 16:32:23.616" comment="Returned Value: true" />
+<log type="Assert" name="tmx_ComplimentarySession1.DoSetCheck([true])" status="Pass"  at="2020-12-04 16:32:25.828" comment="Returned Value: true" />
+<log type="Assert" name="NextStepButton.DoClick([])" status="Pass"  at="2020-12-04 16:32:27.375" comment="Returned Value: true" />
+<log type="Message" name="" status="Info"  at="2020-12-04 16:32:27.457"/>
+<log type="Message" name="STEP 3 - Guests" status="Info"  at="2020-12-04 16:32:27.471"/>
+<log type="Assert" name="AddGuest.DoClick([])" status="Pass"  at="2020-12-04 16:32:33.478" comment="Returned Value: true" />
+<log type="Assert" name="FirstName.DoSetText([&quot;John&quot;])" status="Pass"  at="2020-12-04 16:32:35.701" comment="Returned Value: true" />
+<log type="Assert" name="LastName.DoSetText([&quot;tmx_Adams&quot;])" status="Pass"  at="2020-12-04 16:32:36.844" comment="Returned Value: true" />
+<log type="Assert" name="DisplayName.DoSetText([&quot;John tmx_Adams&quot;])" status="Pass"  at="2020-12-04 16:32:37.997" comment="Returned Value: true" />
+<log type="Assert" name="EmailAddress.DoSetText([&quot;john@adamsinski.com&quot;])" status="Pass"  at="2020-12-04 16:32:39.099" comment="Returned Value: true" />
+<log type="Assert" name="Street1.DoClick([])" status="Pass"  at="2020-12-04 16:32:40.433" comment="Returned Value: true" />
+<log type="Assert" name="Street2.DoClick([])" status="Pass"  at="2020-12-04 16:32:41.788" comment="Returned Value: true" />
+<log type="Assert" name="Street3.DoClick([])" status="Pass"  at="2020-12-04 16:32:43.152" comment="Returned Value: true" />
+<log type="Assert" name="City.DoClick([])" status="Pass"  at="2020-12-04 16:32:44.564" comment="Returned Value: true" />
+<log type="Assert" name="State.DoClick([])" status="Pass"  at="2020-12-04 16:32:45.940" comment="Returned Value: true" />
+<log type="Assert" name="ZipCode.DoClick([])" status="Pass"  at="2020-12-04 16:32:47.326" comment="Returned Value: true" />
+<log type="Assert" name="SaveGuestButton.DoClick([])" status="Pass"  at="2020-12-04 16:32:48.939" comment="Returned Value: true" />
+<log type="Assert" name="Guest Registrant Name:  John tmx_Adams (John tmx_Adams)" status="Pass"  at="2020-12-04 16:32:49.022"><data type="text">tmx_Adams, John (John tmx_Adams)</data>
+<data type="text">tmx_Adams, John (John tmx_Adams)</data>
+</log>
+<log type="Assert" name="NextStepButton.DoClick([])" status="Pass"  at="2020-12-04 16:32:50.245" comment="Returned Value: true" />
+<log type="Assert" name="The Validation message contains the text:  The following Guests have required questions without answering" status="Pass"  at="2020-12-04 16:32:50.372"><data type="text">The following guests have required questions without answering: tmx_Adams John, please answer them or you will not be able to continue the registration</data>
+<data type="text">The following guests have required questions without answering</data>
+</log>
+<log type="Assert" name="SelectQuestionsLink.DoClick([])" status="Pass"  at="2020-12-04 16:32:51.709" comment="Returned Value: true" />
+<log type="Assert" name="GuestUDFDate1.DoSetText([&quot;07/04/1976&quot;])" status="Pass"  at="2020-12-04 16:32:52.833" comment="Returned Value: true" />
+<log type="Assert" name="UDFText1.DoClick([])" status="Pass"  at="2020-12-04 16:32:54.186" comment="Returned Value: true" />
+<log type="Assert" name="SaveGuestButton.DoClick([])" status="Pass"  at="2020-12-04 16:32:55.514" comment="Returned Value: true" />
+<log type="Assert" name="SelectSessions.DoClick([])" status="Pass"  at="2020-12-04 16:32:57.891" comment="Returned Value: true" />
+<log type="Assert" name="SelectTMXGuestSession1-Session.DoClick([])" status="Pass"  at="2020-12-04 16:32:59.094" comment="Returned Value: true" />
+<log type="Message" name="tmx_Guest Session 1 has been selected." status="Info"  at="2020-12-04 16:32:59.094"/>
+<log type="Assert" name="SelectPackagedSession1-Session.DoSetCheck([true])" status="Pass"  at="2020-12-04 16:33:00.227" comment="Returned Value: true" />
+<log type="Message" name="tmx_Packaged Session 1 has been selected." status="Info"  at="2020-12-04 16:33:00.243"/>
+<log type="Assert" name="SaveGuestButton.DoClick([])" status="Pass"  at="2020-12-04 16:33:01.615" comment="Returned Value: true" />
+<log type="Assert" name="The &apos;Date in Conflict Validation messge is displayed" status="Pass"  at="2020-12-04 16:33:02.876"><data type="text">Please check the following conflicts in your registration:</data>
+<data type="text">Please check the following conflicts in your registration:</data>
+</log>
+<log type="Assert" name="SelectTMXGuestSession1-Session.DoClick([])" status="Pass"  at="2020-12-04 16:33:04.298" comment="Returned Value: true" />
+<log type="Message" name="tmx_Guest Session 1 has been DE-selected." status="Info"  at="2020-12-04 16:33:04.299"/>
+<log type="Assert" name="SelectPackagedSession1-Session.DoClick([])" status="Pass"  at="2020-12-04 16:33:05.634" comment="Returned Value: true" />
+<log type="Message" name="tmx_Packaged Session 1 has been DEselected." status="Info"  at="2020-12-04 16:33:05.649"/>
+<log type="Assert" name="SelectPackagedSession1-Session.DoClick([])" status="Pass"  at="2020-12-04 16:33:08.004" comment="Returned Value: true" />
+<log type="Message" name="tmx_Packaged Session 1 has been REselected." status="Info"  at="2020-12-04 16:33:08.005"/>
+<log type="Assert" name="SelectTMX_ComplimentarySession1.DoClick([])" status="Pass"  at="2020-12-04 16:33:09.438" comment="Returned Value: true" />
+<log type="Message" name="The tmx_Complimentary Session has been selected" status="Info"  at="2020-12-04 16:33:09.460"/>
+<log type="Assert" name="SaveGuestButton.DoClick([])" status="Pass"  at="2020-12-04 16:33:10.803" comment="Returned Value: true" />
+<log type="Assert" name="NextStepButton.DoClick([])" status="Pass"  at="2020-12-04 16:33:13.279" comment="Returned Value: true" />
+<log type="Message" name="" status="Info"  at="2020-12-04 16:33:13.349"/>
+<log type="Message" name="STEP 4 - Registration Summary" status="Info"  at="2020-12-04 16:33:13.376"/>
+<log type="Assert" name="Main Registrant Name Contains tmx_Jefferson, Thomas" status="Pass"  at="2020-12-04 16:33:17.231"><data type="text">
+                    tmx_Jefferson, Thomas
+                    
+                    
+                    
+                    
+                    
+                     Edit
+				</data>
+<data type="text">tmx_Jefferson, Thomas</data>
+</log>
+<log type="Assert" name="Main Registration:  tmx_Main Registration" status="Pass"  at="2020-12-04 16:33:17.385"><data type="text">tmx_Main Registration</data>
+<data type="text">tmx_Main Registration</data>
+</log>
+<log type="Assert" name="Main Registration Parent Account:  tmx_PresidentialAccount" status="Pass"  at="2020-12-04 16:33:17.532"><data type="text">tmx_PresidentialAccount</data>
+<data type="text">tmx_PresidentialAccount</data>
+</log>
+<log type="Assert" name="Main Registrant Total = $160.00" status="Pass"  at="2020-12-04 16:33:17.663"><data type="text">$160.00</data>
+<data type="text">$160.00</data>
+</log>
+<log type="Assert" name="Row 1 Type:  Registration" status="Pass"  at="2020-12-04 16:33:17.879"><data type="text">Registration</data>
+<data type="text">Registration</data>
+</log>
+<log type="Assert" name="Row1bItem =  tmx_Main Registration" status="Pass"  at="2020-12-04 16:33:18.032"><data type="text">tmx_Main Registration</data>
+<data type="text">tmx_Main Registration</data>
+</log>
+<log type="Assert" name="Row1c-Qty Contains  Quantity: 1" status="Pass"  at="2020-12-04 16:33:18.179"><data type="text">
+    			    Quantity:  1
+    			</data>
+<data type="text">1</data>
+</log>
+<log type="Assert" name="Row1d-Session Fee = 100" status="Pass"  at="2020-12-04 16:33:18.332"><data type="text">$100.00</data>
+<data type="text">$100.00</data>
+</log>
+<log type="Assert" name="Row 2 Type:  Session" status="Pass"  at="2020-12-04 16:33:18.479"><data type="text">Session</data>
+<data type="text">Session</data>
+</log>
+<log type="Assert" name="Row2b-Item =  tmx_Main Session 1" status="Pass"  at="2020-12-04 16:33:18.619"><data type="text">tmx_Main Session 1</data>
+<data type="text">tmx_Main Session 1</data>
+</log>
+<log type="Assert" name="Row2c-Qty Contains  Quantity: 1" status="Pass"  at="2020-12-04 16:33:18.748"><data type="text">1</data>
+<data type="text">1</data>
+</log>
+<log type="Assert" name="Row2d-Session Fee = $50.00" status="Pass"  at="2020-12-04 16:33:18.895"><data type="text">$50.00</data>
+<data type="text">$50.00</data>
+</log>
+<log type="Assert" name="Row 3a-Type:  Session" status="Pass"  at="2020-12-04 16:33:19.048"><data type="text">Session</data>
+<data type="text">Session</data>
+</log>
+<log type="Assert" name="Row3b-Item =  tmx_Packaged Session 1" status="Pass"  at="2020-12-04 16:33:19.195"><data type="text">tmx_Packaged Session 1</data>
+<data type="text">tmx_Packaged Session 1</data>
+</log>
+<log type="Assert" name="Row3c-Qty Contains  Quantity: 1" status="Pass"  at="2020-12-04 16:33:19.333"><data type="text">1</data>
+<data type="text">1</data>
+</log>
+<log type="Assert" name="Row3d-Session Fee = $10.00" status="Pass"  at="2020-12-04 16:33:19.464"><data type="text">$10.00</data>
+<data type="text">$10.00</data>
+</log>
+<log type="Assert" name="Row4a-Type:  Session" status="Pass"  at="2020-12-04 16:33:19.648"><data type="text">Session</data>
+<data type="text">Session</data>
+</log>
+<log type="Assert" name="Row4b-Item =  tmx_Complimentary Session" status="Pass"  at="2020-12-04 16:33:19.817"><data type="text">tmx_Complimentary Session</data>
+<data type="text">tmx_Complimentary Session</data>
+</log>
+<log type="Assert" name="Row4c-Qty Contains  Quantity: 1" status="Pass"  at="2020-12-04 16:33:19.917"><data type="text">1</data>
+<data type="text">1</data>
+</log>
+<log type="Assert" name="Checkout.DoClick([])" status="Pass"  at="2020-12-04 16:33:21.291" comment="Returned Value: true" />
+<log type="Test" name="MeetingRegistration2" status="Pass" closed="MeetingRegistration2" _guid="undefined"  at="2020-12-04 16:33:23.306" comment="Passed:77 Failed:0 Time:128.016s" />

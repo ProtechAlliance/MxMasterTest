@@ -1,0 +1,49 @@
+<log type="Session" name="MBECKPC:mbeck" at="2020-12-04 18:21:18.140"/>
+<log type="Test" name="EditRegistrationPart2" status="Info"  at="2020-12-04 18:21:18.894"><data type="text">Test Started: C:\Spira\MxMasterTest\EditRegistrationPart2\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2020-12-04 18:21:18.895"/>
+<log type="Message" name="Shopping Cart Number:   Order SC-C-001636-046TS" status="Info"  at="2020-12-04 18:21:20.633"/>
+<log type="Message" name="Confirmation Summary Block:   
+					Order SC-C-001636-046TS
+					
+                        Date of purchase: 12/4/2020
+					    Payment: 
+					    Bill To: tmx_Jefferson, Thomas
+                        Gift Card: -
+                        PO #: 12345
+					
+				" status="Info"  at="2020-12-04 18:21:20.765"/>
+<log type="Message" name="Bill To Address:   
+					Bill To Address
+					
+                        Thomas tmx_Jefferson
+                        4949 Yuletide Dr. Columbia, MD 21045 United States
+					
+				" status="Info"  at="2020-12-04 18:21:21.031"/>
+<log type="Message" name="" status="Info"  at="2020-12-04 18:21:21.034"/>
+<log type="Message" name="*****Purchase Confirmation FOOTER for Edited Registration*****" status="Info"  at="2020-12-04 18:21:21.034"/>
+<log type="Assert" name="Total Charges:  $25.00" status="Pass"  at="2020-12-04 18:21:21.166"><data type="text">$25.00</data>
+<data type="text">$25.00</data>
+</log>
+<log type="Assert" name="Sales Tax:  $0.00" status="Pass"  at="2020-12-04 18:21:21.317"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Order Total:  $25.00" status="Pass"  at="2020-12-04 18:21:21.431"><data type="text">$25.00</data>
+<data type="text">$25.00</data>
+</log>
+<log type="Assert" name="Gift Card:  $0.00" status="Pass"  at="2020-12-04 18:21:21.566"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Previous Payments:  $0.00" status="Pass"  at="2020-12-04 18:21:21.701"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Payment:  $0.00" status="Pass"  at="2020-12-04 18:21:21.851"><data type="text">$0.00</data>
+<data type="text">$0.00</data>
+</log>
+<log type="Assert" name="Balance:  $220.00" status="Pass"  at="2020-12-04 18:21:21.982"><data type="text">$220.00</data>
+<data type="text">$220.00</data>
+</log>
+<log type="Message" name="MessageBox: Please Delete the following items in CRM in order to run this script again using the same Contact:,Invoice Detail for this Meeting Registration where Contact = &apos;tmx_Thomas Jefferson&apos;.,Main Invoice for &apos;tmx_Thomas Jefferson&apos;.,-----&gt;CLICK &apos;OK&apos; WHEN FINISHED" status="Info"  at="2020-12-04 18:21:21.982"/>
+<log type="Message" name="MessageBox: Did you REALLY delete the requested items.  If not, then the script will FAIL when the next person runs it because of the Duplicate Registration." status="Info"  at="2020-12-04 18:21:25.106"/>
+<log type="Message" name="MessageBox: Thanks for your Cooperation!" status="Info"  at="2020-12-04 18:21:26.406"/>
+<log type="Test" name="EditRegistrationPart2" status="Pass" closed="EditRegistrationPart2" _guid="undefined"  at="2020-12-04 18:21:27.497" comment="Passed:7 Failed:0 Time:8.687s" />

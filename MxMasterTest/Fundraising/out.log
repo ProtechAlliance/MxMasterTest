@@ -1,0 +1,305 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Player Starting...
+Rapise Version:6.6.21.22
+Verbose level:1
+Creating a locator:Spreadsheet
+Creating a locator:HTML
+Creating a locator:HTML FPP
+###Fundraising (-2)
+###Starting scenario: Test (-2)
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Fundraising\Main.rvl.xlsx
+SetRowIndex: 0:36
+Playing script: Script: C:\Spira\MxMasterTest\Fundraising\Main.rvl.xlsx:RVL, 37 source rows 0 errors
+Looking for object:Login
+Connecting to Chrome
+Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
+Accessible object: [ROLE_SYSTEM_WINDOW]
+Using default WebAppProfile
+Chrome Extension Version: 3.0.10
+Chrome active URL: http://mx365dev.ptassoc.com/Security/Sign-In
+Connected to Chrome window:http://mx365dev.ptassoc.com/Security/Sign-In
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Login.DoClick([]) (1)
+Action result:true
+Looking for object:Username
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["Tom@ImAbadBoy.com"])
+###Username.DoSetText(["Tom@ImAbadBoy.com"]) (1)
+Action result:true
+Looking for object:Password
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["Tom@ImAbadBoy.com"])
+###Password.DoSetText(["Tom@ImAbadBoy.com"]) (1)
+Action result:true
+Looking for object:SignInButton
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###SignInButton.DoClick([]) (1)
+Action result:true
+###Level 1 : Shop (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: donate (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'donate')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:tmx_MonetaryContribution
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:tmx_MonetaryContribution
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###tmx_MonetaryContribution.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+Looking for object:tmx_BeYourOwnSponsor
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###tmx_BeYourOwnSponsor.DoClick([]) (1)
+Action result:true
+Looking for object:Amount-MonetaryContribution
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoSetText(["99"])
+###Amount-MonetaryContribution.DoSetText(["99"]) (1)
+Action result:true
+Looking for object:AddToCart-MonetaryContribution
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###AddToCart-MonetaryContribution.DoClick([]) (1)
+Action result:true
+Looking for object:Shopping_Cart
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Global
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Fundraising\Main.rvl.xlsx
+SetRowIndex: 0:131
+Playing script: Script: C:\Spira\MxMasterTest\Fundraising\Main.rvl.xlsx:ShoppingCartValidation1, 132 source rows 0 errors
+Looking for object:CurrentItemsCount
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Count of Items in Cart:  You currently have 1 items in your cart (1)
+Looking for object:ContributionProduct
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Monetary Contribution Line item 1:  tmx_Monetary Contribution (1)
+Looking for object:LineItemSubtotal
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Monetary Contribtion Line item Extended Amount:  $99.00 (1)
+Looking for object:GridFooterTotal
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Grid Footer Subtotal:  $99.00 (1)
+Looking for object:RightPurchaseSubtotal
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Summary - Purchase Subtotal:  $99.00 (1)
+Looking for object:RightSalesTax
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:RightSalesTax
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Summary - Sales Tax:  $0.00 (1)
+Looking for object:RightOrderTotal
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Summary - OrderTotal:  $99.00 (1)
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Fundraising\Main.rvl.xlsx
+SetRowIndex: 0:153
+Playing script: Script: C:\Spira\MxMasterTest\Fundraising\Main.rvl.xlsx:MonetaryPledge, 154 source rows 0 errors
+###Level 1 : Shop (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Level 2 Horizontal Link: donate (-2)
+###Xpath: //i[contains(@class, 'fas fa-3x icon') and contains(@class, 'donate')] (-2)
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:ValidationMessage-AlreadyInCart
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:ValidationMessage-AlreadyInCart
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Validation Message:   Your gift has been added to the cart. Click Checkout to enter payment (1)
+Looking for object:tmx_MonetaryPLEDGE
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:tmx_MonetaryPLEDGE
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###tmx_MonetaryPLEDGE.DoClick([]) (1)
+Action result:true
+Looking for object:Global
+Looking for object:tmx_TakeItOrLeaveItPledge
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###tmx_TakeItOrLeaveItPledge.DoClick([]) (1)
+Action result:true
+Looking for object:Amount-PLEDGE
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###Amount-PLEDGE.DoClick([]) (1)
+Action result:true
+Looking for object:AddToCartPLEDGE
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###AddToCartPLEDGE.DoClick([]) (1)
+Action result:true
+Looking for object:Shopping_Cart
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:null
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Global
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Fundraising\Main.rvl.xlsx
+SetRowIndex: 0:211
+Playing script: Script: C:\Spira\MxMasterTest\Fundraising\Main.rvl.xlsx:ShoppingCartValidation2, 212 source rows 0 errors
+Looking for object:CurrentItemsCount
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Count of Items in Cart:  You currently have 2 items in your cart (1)
+Looking for object:tmx_Monetary_PLEDGE_Short-Term
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Contribution Line item:  tmx_Monetary PLEDGE Short-Term (1)
+Looking for object:LineItemSubtotal2Pledge
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Line item Extended Amount:  $0.00 (1)
+Looking for object:GridFooterTotal
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Grid Footer Subtotal:  $99.00 (1)
+Looking for object:RightPurchaseSubtotal
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Summary - Purchase Subtotal:  $99.00 (1)
+Looking for object:RightSalesTax
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:RightSalesTax
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Summary - Sales Tax:  $0.00 (1)
+Looking for object:RightOrderTotal
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+###Summary - OrderTotal:  $99.00 (1)
+Looking for object:RVL
+Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Fundraising\Main.rvl.xlsx
+SetRowIndex: 0:145
+Playing script: Script: C:\Spira\MxMasterTest\Fundraising\Main.rvl.xlsx:CleanUp, 146 source rows 0 errors
+Looking for object:ClearCartLink
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:ClearCartLink
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+DoClick([])
+###ClearCartLink.DoClick([]) (1)
+Action result:true
+Looking for object:Navigator
+************!!!!!!!!!!!!!!!!!!**************
+MatchedObject:(HTMLObject)[-1]
+Looking for object:Tester
+###The Shopping Cart for this test has successfully been Cancelled! (-2)
+Execution is over, bailing out.
+Execution is over, bailing out.
+Execution is over, bailing out.
+Execution is over, bailing out.
+Execution is over, bailing out.
+###Fundraising (1)
+Test execution done
+##############################################################
+Test Pass: Fundraising,  (Passed:28 Failed:0 Time:50.723s)
+Test Session Status: Pass Time: 52.421s
+##############################################################

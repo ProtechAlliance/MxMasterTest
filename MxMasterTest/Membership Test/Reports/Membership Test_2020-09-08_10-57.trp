@@ -1,0 +1,71 @@
+<log type="Session" name="RCLEMPC:RClem" at="2020-09-08 10:54:28.737"/>
+<log type="Test" name="Membership Test" status="Info"  at="2020-09-08 10:54:30.801"><data type="text">Test Started: C:\Spira\MxMasterTest\Membership Test\Main.js</data>
+</log>
+<log type="Message" name="Starting scenario: RVLSpecialEntryPoint" status="Info"  at="2020-09-08 10:54:30.821"/>
+<log type="Message" name="placeholder" status="Info"  at="2020-09-08 10:54:35.772"/>
+<log type="Message" name="
+								
+			    $50.00
+		    
+							" status="Info"  at="2020-09-08 10:54:35.802"/>
+<log type="Assert" name="Switch_to_another_app.DoClick([])" status="Pass"  at="2020-09-08 10:54:53.596" comment="Returned Value: true" />
+<log type="Assert" name="UX_365_Online.DoClick([])" status="Pass"  at="2020-09-08 10:54:54.857" comment="Returned Value: true" />
+<log type="Assert" name="Invoices.DoClick([])" status="Pass"  at="2020-09-08 10:55:07.930" comment="Returned Value: true" />
+<log type="Assert" name="Invoice_SearchBox.DoSetText([&quot;INV-02752-H3V9C4&quot;])" status="Pass"  at="2020-09-08 10:55:09.312" comment="Returned Value: true" />
+<log type="Assert" name="Search_Button.DoClick([])" status="Pass"  at="2020-09-08 10:55:10.572" comment="Returned Value: true" />
+<log type="Assert" name="INV-02752-H3V9C4.DoLDClick([])" status="Pass"  at="2020-09-08 10:55:12.130" comment="Returned Value: true" />
+<log type="Message" name="the invoice is &apos;INV-02752-H3V9C4&apos;" status="Info"  at="2020-09-08 10:55:12.179"/>
+<log type="Message" name="$50.00" status="Info"  at="2020-09-08 10:55:17.455"/>
+<log type="Assert" name="The balance dues are equal!" status="Pass"  at="2020-09-08 10:55:17.504"><data type="text">
+								
+			    $50.00
+		    
+							</data>
+<data type="text">$50.00</data>
+</log>
+<log type="Assert" name="New_Transactions.DoClick([])" status="Pass"  at="2020-09-08 10:55:27.695" comment="Returned Value: true" />
+<log type="Assert" name="Payment_&amp;_Adjustment.DoClick([])" status="Pass"  at="2020-09-08 10:55:29.004" comment="Returned Value: true" />
+<log type="Assert" name="All_Others.DoClick([])" status="Pass"  at="2020-09-08 10:55:30.206" comment="Returned Value: true" />
+<log type="Assert" name="*check.DoSetText([&quot;check&quot;])" status="Pass"  at="2020-09-08 10:55:34.325" comment="Returned Value: true" />
+<log type="Assert" name="Check_PaymentCKPayments_&amp;_Adjust.DoClick([])" status="Pass"  at="2020-09-08 10:55:36.035" comment="Returned Value: true" />
+<log type="Assert" name="Reference Number.DoClick([])" status="Pass"  at="2020-09-08 10:55:37.269" comment="Returned Value: true" />
+<log type="Assert" name="Reference Number.DoSetText([&quot;123&quot;])" status="Pass"  at="2020-09-08 10:55:38.411" comment="Returned Value: true" />
+<log type="Assert" name="Save_&amp;_Close1.DoClick([])" status="Pass"  at="2020-09-08 10:55:41.630" comment="Returned Value: true" />
+<log type="Assert" name="Abasi,_Tosin.DoClick([])" status="Pass"  at="2020-09-08 10:55:47.347" comment="Returned Value: true" />
+<log type="Assert" name="Current.DoLDClick([])" status="Pass"  at="2020-09-08 10:55:56.395" comment="Returned Value: true" />
+<log type="Message" name="Check renewal billing record values (pre-payment)" status="Info"  at="2020-09-08 10:55:58.430"/>
+<log type="Message" name="Checking Benefit Status" status="Info"  at="2020-09-08 10:55:59.663"/>
+<log type="Message" name="Value is correct: New" status="Info"  at="2020-09-08 10:55:59.689"/>
+<log type="Message" name="Checking Volume" status="Info"  at="2020-09-08 10:56:01.842"/>
+<log type="Message" name="Value is correct: 1" status="Info"  at="2020-09-08 10:56:01.862"/>
+<log type="Message" name="Checking Primary Benefit" status="Info"  at="2020-09-08 10:56:04.015"/>
+<log type="Message" name="Value is correct: Yes" status="Info"  at="2020-09-08 10:56:04.037"/>
+<log type="Assert" name="pa_cyclestartdate.DoEnsureVisible([])" status="Pass"  at="2020-09-08 10:56:08.240" comment="Returned Value: [object Object]" />
+<log type="Message" name="Checking Cycle Start Date" status="Info"  at="2020-09-08 10:56:08.382"/>
+<log type="Message" name="Value is correct: 9/1/2020" status="Info"  at="2020-09-08 10:56:08.405"/>
+<log type="Message" name="Checking Cycle State" status="Info"  at="2020-09-08 10:56:08.536"/>
+<log type="Message" name="Value is correct: Current" status="Info"  at="2020-09-08 10:56:08.557"/>
+<log type="Message" name="Checking Date Renewed" status="Info"  at="2020-09-08 10:56:08.675"/>
+<log type="Message" name="Value is correct: " status="Info"  at="2020-09-08 10:56:08.696"/>
+<log type="Message" name="Checking Expiration Date" status="Info"  at="2020-09-08 10:56:08.830"/>
+<log type="Message" name="Value is correct: 8/31/2021" status="Info"  at="2020-09-08 10:56:08.855"/>
+<log type="Message" name="Checking Paid Through Date" status="Info"  at="2020-09-08 10:56:11.005"/>
+<log type="Message" name="Value is correct: 8/31/2021" status="Info"  at="2020-09-08 10:56:11.024"/>
+<log type="Assert" name="Close.DoClick([])" status="Pass"  at="2020-09-08 10:56:12.774" comment="Returned Value: true" />
+<log type="Assert" name="Invoice.DoClick([])" status="Pass"  at="2020-09-08 10:56:14.924" comment="Returned Value: true" />
+<log type="Assert" name="//button[@title=&apos;Select All&apos;].DoClick([])" status="Pass"  at="2020-09-08 10:56:25.131" comment="Returned Value: true" />
+<log type="Assert" name="Cancel.DoClick([])" status="Pass"  at="2020-09-08 10:56:34.022" comment="Returned Value: true" />
+<log type="Assert" name="OK.DoClick([])" status="Pass"  at="2020-09-08 10:56:37.239" comment="Returned Value: true" />
+<log type="Assert" name="Abasi,_Tosin.DoClick([])" status="Pass"  at="2020-09-08 10:56:38.462" comment="Returned Value: true" />
+<log type="Assert" name="//button[@title=&apos;Select All&apos;].DoClick([])" status="Pass"  at="2020-09-08 10:56:47.566" comment="Returned Value: true" />
+<log type="Assert" name="Delete%20Invoice.DoClick([])" status="Pass"  at="2020-09-08 10:56:49.786" comment="Returned Value: true" />
+<log type="Assert" name="Delete.DoClick([])" status="Pass"  at="2020-09-08 10:56:52.006" comment="Returned Value: true" />
+<log type="Assert" name="//button[@title=&apos;Select All&apos;].DoClick([])" status="Pass"  at="2020-09-08 10:56:57.851" comment="Returned Value: true" />
+<log type="Assert" name="Delete%20Renewal%20Billing.DoClick([])" status="Pass"  at="2020-09-08 10:57:00.069" comment="Returned Value: true" />
+<log type="Assert" name="Delete.DoClick([])" status="Pass"  at="2020-09-08 10:57:02.297" comment="Returned Value: true" />
+<log type="Assert" name="G_OpenAreaList.DoEnsureVisible([])" status="Pass"  at="2020-09-08 10:57:05.504" comment="Returned Value: [object Object]" />
+<log type="Assert" name="G_OpenAreaList.DoClick([])" status="Pass"  at="2020-09-08 10:57:07.834" comment="Returned Value: true" />
+<log type="Assert" name="//button[@title=&apos;Select All&apos;].DoClick([])" status="Pass"  at="2020-09-08 10:57:21.657" comment="Returned Value: true" />
+<log type="Assert" name="Delete.DoClick([])" status="Pass"  at="2020-09-08 10:57:23.972" comment="Returned Value: true" />
+<log type="Assert" name="Delete.DoClick([])" status="Pass"  at="2020-09-08 10:57:26.243" comment="Returned Value: true" />
+<log type="Test" name="Membership Test" status="Pass" closed="Membership Test" _guid="undefined"  at="2020-09-08 10:57:26.271" comment="Passed:35 Failed:0 Time:175.6s" />
