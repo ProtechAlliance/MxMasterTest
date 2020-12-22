@@ -10,6 +10,12 @@
           <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\b2130-MyAccount-RelatedAccounts\b2130-MyAccount-RelatedAccounts.sstest.Test.Reports" type="System.Boolean">
             <boolean>false</boolean>
           </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxNavigation\b2130-MyAccount-RelatedAccounts\b2130-MyAccount-RelatedAccounts.sstest.Test" type="System.Boolean">
+            <boolean>true</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxNavigation\b2130-MyAccount-RelatedAccounts\b2130-MyAccount-RelatedAccounts.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>
