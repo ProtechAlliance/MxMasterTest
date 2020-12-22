@@ -9,29 +9,29 @@ Creating a locator:HTML
 Creating a locator:HTML FPP
 ###b2121-MyAccount-MyCompany (-2)
 ###Starting scenario: Test (-2)
-Attaching to spreadsheet : true : C:\Spira\MxMasterTest\MxNavigation\b2121-MyAccount-MyCompany\Main.rvl.xlsx
+Attaching to spreadsheet : true : C:\Spira-GIT\MxMasterTest\MxNavigation\b2121-MyAccount-MyCompany\Main.rvl.xlsx
 SetRowIndex: 0:22
-Playing script: Script: C:\Spira\MxMasterTest\MxNavigation\b2121-MyAccount-MyCompany\Main.rvl.xlsx:RVL, 23 source rows 0 errors
+Playing script: Script: C:\Spira-GIT\MxMasterTest\MxNavigation\b2121-MyAccount-MyCompany\Main.rvl.xlsx:RVL, 23 source rows 0 errors
 ###Level 1 : My Account (-2)
 Connecting to Chrome
-Connected to chrome:My Profile - Google Chrome[Chrome_WidgetWin_1]
-Accessible object: My Profile - Google Chrome[ROLE_SYSTEM_WINDOW]
+Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
+Accessible object: [ROLE_SYSTEM_WINDOW]
 Using default WebAppProfile
 Chrome Extension Version: 3.0.10
-Chrome active URL: http://mx365dev.ptassoc.com/My-Account/My-Profile
-Connected to Chrome window:http://mx365dev.ptassoc.com/My-Account/My-Profile
+Chrome active URL: http://mx365dev.ptassoc.com/default.aspx
+Connected to Chrome window:http://mx365dev.ptassoc.com/default.aspx
 ************!!!!!!!!!!!!!!!!!!**************
-MatchedObject:My Profile - Google Chrome(HTMLObject)[-1]
+MatchedObject:(HTMLObject)[-1]
 Looking for object:Global
 ###Level 2  Vertical Link: My Company (-2)
 ###Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Company')])[1] (-2)
 ************!!!!!!!!!!!!!!!!!!**************
-MatchedObject:My Account - Google Chrome(HTMLObject)[-1]
+MatchedObject:(HTMLObject)[-1]
 Looking for object:Global
 Execution is over, bailing out.
 ###b2121-MyAccount-MyCompany (-1)
 Test execution done
 ##############################################################
-Test Unresolved: b2121-MyAccount-MyCompany,  (Passed:0 Failed:0 Time:7.817s)
-Test Session Status: Unresolved Time: 9.334s
+Test Unresolved: b2121-MyAccount-MyCompany,  (Passed:0 Failed:0 Time:5.882s)
+Test Session Status: Unresolved Time: 8.087s
 ##############################################################

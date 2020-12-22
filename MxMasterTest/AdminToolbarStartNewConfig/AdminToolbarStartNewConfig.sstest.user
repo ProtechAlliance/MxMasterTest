@@ -131,6 +131,18 @@
               </ArrayOfFlexDictionaryEntry>
             </FlexDictionary>
           </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira-git\mxmastertest\admintoolbarstartnewconfig\main.rvl.xlsx" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Row" type="System.Int32">
+                  <int>1</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Col" type="System.Int32">
+                  <int>1</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>

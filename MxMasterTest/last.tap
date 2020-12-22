@@ -1,4 +1,6 @@
-# Probe-CloseGDPR
+# b2121-MyAccount-MyCompany
 # Starting scenario: Test
-# The GDPR Message was Already Closed
-# Probe-CloseGDPR
+# Level 1 : My Account
+# Level 2  Vertical Link: My Company
+# Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Company')])[1]
+# b2121-MyAccount-MyCompany
