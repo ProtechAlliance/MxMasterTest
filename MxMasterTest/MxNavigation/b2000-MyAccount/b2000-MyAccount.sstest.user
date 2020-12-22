@@ -7,6 +7,9 @@
           <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\b2000-MyAccount\b2000-MyAccount.sstest.Test" type="System.Boolean">
             <boolean>true</boolean>
           </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxNavigation\b2000-MyAccount\b2000-MyAccount.sstest.Test" type="System.Boolean">
+            <boolean>true</boolean>
+          </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>
