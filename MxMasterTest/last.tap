@@ -1,6 +1,6 @@
-# b2121-MyAccount-MyCompany
+# b2130-MyAccount-RelatedAccounts
 # Starting scenario: Test
 # Level 1 : My Account
-# Level 2  Vertical Link: My Company
-# Xpath: (//h4[contains(@class, 'd-block') and contains(., 'My Company')])[1]
-# b2121-MyAccount-MyCompany
+# Level 2  Vertical Link: Related Accounts
+# Xpath: (//h4[contains(@class, 'd-block') and contains(., 'Related Accounts')])[1]
+# b2130-MyAccount-RelatedAccounts
