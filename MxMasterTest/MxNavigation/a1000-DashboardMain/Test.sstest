@@ -2,8 +2,8 @@
 <Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="18" t="">
   <ScriptPath>Main.js</ScriptPath>
   <UserFunctionsPath>..\..\User.js</UserFunctionsPath>
-  <ObjectsPath>..\..\Objects.js</ObjectsPath>
-  <ReportPath>g7010-Shop-ProductCatalog.trp</ReportPath>
+  <ObjectsPath>Objects.js</ObjectsPath>
+  <ReportPath>a1000-DashboardMain.trp</ReportPath>
   <CommandInterval>1000</CommandInterval>
   <IterationsCount>1</IterationsCount>
   <StopOnError>true</StopOnError>
@@ -25,7 +25,16 @@
     <IsFilterGroup>false</IsFilterGroup>
     <FilterWildcard>*.*</FilterWildcard>
     <FilterPath />
-    <Groups />
+    <Groups>
+      <TestGroup>
+        <Name>Reports</Name>
+        <IsFilterGroup>true</IsFilterGroup>
+        <FilterWildcard>*.trp</FilterWildcard>
+        <FilterPath>Reports</FilterPath>
+        <Groups />
+        <TestFiles />
+      </TestGroup>
+    </Groups>
     <TestFiles>
       <TestFile>
         <Path>Main.js</Path>
@@ -34,7 +43,7 @@
         <Path>Main.rvl.xlsx</Path>
       </TestFile>
       <TestFile>
-        <Path>..\..\Objects.js</Path>
+        <Path>Objects.js</Path>
       </TestFile>
       <TestFile>
         <Path>..\..\User.js</Path>
@@ -49,7 +58,10 @@
     <TestParam name="Record Title" variable="g_rWnd" defaultValue="regex:.*" description="Application Title to Record" output="false" ask="false">
       <PossibleValues />
     </TestParam>
-    <TestParam name="RVL Script" variable="g_rvlScriptPath" defaultValue="%WORKDIR%\MxNavigation\g7010-Shop-ProductCatalog\Main.rvl.xlsx" description="Main RVL Script to execute" output="false" ask="false">
+    <TestParam name="RVL Script" variable="g_rvlScriptPath" defaultValue="%WORKDIR%\MxNavigation\a1000-DashboardMain\Main.rvl.xlsx" description="Main RVL Script to execute" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
+    <TestParam name="Detect Web Plugins" variable="g_webPluginsAutoDetect" defaultValue="False" description="Enable web plugins auto detection" output="false" ask="false">
       <PossibleValues />
     </TestParam>
     <TestParam name="ServerProjectId" variable="g_serverProjectId" defaultValue="9" output="false" ask="false">
@@ -58,7 +70,7 @@
     <TestParam name="ServerTestCaseFolderId" variable="g_serverTestCaseFolderId" defaultValue="71" output="false" ask="false">
       <PossibleValues />
     </TestParam>
-    <TestParam name="ServerTestCaseId" variable="g_serverTestCaseId" defaultValue="268" output="false" ask="false">
+    <TestParam name="ServerTestCaseId" variable="g_serverTestCaseId" defaultValue="274" output="false" ask="false">
       <PossibleValues />
     </TestParam>
     <TestParam name="Source Type" variable="g_serverRepositoryType" defaultValue="git" output="false" ask="false">

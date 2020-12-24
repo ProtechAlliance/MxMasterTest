@@ -25,20 +25,21 @@
     <IsFilterGroup>false</IsFilterGroup>
     <FilterWildcard>*.*</FilterWildcard>
     <FilterPath />
-    <Groups />
+    <Groups>
+      <TestGroup>
+        <Name>a1000-DashboardMain</Name>
+        <IsFilterGroup>false</IsFilterGroup>
+        <FilterWildcard>*.*</FilterWildcard>
+        <FilterPath />
+        <Groups />
+        <TestFiles>
+          <TestFile>
+            <Path>a1000-DashboardMain\Test.sstest</Path>
+          </TestFile>
+        </TestFiles>
+      </TestGroup>
+    </Groups>
     <TestFiles>
-      <TestFile>
-        <Path>a1000-Home\a1000-Home.sstest</Path>
-      </TestFile>
-      <TestFile>
-        <Path>a1100-Home-ProductCatalog\a1100-Home-ProductCatalog.sstest</Path>
-      </TestFile>
-      <TestFile>
-        <Path>a1120-Home-Events\a1120-Home-Events.sstest</Path>
-      </TestFile>
-      <TestFile>
-        <Path>a1130-Home-Donate\a1130-Home-Donate.sstest</Path>
-      </TestFile>
       <TestFile>
         <Path>b2000-MyAccount\b2000-MyAccount.sstest</Path>
       </TestFile>
