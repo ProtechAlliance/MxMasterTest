@@ -7,6 +7,12 @@
           <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\b2180-MyAccount-MyExhibits\b2180-MyAccount-MyExhibits.sstest.Test" type="System.Boolean">
             <boolean>true</boolean>
           </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxNavigation\b2180-MyAccount-MyExhibits\b2180-MyAccount-MyExhibits.sstest.Test" type="System.Boolean">
+            <boolean>true</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxNavigation\b2180-MyAccount-MyExhibits\b2180-MyAccount-MyExhibits.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>
@@ -14,13 +20,15 @@
       <ArrayOfString />
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
-      <ArrayOfString />
+      <ArrayOfString>
+        <string>C:\Spira-GIT\MxMasterTest\MxNavigation\b2180-MyAccount-MyExhibits\Main.rvl.xlsx</string>
+      </ArrayOfString>
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
       <FlexDictionary>
         <ArrayOfFlexDictionaryEntry>
           <FlexDictionaryEntry name="Status" type="System.String">
-            <string />
+            <string>Fail</string>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Pass" type="System.Int32">
             <int>0</int>
@@ -29,7 +37,7 @@
             <int>0</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Unresolved" type="System.Int32">
-            <int>0</int>
+            <int>5</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Todo" type="System.Int32">
             <int>0</int>
@@ -45,6 +53,24 @@
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Verbose" type="System.Int32">
             <int>1</int>
+          </FlexDictionaryEntry>
+        </ArrayOfFlexDictionaryEntry>
+      </FlexDictionary>
+    </FlexDictionaryEntry>
+    <FlexDictionaryEntry name="Files" type="SmarteStudio.Test.FlexDictionary">
+      <FlexDictionary>
+        <ArrayOfFlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira-git\mxmastertest\mxnavigation\b2180-myaccount-myexhibits\main.rvl.xlsx" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Row" type="System.Int32">
+                  <int>1</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Col" type="System.Int32">
+                  <int>1</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
           </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
