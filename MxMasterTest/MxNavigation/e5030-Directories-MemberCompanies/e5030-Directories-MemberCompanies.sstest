@@ -52,13 +52,16 @@
     <TestParam name="RVL Script" variable="g_rvlScriptPath" defaultValue="%WORKDIR%\MxNavigation\e5030-Directories-MemberCompanies\Main.rvl.xlsx" description="Main RVL Script to execute" output="false" ask="false">
       <PossibleValues />
     </TestParam>
+    <TestParam name="Source Type" variable="g_serverRepositoryType" defaultValue="git" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
     <TestParam name="ServerProjectId" variable="g_serverProjectId" defaultValue="9" output="false" ask="false">
       <PossibleValues />
     </TestParam>
-    <TestParam name="ServerTestCaseFolderId" variable="g_serverTestCaseFolderId" defaultValue="57" output="false" ask="false">
+    <TestParam name="ServerTestCaseFolderId" variable="g_serverTestCaseFolderId" defaultValue="71" output="false" ask="false">
       <PossibleValues />
     </TestParam>
-    <TestParam name="ServerTestCaseId" variable="g_serverTestCaseId" defaultValue="156" output="false" ask="false">
+    <TestParam name="ServerTestCaseId" variable="g_serverTestCaseId" defaultValue="257" output="false" ask="false">
       <PossibleValues />
     </TestParam>
   </TestParams>

@@ -7,6 +7,9 @@
           <FlexDictionaryEntry name="C:\Spira\MxMasterTest\MxNavigation\c3050-Membership-ManageOurMembers\c3050-Membership-ManageOurMembers.sstest.Test" type="System.Boolean">
             <boolean>true</boolean>
           </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxNavigation\c3050-Membership-ManageOurMembers\c3050-Membership-ManageOurMembers.sstest.Test" type="System.Boolean">
+            <boolean>true</boolean>
+          </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>
@@ -16,6 +19,7 @@
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
       <ArrayOfString>
         <string>C:\Spira\MxMasterTest\User.js</string>
+        <string>C:\Spira-GIT\MxMasterTest\MxNavigation\c3050-Membership-ManageOurMembers\Main.rvl.xlsx</string>
       </ArrayOfString>
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
@@ -92,6 +96,18 @@
                 </FlexDictionaryEntry>
                 <FlexDictionaryEntry name="CaretY" type="System.Int32">
                   <int>0</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira-git\mxmastertest\mxnavigation\c3050-membership-manageourmembers\main.rvl.xlsx" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Row" type="System.Int32">
+                  <int>1</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Col" type="System.Int32">
+                  <int>1</int>
                 </FlexDictionaryEntry>
               </ArrayOfFlexDictionaryEntry>
             </FlexDictionary>
