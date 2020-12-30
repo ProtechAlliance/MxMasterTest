@@ -118,7 +118,7 @@ var saved_script_objects={
 		"window_name": "Subscriptions",
 		"xpath": "//div/div/div[@id='dnn_ctl03_mxShoppingCartSummary_pnlIcon']/a[@id='dnn_ctl03_mxShoppingCartSummary_hypViewMyCartIcon']/span/i",
 		"title": "Subscriptions",
-		"url": "http://mx365dev.ptassoc.com/Shop/Subscriptions"
+		"url": ""
 	},
 	"Benefit_Name": {
 		"locations": [
@@ -170,7 +170,7 @@ var saved_script_objects={
 		"window_name": "Shopping Cart",
 		"xpath": "//div[@id='dnn_ctr486_Cart_ctl00_wizCart_uscTotals1_pnlFooter']/a[@id='dnn_ctr486_Cart_ctl00_wizCart_uscTotals1_lnkExpressCheckout']",
 		"title": "Shopping Cart",
-		"url": "http://mx365dev.ptassoc.com/Shop/Shopping-Cart"
+		"url": ""
 	},
 	"Next": {
 		"locations": [
@@ -716,7 +716,7 @@ var saved_script_objects={
 		"window_name": "SignIn",
 		"xpath": "//input[contains(@id,'btnSignIn')]",
 		"title": "Sign In",
-		"url": "http://mx365dev.ptassoc.com/Security/Sign-In?returnurl=%2fSecurity%2fSign-In"
+		"url": ""
 	},
 	"ConfigAdminToolbar-OUT": {
 		"locations": [
@@ -785,7 +785,7 @@ var saved_script_objects={
 		"window_name": "Contacts Active Contacts - Microsoft Dynamics 365",
 		"xpath": "//div[@id='Grid00d5977f-079e-8a58-8f40-804342f20ab4-id-cell-0-2']/a",
 		"title": "Contacts Active Contacts - Microsoft Dynamics 365",
-		"url": "https://mx365qav90.crm.dynamics.com/main.aspx?appid=8b61ea6b-4ed6-e911-a969-000d3a124c2c&pagetype=entitylist&etn=contact&viewid=00000000-0000-0000-00aa-000010001004&viewType=1039"
+		"url": ""
 	},
 	"*check": {
 		"locations": [
@@ -1087,32 +1087,6 @@ var saved_script_objects={
 		"object_library": "Chrome HTML",
 		"window_name": "Sign In",
 		"xpath": "//input[@name='dnn$ctr495$CreateNewUserAccount$ctl00$btnCreateAccount' and @id='dnn_ctr495_CreateNewUserAccount_ctl00_btnCreateAccount']",
-		"title": "Sign In",
-		"url": ""
-	},
-	"Create_Password": {
-		"locations": [
-			{
-				"locator_name": "HTML",
-				"location": {
-					"xpath": "param:xpath",
-					"url": "param:url",
-					"title": "param:title"
-				}
-			}
-		],
-		"window_class": "param:object_class",
-		"object_text": "Event Setup: 2020 Land of Lincoln Conference - Google Chrome",
-		"object_role": "ROLE_SYSTEM_WINDOW",
-		"object_class": "Chrome_WidgetWin_1",
-		"version": 0,
-		"object_type": "HTMLObject",
-		"object_flavor": "Text",
-		"object_name": "Create Password",
-		"ignore_object_name": true,
-		"object_library": "Chrome HTML",
-		"window_name": "Sign In",
-		"xpath": "//input[@name='dnn$ctr495$CreateNewUserAccount$ctl00$txtPassword' and @id='dnn_ctr495_CreateNewUserAccount_ctl00_txtPassword']",
 		"title": "Sign In",
 		"url": ""
 	},
@@ -1625,7 +1599,7 @@ var saved_script_objects={
 		"window_name": "Shopping Cart",
 		"xpath": "//div[7]/div[3]",
 		"title": "Shopping Cart",
-		"url": "http://mx365dev.ptassoc.com/Shop/Shopping-Cart"
+		"url": ""
 	},
 	"My_Work": {
 		"locations": [
@@ -1703,7 +1677,7 @@ var saved_script_objects={
 		"window_name": "Product Catalog",
 		"xpath": "//input[@name='dnn$ctr1014$Find$ctl00$uscSearchForm$pnlFields$i0$i0$rptCols$ctl00$txt' and @id='dnn_ctr1014_Find_ctl00_uscSearchForm_pnlFields_i0_i0_rptCols_ctl00_txt']",
 		"title": "Product Catalog",
-		"url": "http://mx365dev.ptassoc.com/Shop/Product-Catalog?productname=book&author=&category=&downloadable="
+		"url": ""
 	},
 	"New_Transactions": {
 		"locations": [
@@ -2292,7 +2266,7 @@ var saved_script_objects={
 		"window_name": "Product Catalog",
 		"xpath": "//input[@name='dnn$ctr1014$Find$ctl00$btnSearch' and @id='dnn_ctr1014_Find_ctl00_btnSearch']",
 		"title": "Product Catalog",
-		"url": "http://mx365dev.ptassoc.com/Shop/Product-Catalog?productname=book&author=&category=&downloadable="
+		"url": ""
 	},
 	"Search_Button": {
 		"locations": [
@@ -2344,7 +2318,7 @@ var saved_script_objects={
 		"window_name": "Contacts Active Contacts - Microsoft Dynamics 365",
 		"xpath": "//input[@id='quickFind_text_2']",
 		"title": "Contacts Active Contacts - Microsoft Dynamics 365",
-		"url": "https://mx365qav90.crm.dynamics.com/main.aspx?appid=8b61ea6b-4ed6-e911-a969-000d3a124c2c&pagetype=entitylist&etn=contact&viewid=00000000-0000-0000-00aa-000010001004&viewType=1039"
+		"url": ""
 	},
 	"Settings": {
 		"locations": [
@@ -2578,7 +2552,7 @@ var saved_script_objects={
 		"window_name": "Product Catalog",
 		"xpath": "//h5/a",
 		"title": "Product Catalog",
-		"url": "http://mx365dev.ptassoc.com/Shop/Product-Catalog?productname=tmx&author=&category=&downloadable="
+		"url": ""
 	},
 	"UX_365_Online": {
 		"locations": [
@@ -2656,7 +2630,7 @@ var saved_script_objects={
 		"window_name": "Subscriptions",
 		"xpath": "//select[@name='dnn$ctr722$SubscriptionListing$ctl00$uscFind$lstRecords$ctrl1$ctl00$uscRates$ddlRates' and @id='dnn_ctr722_SubscriptionListing_ctl00_uscFind_lstRecords_ctrl1_ctl00_uscRates_ddlRates']",
 		"title": "Subscriptions",
-		"url": "http://mx365dev.ptassoc.com/Shop/Subscriptions"
+		"url": ""
 	},
 	"Secret_Answer": {
 		"locations": [
@@ -2734,7 +2708,7 @@ var saved_script_objects={
 		"window_name": "Shopping Cart",
 		"xpath": "//span[contains(@id,'lblBillMeLaterTotalAmount')]",
 		"title": "Shopping Cart",
-		"url": "http://mx365dev.ptassoc.com/Shop/Shopping-Cart"
+		"url": ""
 	},
 	"Total_Charges": {
 		"locations": [
@@ -2994,33 +2968,7 @@ var saved_script_objects={
 		"window_name": "Shopping Cart",
 		"xpath": "//div[@id='dnn_ctr486_Cart_ctl00_wizCart_uscOrderConfirmation_pnlFooter']/div[7]/div[3]",
 		"title": "Shopping Cart",
-		"url": "http://mx365dev.ptassoc.com/Shop/Shopping-Cart"
-	},
-	"Bill_me": {
-		"locations": [
-			{
-				"locator_name": "HTML",
-				"location": {
-					"xpath": "param:xpath",
-					"url": "param:url",
-					"title": "param:title"
-				}
-			}
-		],
-		"window_class": "Chrome_WidgetWin_1",
-		"object_text": "Chrome Legacy Window",
-		"object_role": "ROLE_SYSTEM_WINDOW",
-		"object_class": "Chrome_RenderWidgetHostHWND",
-		"version": 0,
-		"object_type": "HTMLObject",
-		"object_flavor": "Button",
-		"object_name": "Bill_me",
-		"ignore_object_name": true,
-		"object_library": "Chrome HTML",
-		"window_name": "Shopping Cart",
-		"xpath": "//input[@name='dnn$ctr486$Cart$ctl00$wizCart$uscPayment$btnBillMeLater' and @id='dnn_ctr486_Cart_ctl00_wizCart_uscPayment_btnBillMeLater']",
-		"title": "Shopping Cart",
-		"url": "http://mx365dev.ptassoc.com/Shop/Shopping-Cart"
+		"url": ""
 	},
 	"Batch_Number": {
 		"locations": [
@@ -3089,7 +3037,7 @@ var saved_script_objects={
 		"window_name": "Shopping Cart",
 		"xpath": "//div[@id='dnn_ctl03_dnnLogin_loginGroup']",
 		"title": "Shopping Cart",
-		"url": "http://mx365dev.ptassoc.com/Shop/Shopping-Cart"
+		"url": ""
 	},
 	"Close": {
 		"locations": [
@@ -3115,6 +3063,6 @@ var saved_script_objects={
 		"window_name": "Sign In",
 		"xpath": "//button[@aria-label='Close' and @type='button']",
 		"title": "Sign In",
-		"url": "http://mx365dev.ptassoc.com/Security/Sign-In?returnurl=%2fMy-Account%2fMy-Profile"
+		"url": ""
 	}
 };
