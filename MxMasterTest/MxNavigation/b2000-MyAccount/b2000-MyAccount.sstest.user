@@ -22,6 +22,7 @@
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
       <ArrayOfString>
         <string>C:\Spira-GIT\MxMasterTest\MxNavigation\b2000-MyAccount\Reports\TopLevel1-My Account_2020-12-31_13-43.trp</string>
+        <string>C:\Spira-GIT\MxMasterTest\MxNavigation\b2000-MyAccount\Main.rvl.xlsx</string>
       </ArrayOfString>
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
