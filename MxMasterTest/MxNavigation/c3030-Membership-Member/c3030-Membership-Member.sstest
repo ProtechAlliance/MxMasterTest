@@ -64,6 +64,9 @@
     <TestParam name="Source Type" variable="g_serverRepositoryType" defaultValue="git" output="false" ask="false">
       <PossibleValues />
     </TestParam>
+    <TestParam name="Detect Web Plugins" variable="g_webPluginsAutoDetect" defaultValue="False" description="Enable web plugins auto detection" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
   </TestParams>
   <Methodology>Web</Methodology>
   <MethodologyOptions>
