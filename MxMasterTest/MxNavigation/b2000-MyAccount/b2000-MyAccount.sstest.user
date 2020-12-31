@@ -10,6 +10,9 @@
           <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxNavigation\b2000-MyAccount\b2000-MyAccount.sstest.Test" type="System.Boolean">
             <boolean>true</boolean>
           </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxNavigation\b2000-MyAccount\b2000-MyAccount.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>
@@ -18,23 +21,23 @@
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
       <ArrayOfString>
-        <string>C:\Spira-GIT\MxMasterTest\MxNavigation\b2000-MyAccount\Main.rvl.xlsx</string>
+        <string>C:\Spira-GIT\MxMasterTest\MxNavigation\b2000-MyAccount\Reports\TopLevel1-My Account_2020-12-31_13-43.trp</string>
       </ArrayOfString>
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
       <FlexDictionary>
         <ArrayOfFlexDictionaryEntry>
           <FlexDictionaryEntry name="Status" type="System.String">
-            <string />
+            <string>Fail</string>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Pass" type="System.Int32">
-            <int>0</int>
+            <int>2</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Fail" type="System.Int32">
             <int>0</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Unresolved" type="System.Int32">
-            <int>0</int>
+            <int>2</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Todo" type="System.Int32">
             <int>0</int>
@@ -73,10 +76,10 @@
             <FlexDictionary>
               <ArrayOfFlexDictionaryEntry>
                 <FlexDictionaryEntry name="Row" type="System.Int32">
-                  <int>3</int>
+                  <int>5</int>
                 </FlexDictionaryEntry>
                 <FlexDictionaryEntry name="Col" type="System.Int32">
-                  <int>6</int>
+                  <int>0</int>
                 </FlexDictionaryEntry>
               </ArrayOfFlexDictionaryEntry>
             </FlexDictionary>

@@ -25,7 +25,7 @@
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
       <ArrayOfString>
         <string>C:\Spira-GIT\MxMasterTest\MxNavigation\b2110-MyAccount-MyProfile\Main.rvl.xlsx</string>
-        <string>C:\Spira-GIT\MxMasterTest\MxNavigation\b2110-MyAccount-MyProfile\Reports\Level2a-MyDownloads_2020-12-31_09-19.trp</string>
+        <string>C:\Spira-GIT\MxMasterTest\MxNavigation\b2110-MyAccount-MyProfile\Reports\Level2a-MyDownloads_2020-12-31_13-42.trp</string>
       </ArrayOfString>
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
@@ -35,13 +35,13 @@
             <string>Fail</string>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Pass" type="System.Int32">
-            <int>0</int>
+            <int>2</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Fail" type="System.Int32">
             <int>0</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Unresolved" type="System.Int32">
-            <int>5</int>
+            <int>4</int>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="Todo" type="System.Int32">
             <int>0</int>
@@ -68,7 +68,7 @@
             <FlexDictionary>
               <ArrayOfFlexDictionaryEntry>
                 <FlexDictionaryEntry name="Row" type="System.Int32">
-                  <int>5</int>
+                  <int>6</int>
                 </FlexDictionaryEntry>
                 <FlexDictionaryEntry name="Col" type="System.Int32">
                   <int>0</int>
