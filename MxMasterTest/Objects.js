@@ -2396,7 +2396,7 @@ var saved_script_objects={
 		"object_flavor": "Simulated",
 		"object_name": "Simulated",
 		"ignore_object_name": true,
-		"window_name": ""
+		"window_name": "Simulated"
 	},
 	"Start_search": {
 		"locations": [

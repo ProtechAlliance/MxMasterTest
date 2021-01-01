@@ -143,6 +143,18 @@
               </ArrayOfFlexDictionaryEntry>
             </FlexDictionary>
           </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira-git\mxmastertest\user.js" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Folding" type="SmarteStudio.Editor.FoldingStrategy.JsFoldingStrategy">
+                  <JsFoldingStrategy>
+                    <IsJson>false</IsJson>
+                    <FoldingMarkers />
+                  </JsFoldingStrategy>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>

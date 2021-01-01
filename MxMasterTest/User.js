@@ -187,8 +187,6 @@ function m_navProbeLevel3Horizontalbutton(/**string*/ probehorizontalbutton)
 
  
 
-
-
 function CrmFindObject(/**string*/ xpath)
 {
 	for(var i = 0; i < g_objectLookupAttempts; i++)
@@ -203,6 +201,34 @@ function CrmFindObject(/**string*/ xpath)
 	return null;
 }
 
+
+
+function SignInifNotAuthenticated(/**string*/ module, /**string*/ secondary)
+{
+	var modulestart = module
+	Tester.Message("Level 1 : " +module);
+	
+	var xpath = "(//a[contains(@class, '" + module + "')])[2]"
+	//Tester.Message("Xpath: " + xpath);
+	
+	var obj = CrmFindObject(xpath);
+	if (obj)	
+    {
+		obj.object_name = module;
+		obj.DoEnsureVisible();
+		obj.DoClick();
+	}
+		else
+	{
+	var NextButton = CrmFindObject("//input[contains(@class, '" + secondary + "')]")
+	
+	if (NextButton)
+	 	{
+		NextButton.DoEnsureVisible();
+		NextButton.DoClick();
+		}
+	}
+}
 
 
 function ExpressCheckoutOption(/**string*/ module, /**string*/ secondary)
@@ -232,22 +258,7 @@ function ExpressCheckoutOption(/**string*/ module, /**string*/ secondary)
 	}
 }
 
-function SelectReadyForGL(/**string*/ batch)
-{
-	var modulestart = batch
-	var xpath = "//iframe@@@//td[contains(@title, '100763')]/..//input[contains(@class, 'readyforgl')]"
-	var obj = CrmFindObject(xpath);
-	if (obj)
-	{
-		obj._object_name = batch;
-		obj._DoEnsureVisible();
-		obj.DoClick();
-	}
-		else
-	{
-		Tester.Assert("The Ojbect was NOT found.  Please REVIEW: " + modulestart, false);
-	}
-}
+
 
 function CheckShoppingCartNumber (/** string*/cart) {
 	if(cart.length !=17) {
@@ -268,15 +279,27 @@ function CheckShoppingCartNumber (/** string*/cart) {
 	return true
 }
 
+
+
+
+//****************************************************************************************************************************
+
+										//******UX FUNCTIONS*****
+
+//****************************************************************************************************************************
+
+
+
+
+
 function ux_SearchContact(/**string*/ contact){
+	m_AppParamSearch(contact)
 
-m_AppParamSearch(contact)
+	Global.DoSleep(3000)
 
-Global.DoSleep(3000)
-
-var modulestart = contact
-var xpathcontact = "//a[contains(., '" + contact + "')]"
-var objcontact = CrmFindObject(xpathcontact);
+	var modulestart = contact
+	var xpathcontact = "//a[contains(., '" + contact + "')]"
+	var objcontact = CrmFindObject(xpathcontact);
 
 	if (objcontact)
 	{
@@ -288,17 +311,43 @@ var objcontact = CrmFindObject(xpathcontact);
 Global.DoSleep(2000)
 }
 
+
+function MX_SaveInvoice () {
+	var xpath = "//div[contains(@class, 'col-md-2')]";
+	var obj = CrmFindObject (xpath);
+	var number = obj.GetInnerText();
+
+	var finalnumber = number.substring(12,28); 
+
+		SeS('Batch_Number').DoAddRow();
+		SeS('Batch_Number').GetRowCount();
+		SeS('Batch_Number').SetCell(finalnumber, 'Invoicenumber', 1)
+		SeS('Batch_Number').DoSave();
+}
+
+
+function UX_InvoiceSearch (/**string*/ Invoicenumber) {
+	var searchvalue = SeS('Batch_Number').GetCell('Invoicenumber', 1);
+	m_AppParamSearch(searchvalue)
+	Global.DoSleep(3000)
+
+	var UXInvoiceNumberPath = "//div[contains(@title, '" + searchvalue + "')]";
+	var InvObj = CrmFindObject(UXInvoiceNumberPath);
+	InvObj.DoLDClick();
+	Global.DoSleep(2000)
+
+}
+
+
+
 function m_AppParameters(/**string*/ param, /**string*/ value){
+	Tester.Message("Parameter: '" + param + "'. New Value: '" + value + "'")
+	m_AppParamSearch(param)
+	Global.DoSleep(3000)
 
-Tester.Message("Parameter: '" + param + "'. New Value: '" + value + "'")
-
-m_AppParamSearch(param)
-
-Global.DoSleep(3000)
-
-var modulestart = param
-var xpathparam = "//label[contains(., '" + param + "')]"
-var objparam = CrmFindObject(xpathparam);
+	var modulestart = param
+	var xpathparam = "//label[contains(., '" + param + "')]"
+	var objparam = CrmFindObject(xpathparam);
 
 	if (objparam)
 	{
@@ -307,45 +356,41 @@ var objparam = CrmFindObject(xpathparam);
 		objparam.DoLDClick(15, 30);
 		Global.DoSleep(3000);
 		}
-Global.DoSleep(2000)
+	Global.DoSleep(2000)
 
 
 
 ParameterValue(value)
-
-var Searchbutton = "//button[contains(@id, 'quickFind')]";
-var SearchXpath = CrmFindObject(Searchbutton);
-Global.DoSleep(3000)
-SearchXpath._DoClick();
-Global.DoSleep(1000)
+	var Searchbutton = "//button[contains(@id, 'quickFind')]";
+	var SearchXpath = CrmFindObject(Searchbutton);
+	Global.DoSleep(3000)
+	SearchXpath._DoClick();
+	Global.DoSleep(1000)
 }
 
+
 function ParameterValue(/**string*/ value) {
+	var modulestart = value
+	var xpathvalue = "//input[contains(@id, 'configvalue')]"
+	var objvalue = CrmFindObject(xpathvalue);
 
-var modulestart = value
-var xpathvalue = "//input[contains(@id, 'configvalue')]"
-var objvalue = CrmFindObject(xpathvalue);
-
-if (objvalue) {
+	if (objvalue) {
 	
-	objvalue._object_name = value;
-	objvalue._DoEnsureVisible();
-	objvalue._DoClick();	
-	objvalue._DoSetText(value);
-	Global.DoSleep(2000);
+		objvalue._object_name = value;
+		objvalue._DoEnsureVisible();
+		objvalue._DoClick();	
+		objvalue._DoSetText(value);
+		Global.DoSleep(2000);
 	}
-var SaveAndClose = "(//span[contains(., 'Save & Close')])[1]"
-var SaveXpath = CrmFindObject(SaveAndClose);
-SaveXpath._DoClick();
-
-
+	var SaveAndClose = "(//span[contains(., 'Save & Close')])[1]"
+	var SaveXpath = CrmFindObject(SaveAndClose);
+	SaveXpath._DoClick();
 }
 
 function m_AppParamSearch (/**string*/ param) {
-
-var modulestart = param
-var xpathparam = "//input[contains(@id, 'quickFind')]";
-var objparam = CrmFindObject(xpathparam);
+	var modulestart = param
+	var xpathparam = "//input[contains(@id, 'quickFind')]";
+	var objparam = CrmFindObject(xpathparam);
 
 	if (objparam)
 	{
@@ -356,11 +401,9 @@ var objparam = CrmFindObject(xpathparam);
 		Global.DoSleep(3000);
 	}
 	
-var Searchbutton = "//button[contains(@id, 'quickFind')]";
-var SearchXpath = CrmFindObject(Searchbutton);
-SearchXpath._DoClick();
-
-
+	var Searchbutton = "//button[contains(@id, 'quickFind')]";
+	var SearchXpath = CrmFindObject(Searchbutton);
+	SearchXpath._DoClick();
 }
 
 function ux_ChangeArea(/**string*/ name)
@@ -403,13 +446,13 @@ function ux_OpenEntity(/**string*/ entity)
 
 function mx365_Navigation(/**string*/ invoice){
 
-SeS('Logout1').DoClick()
-Navigator.Navigate('https://mx365qav90.crm.dynamics.com/main.aspx');
-Global.DoWaitFor(SeS('Switch_to_another_app'))
-SeS('Switch_to_another_app').DoClick();
-SeS('UX_365_Online').DoClick();
-Global.DoWaitFor(SeS('Invoices'))
-SeS('Invoices').DoClick()
+	SeS('Logout1').DoClick()
+	Navigator.Navigate('https://mx365qav90.crm.dynamics.com/main.aspx');
+	Global.DoWaitFor(SeS('Switch_to_another_app'))
+	SeS('Switch_to_another_app').DoClick();
+	SeS('UX_365_Online').DoClick();
+	Global.DoWaitFor(SeS('Invoices'))
+	SeS('Invoices').DoClick()
 
 
 }
@@ -447,6 +490,7 @@ function ux_GridCancelAll ()
 		}
 
 }
+
 
 function ux_OpenRelatedRecord (/**string*/ record)
 {
@@ -630,7 +674,6 @@ function ux_GridDeleteAll ()
 }
 
 function GetBatch (/** string */ Batch) {
-
 	var batchxpath = "//input[contains(@aria-label, 'Batch Number')]";
 	var obj = CrmFindObject (batchxpath);
 	var actualnumber = obj.GetTitle()
@@ -647,82 +690,20 @@ function GetBatch (/** string */ Batch) {
 	}
 }
 
-function MX_SaveInvoice () {
-	var xpath = "//div[contains(@class, 'col-md-2')]";
-	var obj = CrmFindObject (xpath);
-	var number = obj.GetInnerText();
 
-	var finalnumber = number.substring(12,28); 
-
-		SeS('Batch_Number').DoAddRow();
-		SeS('Batch_Number').GetRowCount();
-		SeS('Batch_Number').SetCell(finalnumber, 'Invoicenumber', 1)
-		SeS('Batch_Number').DoSave();
-
+function SelectReadyForGL(/**string*/ batch)
+{
+	var modulestart = batch
+	var xpath = "//iframe@@@//td[contains(@title, '100763')]/..//input[contains(@class, 'readyforgl')]"
+	var obj = CrmFindObject(xpath);
+	if (obj)
+	{
+		obj._object_name = batch;
+		obj._DoEnsureVisible();
+		obj.DoClick();
+	}
+		else
+	{
+		Tester.Assert("The Ojbect was NOT found.  Please REVIEW: " + modulestart, false);
+	}
 }
-
-
-function UX_InvoiceSearch (/**string*/ Invoicenumber) {
-
-var searchvalue = SeS('Batch_Number').GetCell('Invoicenumber', 1);
-
-
-m_AppParamSearch(searchvalue)
-
-
-
-Global.DoSleep(3000)
-
-var UXInvoiceNumberPath = "//div[contains(@title, '" + searchvalue + "')]";
-var InvObj = CrmFindObject(UXInvoiceNumberPath);
-InvObj.DoLDClick();
-Global.DoSleep(2000)
-
-}
-
-
-//input[contains(@id, 'configvalue')]
-
-//function secondaryNav(/**string*/ entity)
-//{
-	//var xpath = "(//h4[contains(@class, 'd-block') and contains(., '" + entity + "')])[1]"
-	//var obj = CrmFindObject(xpath);
-	//if (obj)	
-	//{
-	//	obj.object_name = entity;
-	//	obj.DoEnsureVisible();
-	//	obj.DoClick();
-	//}
-	//else
-	//{
-	//	
-	//	LogAssert("CrmOpenEntity: entity element is not found: " + entity, false);
-	//}	
-//}
-
-
-
-//function ProbeAllButtons2(/**string*/ button)
-//{
-//var modulestart = button
-//	Tester.Message("Secondary Button: " +button);
-	      
-//	var xpath = "(//i[contains(@class, 'fas fa-lg icon') and contains(., '" + button + "')])"
-	
-//	Tester.Message("Xpath: " + xpath);
-	
-//	var obj = CrmFindObject(xpath);
-//	if (obj)	
-//	{
-//		obj.object_name = button;
-//		obj.DoEnsureVisible();
-//		//Tester.Assert("The object WAS found in the first function: " + module, true);
-//		//obj.DoClick();
-//	}
-//		else
-//	{
-//		Tester.Assert("The Ojbect was NOT found.  Please REVIEW: " + modulestart, false);
-//	}	//Tester.Assert("NOTE that if the user is not yet Authenticated, this is the expected behavior for " + modulestart, true);	
-//}
-
-
