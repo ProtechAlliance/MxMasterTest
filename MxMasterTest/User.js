@@ -3,6 +3,19 @@
 //04.26.2020
 //MAB
 
+//Global variables and settings
+	g_recordUrls = false;  //Do NOT Capture URL values when recording.
+	g_browserLibrary = "Chrome Framework";
+	g_CommandInterval = 1000;  
+
+	function TestInit()
+	{
+		Global.DoLoadObjects('%WORKDIR%/Objects.js');
+	}
+
+
+
+
 //Use these functions to navigate nearly everywhere in the MX Online site.  The functions both probe for existence of the element and if found, click it.
 //If NOT found then a message is written to the report as a FAIL.  
 //
@@ -31,8 +44,7 @@
 //						
 //	Function referenced in all functions above.
 //		function CrmFindObject(/**string*/ xpath)  (this is the function that validates if the navigation element exists, or not.)
-//
-//
+
 
 
 

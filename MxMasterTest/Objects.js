@@ -1,21 +1,4 @@
 var saved_script_objects={
-	"DropdownsSecondary": {
-		"locations": [
-			{
-				"locator_name": "Spreadsheet",
-				"location": {
-					"path": "param:path"
-				}
-			}
-		],
-		"window_name": "Spreadsheets",
-		"version": 0,
-		"ignore_object_name": true,
-		"object_type": "Spreadsheet",
-		"object_flavor": "Table",
-		"object_library": "Spreadsheet",
-		"path": "%WORKDIR%\\DropdownsSecondary.xlsx"
-	},
 	"Subscribe": {
 		"locations": [
 			{
@@ -717,23 +700,6 @@ var saved_script_objects={
 		"xpath": "//input[contains(@id,'btnSignIn')]",
 		"title": "Sign In",
 		"url": ""
-	},
-	"ConfigAdminToolbar-OUT": {
-		"locations": [
-			{
-				"locator_name": "Spreadsheet",
-				"location": {
-					"path": "param:path"
-				}
-			}
-		],
-		"window_name": "Spreadsheets",
-		"version": 0,
-		"ignore_object_name": true,
-		"object_type": "Spreadsheet",
-		"object_flavor": "Table",
-		"object_library": "Spreadsheet",
-		"path": "%WORKDIR%\\ConfigAdminToolbar-OUT.xlsx"
 	},
 	"Abasi,_Tosin": {
 		"locations": [
@@ -3090,5 +3056,56 @@ var saved_script_objects={
 		"xpath": "//div[2]/h3",
 		"title": "Member",
 		"url": "http://mx365dev.ptassoc.com/Membership/Member"
+	},
+	"Data": {
+		"locations": [
+			{
+				"locator_name": "Spreadsheet",
+				"location": {
+					"path": "param:path"
+				}
+			}
+		],
+		"window_name": "Spreadsheets",
+		"version": 0,
+		"ignore_object_name": true,
+		"object_type": "Spreadsheet",
+		"object_flavor": "Table",
+		"object_library": "Spreadsheet",
+		"path": "%WORKDIR%\\Data.xlsx"
+	},
+	"Config": {
+		"locations": [
+			{
+				"locator_name": "Spreadsheet",
+				"location": {
+					"path": "param:path"
+				}
+			}
+		],
+		"window_name": "Spreadsheets",
+		"version": 0,
+		"ignore_object_name": true,
+		"object_type": "Spreadsheet",
+		"object_flavor": "Table",
+		"object_library": "Spreadsheet",
+		"path": "%WORKDIR%\\Config.xlsx"
+	},
+	"Dropdowns2": {
+		"locations": [
+			{
+				"locator_name": "Spreadsheet",
+				"location": {
+					"path": "param:path"
+				}
+			}
+		],
+		"window_name": "Spreadsheets",
+		"version": 0,
+		"ignore_object_name": true,
+		"object_type": "Spreadsheet",
+		"object_flavor": "Table",
+		"object_library": "Spreadsheet",
+		"path": "%WORKDIR%\\Dropdowns2.xlsx"
 	}
 };

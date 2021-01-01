@@ -54,22 +54,61 @@
         <Groups />
         <TestFiles />
       </TestGroup>
+      <TestGroup>
+        <Name>TEMPLATES</Name>
+        <IsFilterGroup>false</IsFilterGroup>
+        <FilterWildcard>*.*</FilterWildcard>
+        <FilterPath />
+        <Groups>
+          <TestGroup>
+            <Name>TEMPLATE1-NoSharedObjects</Name>
+            <IsFilterGroup>false</IsFilterGroup>
+            <FilterWildcard>*.*</FilterWildcard>
+            <FilterPath />
+            <Groups />
+            <TestFiles>
+              <TestFile>
+                <Path>TEMPLATE1-NoSharedObjects\Test.sstest</Path>
+              </TestFile>
+            </TestFiles>
+          </TestGroup>
+          <TestGroup>
+            <Name>TEMPLATE2-SHAREDObjects</Name>
+            <IsFilterGroup>false</IsFilterGroup>
+            <FilterWildcard>*.*</FilterWildcard>
+            <FilterPath />
+            <Groups />
+            <TestFiles>
+              <TestFile>
+                <Path>TEMPLATE2-SHAREDObjects\Test.sstest</Path>
+              </TestFile>
+            </TestFiles>
+          </TestGroup>
+        </Groups>
+        <TestFiles />
+      </TestGroup>
     </Groups>
     <TestFiles>
       <TestFile>
         <Path>AdminToolbarStartNewConfig\AdminToolbarStartNewConfig.sstest</Path>
       </TestFile>
       <TestFile>
-        <Path>ConfigAdminToolbar-OUT.xlsx</Path>
+        <Path>Config.xlsx</Path>
       </TestFile>
       <TestFile>
         <Path>CreateNewUserAccount-Partial-FirstStep\CreateNewUserAccount-Partial-FirstStep.sstest</Path>
+      </TestFile>
+      <TestFile>
+        <Path>Data.xlsx</Path>
       </TestFile>
       <TestFile>
         <Path>Delete User Account\Delete User Account.sstest</Path>
       </TestFile>
       <TestFile>
         <Path>Dropdowns.xlsx</Path>
+      </TestFile>
+      <TestFile>
+        <Path>Dropdowns2.xlsx</Path>
       </TestFile>
       <TestFile>
         <Path>EditRegistration\EditRegistration.sstest</Path>
@@ -96,7 +135,7 @@
         <Path>MxNavigation\MxNavigation.sstest</Path>
       </TestFile>
       <TestFile>
-        <Path>C:\Spira\00-GlobalRepository TC86\Objects.js</Path>
+        <Path>Objects.js</Path>
       </TestFile>
       <TestFile>
         <Path>ShoppingCart\ShoppingCart.sstest</Path>
@@ -106,6 +145,9 @@
       </TestFile>
       <TestFile>
         <Path>User.js</Path>
+      </TestFile>
+      <TestFile>
+        <Path>WebAppProfile.json</Path>
       </TestFile>
     </TestFiles>
   </TestFiles>
