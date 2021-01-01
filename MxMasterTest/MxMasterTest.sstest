@@ -46,6 +46,14 @@
         <Groups />
         <TestFiles />
       </TestGroup>
+      <TestGroup>
+        <Name>Security</Name>
+        <IsFilterGroup>false</IsFilterGroup>
+        <FilterWildcard>*.*</FilterWildcard>
+        <FilterPath />
+        <Groups />
+        <TestFiles />
+      </TestGroup>
     </Groups>
     <TestFiles>
       <TestFile>

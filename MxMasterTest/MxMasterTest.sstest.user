@@ -413,7 +413,7 @@
             <boolean>false</boolean>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxMasterTest.sstest.Test.Reports" type="System.Boolean">
-            <boolean>false</boolean>
+            <boolean>true</boolean>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\AdminToolbarStartNewConfig\AdminToolbarStartNewConfig.sstest.Test" type="System.Boolean">
             <boolean>false</boolean>
@@ -644,6 +644,9 @@
             <boolean>false</boolean>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxNavigation\b2000-MyAccount\b2000-MyAccount.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxMasterTest.sstest.Test.Security" type="System.Boolean">
             <boolean>false</boolean>
           </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
