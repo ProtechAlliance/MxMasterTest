@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "fileName": "C:\\Spira\\UniversalSignIn-Authenticated\\Main.js",
+      "fileLastModifiedDate": "5/30/2020 10:22:34 AM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "C:\\Spira\\UniversalSignIn-Authenticated\\Main.rvl.xlsx",
+      "fileLastModifiedDate": "8/18/2020 8:15:23 AM",
+      "fileVersion": 5.0
+    },
+    {
+      "fileName": "C:\\Spira\\UniversalSignIn-Authenticated\\Objects.js",
+      "fileLastModifiedDate": "6/16/2020 2:13:02 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "C:\\Spira\\UniversalSignIn-Authenticated\\Objects.metadata",
+      "fileLastModifiedDate": "5/30/2020 10:22:34 AM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "C:\\Spira\\UniversalSignIn-Authenticated\\Repository.json",
+      "fileLastModifiedDate": "6/21/2020 9:14:47 AM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "C:\\Spira\\UniversalSignIn-Authenticated\\UniversalSignIn-Authenticated.sstest",
+      "fileLastModifiedDate": "8/18/2020 8:20:22 AM",
+      "fileVersion": 3.0
+    },
+    {
+      "fileName": "C:\\Spira\\UniversalSignIn-Authenticated\\User.js",
+      "fileLastModifiedDate": "6/16/2020 5:22:24 PM",
+      "fileVersion": 1.0
+    }
+  ],
+  "projectId": 9
+}
