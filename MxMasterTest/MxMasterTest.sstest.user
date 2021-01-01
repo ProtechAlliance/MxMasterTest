@@ -649,6 +649,18 @@
           <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxMasterTest.sstest.Test.Security" type="System.Boolean">
             <boolean>false</boolean>
           </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxMasterTest.sstest.Test.hello" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxMasterTest.sstest.Test.CreateNewUserAccount-Partial-FirstStep" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\CreateNewUserAccount-Partial-FirstStep\Test.sstest.Test" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\CreateNewUserAccount-Partial-FirstStep\Test.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>
