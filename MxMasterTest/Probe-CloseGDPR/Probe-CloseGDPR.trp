@@ -1,6 +1,6 @@
-<log type="Session" name="MBECKPC:mbeck" at="2020-12-22 15:21:12.197"/>
-<log type="Test" name="Probe-CloseGDPR" status="Info"  at="2020-12-22 15:21:13.147"><data type="text">Test Started: C:\Spira\MxMasterTest\Probe-CloseGDPR\Main.js</data>
+<log type="Session" name="MBECKPC:mbeck" at="2021-01-01 09:31:11.397"/>
+<log type="Test" name="Probe-CloseGDPR" status="Info"  at="2021-01-01 09:31:12.183"><data type="text">Test Started: C:\Spira-GIT\MxMasterTest\Probe-CloseGDPR\Main.js</data>
 </log>
-<log type="Message" name="Starting scenario: Test" status="Info"  at="2020-12-22 15:21:13.159"/>
-<log type="Message" name="The GDPR Message was Already Closed" status="Info"  at="2020-12-22 15:21:14.866"/>
-<log type="Test" name="Probe-CloseGDPR" status="Unresolved" closed="Probe-CloseGDPR" _guid="undefined"  at="2020-12-22 15:21:14.866" comment="Passed:0 Failed:0 Time:1.806s" />
+<log type="Message" name="Starting scenario: Test" status="Info"  at="2021-01-01 09:31:12.191"/>
+<log type="Message" name="The GDPR Message was Already Closed" status="Info"  at="2021-01-01 09:31:13.765"/>
+<log type="Test" name="Probe-CloseGDPR" status="Unresolved" closed="Probe-CloseGDPR" _guid="undefined"  at="2021-01-01 09:31:13.765" comment="Passed:0 Failed:0 Time:1.656s" />

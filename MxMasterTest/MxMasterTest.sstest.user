@@ -404,7 +404,7 @@
             <boolean>true</boolean>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxMasterTest.sstest.Test.Probe-CloseGDPR" type="System.Boolean">
-            <boolean>false</boolean>
+            <boolean>true</boolean>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\Probe-CloseGDPR\Test.sstest.Test" type="System.Boolean">
             <boolean>false</boolean>
@@ -641,6 +641,9 @@
             <boolean>false</boolean>
           </FlexDictionaryEntry>
           <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxNavigation\a1000-DashboardMain\Test.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\MxNavigation\b2000-MyAccount\b2000-MyAccount.sstest.Test.Reports" type="System.Boolean">
             <boolean>false</boolean>
           </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>

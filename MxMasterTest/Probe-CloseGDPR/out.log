@@ -9,9 +9,9 @@ Creating a locator:HTML
 Creating a locator:HTML FPP
 ###Probe-CloseGDPR (-2)
 ###Starting scenario: Test (-2)
-Attaching to spreadsheet : true : C:\Spira\MxMasterTest\Probe-CloseGDPR\Main.rvl.xlsx
+Attaching to spreadsheet : true : C:\Spira-GIT\MxMasterTest\Probe-CloseGDPR\Main.rvl.xlsx
 SetRowIndex: 0:32
-Playing script: Script: C:\Spira\MxMasterTest\Probe-CloseGDPR\Main.rvl.xlsx:RVL, 33 source rows 0 errors
+Playing script: Script: C:\Spira-GIT\MxMasterTest\Probe-CloseGDPR\Main.rvl.xlsx:RVL, 33 source rows 0 errors
 Checking If branch at line: 3
 Checking branch condition: output1 IsTrue(output=Navigator.CheckObjectExists("CloseGDPRbutton"))
 Looking for object:Navigator
@@ -20,8 +20,8 @@ Connected to chrome:Chrome Legacy Window[Chrome_RenderWidgetHostHWND]
 Accessible object: [ROLE_SYSTEM_WINDOW]
 Using default WebAppProfile
 Chrome Extension Version: 3.0.10
-Chrome active URL: http://mx365dev.ptassoc.com/
-Connected to Chrome window:http://mx365dev.ptassoc.com/
+Chrome active URL: http://mx365dev.ptassoc.com/Security/Sign-In
+Connected to Chrome window:http://mx365dev.ptassoc.com/Security/Sign-In
 ************!!!!!!!!!!!!!!!!!!**************
 MatchedObject:null
 Condition resolved to: false
@@ -33,6 +33,6 @@ Execution is over, bailing out.
 ###Probe-CloseGDPR (-1)
 Test execution done
 ##############################################################
-Test Unresolved: Probe-CloseGDPR,  (Passed:0 Failed:0 Time:1.806s)
-Test Session Status: Unresolved Time: 4.474s
+Test Unresolved: Probe-CloseGDPR,  (Passed:0 Failed:0 Time:1.656s)
+Test Session Status: Unresolved Time: 3.323s
 ##############################################################

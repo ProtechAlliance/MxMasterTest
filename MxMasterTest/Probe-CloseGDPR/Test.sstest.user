@@ -10,6 +10,12 @@
           <FlexDictionaryEntry name="C:\Spira\MxMasterTest\Probe-CloseGDPR\Test.sstest.Test.Reports" type="System.Boolean">
             <boolean>false</boolean>
           </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\Probe-CloseGDPR\Test.sstest.Test" type="System.Boolean">
+            <boolean>true</boolean>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="C:\Spira-GIT\MxMasterTest\Probe-CloseGDPR\Test.sstest.Test.Reports" type="System.Boolean">
+            <boolean>false</boolean>
+          </FlexDictionaryEntry>
         </ArrayOfFlexDictionaryEntry>
       </FlexDictionary>
     </FlexDictionaryEntry>
@@ -18,7 +24,8 @@
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
       <ArrayOfString>
-        <string>C:\Spira\MxMasterTest\Probe-CloseGDPR\Reports\Probe-CloseGDPR_2020-12-22_15-21.trp</string>
+        <string>C:\Spira-GIT\MxMasterTest\Probe-CloseGDPR\Main.rvl.xlsx</string>
+        <string>C:\Spira-GIT\MxMasterTest\Probe-CloseGDPR\Reports\Probe-CloseGDPR_2021-01-01_09-31.trp</string>
       </ArrayOfString>
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
@@ -65,6 +72,18 @@
                 </FlexDictionaryEntry>
                 <FlexDictionaryEntry name="Col" type="System.Int32">
                   <int>0</int>
+                </FlexDictionaryEntry>
+              </ArrayOfFlexDictionaryEntry>
+            </FlexDictionary>
+          </FlexDictionaryEntry>
+          <FlexDictionaryEntry name="c:\spira-git\mxmastertest\probe-closegdpr\main.rvl.xlsx" type="SmarteStudio.Test.FlexDictionary">
+            <FlexDictionary>
+              <ArrayOfFlexDictionaryEntry>
+                <FlexDictionaryEntry name="Row" type="System.Int32">
+                  <int>1</int>
+                </FlexDictionaryEntry>
+                <FlexDictionaryEntry name="Col" type="System.Int32">
+                  <int>1</int>
                 </FlexDictionaryEntry>
               </ArrayOfFlexDictionaryEntry>
             </FlexDictionary>
