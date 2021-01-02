@@ -3091,7 +3091,7 @@ var saved_script_objects={
 		"object_library": "Spreadsheet",
 		"path": "%WORKDIR%\\Config.xlsx"
 	},
-	"Dropdowns2": {
+	"Dropdowns": {
 		"locations": [
 			{
 				"locator_name": "Spreadsheet",
@@ -3106,6 +3106,6 @@ var saved_script_objects={
 		"object_type": "Spreadsheet",
 		"object_flavor": "Table",
 		"object_library": "Spreadsheet",
-		"path": "%WORKDIR%\\Dropdowns2.xlsx"
+		"path": "%WORKDIR%\\Dropdowns.xlsx"
 	}
 };

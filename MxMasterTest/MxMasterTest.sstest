@@ -108,9 +108,6 @@
         <Path>Dropdowns.xlsx</Path>
       </TestFile>
       <TestFile>
-        <Path>Dropdowns2.xlsx</Path>
-      </TestFile>
-      <TestFile>
         <Path>EditRegistration\EditRegistration.sstest</Path>
       </TestFile>
       <TestFile>

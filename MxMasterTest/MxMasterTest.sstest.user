@@ -700,11 +700,7 @@
     <FlexDictionaryEntry name="OpenDocuments" type="SmarteStudio.Test.StringList">
       <ArrayOfString>
         <string>C:\Spira\MxMasterTest\Main.rvl.xlsx</string>
-        <string>C:\Spira-GIT\MxMasterTest\WebAppProfile.json</string>
         <string>C:\Spira-GIT\MxMasterTest\User.js</string>
-        <string>C:\Spira-GIT\MxMasterTest\TEMPLATE1-NO Shared Objects\Main.js</string>
-        <string>C:\Spira-GIT\MxMasterTest\TEMPLATE1-NoSharedObjects\Main.js</string>
-        <string>C:\Spira-GIT\MxMasterTest\TEMPLATE2-SHAREDObjects\Main.js</string>
       </ArrayOfString>
     </FlexDictionaryEntry>
     <FlexDictionaryEntry name="Status" type="SmarteStudio.Test.FlexDictionary">
